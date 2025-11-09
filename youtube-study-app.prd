@@ -1,0 +1,257 @@
+# Product Requirements Document (PRD)
+## YouTube Study Application
+
+**Version:** 1.0  
+**Date:** November 2025  
+**Product Type:** Personal Knowledge Management Tool  
+**Deployment:** Single Docker Container  
+
+---
+
+## 1. Executive Summary
+
+The YouTube Study Application is a personal knowledge management system that transforms YouTube content into an organized, searchable, and interactive learning resource. By leveraging local storage and LightRAG technology, users can collect, categorize, and interact with YouTube video content through transcriptions, summaries, and AI-powered chat capabilities.
+
+## 2. Product Vision
+
+### 2.1 Problem Statement
+YouTube contains vast educational content, but managing and extracting insights from multiple videos is challenging. Users need a tool to organize, understand relationships between content, and query their collected knowledge efficiently.
+
+### 2.2 Solution
+A containerized application that provides:
+- Automated video collection and organization
+- Intelligent content processing with transcriptions and summaries
+- Visual knowledge mapping
+- Interactive AI chat with selected content
+
+## 3. Core Features
+
+### 3.1 Video Collection System
+**Description:** Automated YouTube video collection and metadata extraction  
+**Functionality:**
+- Add videos via URL or YouTube video ID
+- Batch import from YouTube playlists
+- Automatic metadata extraction (title, author, duration, upload date)
+- Duplicate detection and prevention
+- Watch status tracking
+
+### 3.2 Smart Categorization
+**Description:** Intelligent organization of collected videos  
+**Functionality:**
+- Auto-categorization using video metadata and content analysis
+- Custom category creation and management
+- Multi-tag support per video
+- Hierarchical category structure (main category/subcategory)
+- Bulk category operations
+
+### 3.3 Transcription & Summarization
+**Description:** Automatic content extraction and summarization  
+**Functionality:**
+- Automatic transcription retrieval from YouTube captions
+- Fallback transcription generation for videos without captions
+- Multi-level summarization:
+  - Quick summary (50 words)
+  - Detailed summary (500 words)
+  - Key points extraction
+- Timestamp-linked highlights
+- Language detection and translation support
+
+### 3.4 Knowledge Graph Visualization
+**Description:** Interactive mind mapping of video relationships  
+**Functionality:**
+- Visual network graph showing content relationships
+- Node representation:
+  - Size based on importance/frequency
+  - Color coding by category
+  - Preview on hover
+- Edge connections showing:
+  - Topic similarity
+  - Author relationships
+  - Chronological sequences
+- Interactive features:
+  - Zoom and pan
+  - Node clustering
+  - Filter by category/date/author
+  - Export graph as image
+
+### 3.5 Intelligent Chat Interface
+**Description:** AI-powered conversation with selected video content  
+**Functionality:**
+- Select multiple videos for chat context
+- Query types supported:
+  - Question answering
+  - Concept explanation
+  - Cross-video synthesis
+  - Recommendation generation
+- Source attribution with timestamps
+- Chat history persistence
+- Export chat transcripts
+
+## 4. Technical Requirements
+
+### 4.1 Architecture
+- **Containerization:** Single Docker container with all services
+- **Database:** Prisma ORM with SQLite for local storage
+- **Knowledge Management:** LightRAG for graph-based knowledge representation
+- **Backend:** Node.js/Python FastAPI
+- **Frontend:** React/Next.js with responsive design
+
+### 4.2 Performance Constraints
+- **Response Time:** All operations < 2 seconds
+- **Startup Time:** Container ready in < 30 seconds
+- **Memory Usage:** < 2GB RAM for standard operation
+- **Storage:** Efficient compression for transcriptions
+
+### 4.3 Data Storage Schema
+```
+Videos:
+- id, url, title, author, duration, upload_date
+- category_id, tags[], watch_status
+- transcription_text, summary_json
+- created_at, updated_at
+
+Categories:
+- id, name, parent_id, color, icon
+- video_count, created_at
+
+Knowledge_Graph:
+- video_id, embeddings[], relationships[]
+- rag_index_ref
+
+Chat_Sessions:
+- id, video_ids[], messages[]
+- created_at, context_summary
+```
+
+## 5. User Interface Requirements
+
+### 5.1 Main Dashboard
+- Video collection overview with statistics
+- Recent additions carousel
+- Quick category navigation
+- Search bar with filters
+
+### 5.2 Video Management View
+- Grid/List view toggle
+- Bulk selection tools
+- Inline editing capabilities
+- Quick summary preview
+
+### 5.3 Knowledge Graph View
+- Full-screen interactive canvas
+- Control panel for filters
+- Legend for node/edge meanings
+- Export and sharing options
+
+### 5.4 Chat Interface
+- Split view: video selector + chat
+- Markdown rendering support
+- Code syntax highlighting
+- Citation preview on hover
+
+## 6. Docker Deployment
+
+### 6.1 Container Structure
+```dockerfile
+# Single container with:
+- Web server (port 3000)
+- API server (port 8000)
+- LightRAG service
+- Prisma database
+- Static file serving
+```
+
+### 6.2 User Access
+- **Single URL:** http://localhost:3000
+- **No configuration required:** Auto-setup on first run
+- **Data persistence:** Volume mount for database and media
+
+## 7. Implementation Phases
+
+### Phase 1: Core Foundation (Week 1-2)
+- Docker setup with basic services
+- Prisma schema and database setup
+- Basic video collection and storage
+- Simple web interface
+
+### Phase 2: Content Processing (Week 3-4)
+- YouTube API integration
+- Transcription retrieval/generation
+- Summarization pipeline
+- LightRAG integration
+
+### Phase 3: Advanced Features (Week 5-6)
+- Knowledge graph visualization
+- Chat functionality with RAG
+- Category management
+- Performance optimization
+
+### Phase 4: Polish & Testing (Week 7)
+- UI/UX refinements
+- Performance testing
+- Docker optimization
+- Documentation
+
+## 8. Success Metrics
+
+- **Performance:** 95% of operations complete in < 2 seconds
+- **Reliability:** 99.9% uptime for local container
+- **Storage Efficiency:** < 10MB per hour of video content
+- **User Satisfaction:** Intuitive interface requiring no training
+
+## 9. Future Enhancements (Post-MVP)
+
+- Browser extension for one-click video addition
+- Mobile responsive design
+- Export to Obsidian/Notion
+- Collaborative features (share knowledge graphs)
+- Support for other video platforms (Vimeo, Coursera)
+- Advanced analytics and learning insights
+
+## 10. Technical Stack Summary
+
+```yaml
+Backend:
+  - FastAPI/Node.js
+  - Prisma ORM
+  - LightRAG
+  - YouTube Data API
+  
+Frontend:
+  - Next.js/React
+  - TailwindCSS
+  - D3.js/Cytoscape.js (for graphs)
+  - Socket.io (real-time updates)
+
+Infrastructure:
+  - Docker
+  - SQLite
+  - NGINX (reverse proxy)
+  
+AI/ML:
+  - LightRAG for knowledge management
+  - OpenAI/Local LLM for chat
+  - Embeddings for similarity
+```
+
+## 11. Security & Privacy
+
+- **Local-only data:** No external data transmission
+- **API key management:** Secure storage for YouTube API keys
+- **Content isolation:** Sandboxed container environment
+- **Data backup:** Automated local backups
+
+## 12. Acceptance Criteria
+
+✅ Single Docker container deployment  
+✅ Access via single URL (http://localhost:3000)  
+✅ All features accessible within 2-second response time  
+✅ Video collection, categorization, and transcription working  
+✅ Knowledge graph visualization functional  
+✅ Chat interface operational with selected videos  
+✅ Data persists between container restarts  
+
+---
+
+**Document Status:** Ready for Development  
+**Next Steps:** Technical architecture design and development kickoff
