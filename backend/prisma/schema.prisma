@@ -10,29 +10,34 @@ datasource db {
 }
 
 model Video {
-  id              String          @id @default(uuid())
-  youtubeId       String          @unique
-  url             String
-  title           String
-  author          String?
-  duration        Int?
-  uploadDate      DateTime?
-  thumbnail       String?
-  categoryId      String?
-  category        Category?       @relation(fields: [categoryId], references: [id])
-  tags            String          @default("[]") // JSON array as string
-  watchStatus     String          @default("unwatched") // unwatched, watching, watched
-  transcription   String?
-  summaryJson     String?         // JSON with quick, detailed, keyPoints
-  createdAt       DateTime        @default(now())
-  updatedAt       DateTime        @updatedAt
-  knowledgeGraph  KnowledgeGraph?
+  id                    String          @id @default(uuid())
+  youtubeId             String          @unique
+  url                   String
+  title                 String
+  author                String?
+  duration              Int?
+  uploadDate            DateTime?
+  thumbnail             String?
+  categoryId            String?
+  category              Category?       @relation(fields: [categoryId], references: [id])
+  tags                  String          @default("[]") // JSON array as string
+  watchStatus           String          @default("unwatched") // unwatched, watching, watched
+  transcription         String?
+  summaryJson           String?         // JSON with quick, detailed, keyPoints
+  lightragTrackId       String?         // LightRAG track ID for async processing
+  lightragStatus        String?         // pending, processing, processed, failed
+  lightragUploadedAt    DateTime?       // When uploaded to LightRAG
+  lightragError         String?         // Error message if failed
+  createdAt             DateTime        @default(now())
+  updatedAt             DateTime        @updatedAt
+  knowledgeGraph        KnowledgeGraph?
 
   @@index([categoryId])
   @@index([watchStatus])
   @@index([createdAt])
   @@index([title])
   @@index([author])
+  @@index([lightragStatus])
 }
 
 model Category {

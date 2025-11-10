@@ -46,6 +46,7 @@ const videosRoutes = require('./routes/videos.routes');
 const categoriesRoutes = require('./routes/categories.routes');
 const graphRoutes = require('./routes/graph.routes');
 const chatRoutes = require('./routes/chat.routes');
+const lightragRoutes = require('./routes/lightrag.routes');
 const { cacheMiddleware, getCacheStats } = require('./middleware/cache.middleware');
 
 // Health check endpoint
@@ -63,6 +64,7 @@ app.use('/api/videos', videosRoutes);
 app.use('/api/categories', categoriesRoutes);
 app.use('/api/graph', graphRoutes);
 app.use('/api/chat', chatRoutes);
+app.use('/api/lightrag', lightragRoutes);
 
 // Error handling middleware
 app.use((err, req, res, next) => {

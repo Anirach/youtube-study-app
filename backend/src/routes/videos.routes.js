@@ -353,6 +353,85 @@ async function processVideo(videoId) {
         });
         
         console.log(`Video ${videoId} indexed with LightRAG successfully`);
+        
+        // Auto-upload to LightRAG Server if configured
+        const LIGHTRAG_SERVER = process.env.LIGHTRAG_SERVER_URL;
+        if (LIGHTRAG_SERVER) {
+          try {
+            console.log(`Auto-uploading video ${videoId} transcript to LightRAG Server...`);
+            
+            const axios = require('axios');
+            const documentParts = [];
+            
+            // Document header
+            documentParts.push(`=== YouTube Video: ${video.title} ===`);
+            documentParts.push(`Author: ${video.author}`);
+            documentParts.push(`Video ID: ${video.youtubeId}`);
+            documentParts.push(`URL: ${video.url}`);
+            documentParts.push(`Duration: ${video.duration || 'Unknown'}`);
+            documentParts.push(`Upload Date: ${video.uploadDate || 'Unknown'}`);
+            documentParts.push('');
+            
+            // Key Points (highest priority for knowledge extraction)
+            if (summaryJson?.keyPoints && summaryJson.keyPoints.length > 0) {
+              documentParts.push('--- Key Points ---');
+              summaryJson.keyPoints.forEach((point, i) => {
+                documentParts.push(`${i + 1}. ${point}`);
+              });
+              documentParts.push('');
+            }
+            
+            // Summary
+            if (summaryJson?.summary) {
+              documentParts.push('--- Summary ---');
+              documentParts.push(summaryJson.summary);
+              documentParts.push('');
+            }
+            
+            // Full Transcript (most important for LightRAG)
+            documentParts.push('--- Full Transcript ---');
+            documentParts.push(transcription.fullText);
+            
+            const documentText = documentParts.join('\n');
+            const description = `YouTube: ${video.title} by ${video.author}`;
+
+            console.log(`Document length: ${documentText.length} characters`);
+            console.log(`Transcript length: ${transcription.fullText.length} characters`);
+
+            const response = await axios.post(
+              `${LIGHTRAG_SERVER}/documents/text`,
+              { text: documentText, description },
+              {
+                headers: {
+                  'Content-Type': 'application/json',
+                  ...(process.env.LIGHTRAG_API_KEY ? { 'Authorization': `Bearer ${process.env.LIGHTRAG_API_KEY}` } : {})
+                },
+                timeout: 120000
+              }
+            );
+            
+            const trackId = response.data?.track_id;
+            console.log(`Video ${videoId} auto-uploaded to LightRAG Server successfully`);
+            console.log(`LightRAG Track ID: ${trackId}`);
+            
+            // Store track ID in video metadata
+            if (trackId) {
+              await prisma.video.update({
+                where: { id: videoId },
+                data: {
+                  tags: JSON.stringify({
+                    ...(JSON.parse(video.tags || '{}')),
+                    lightrag_track_id: trackId,
+                    lightrag_uploaded_at: new Date().toISOString()
+                  })
+                }
+              });
+            }
+          } catch (uploadError) {
+            console.error(`Failed to auto-upload video ${videoId} to LightRAG Server:`, uploadError.message);
+            // Don't fail the whole process if upload fails
+          }
+        }
       } else {
         // Use simple RAG with Key Points
         await ragService.indexVideo(

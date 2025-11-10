@@ -142,9 +142,14 @@ export default function GraphCanvas({ data, onNodeClick, layout = 'force', onZoo
     svg.call(zoom);
     
     // Prevent default click behavior on SVG
-    svg.on('click', (event: any) => {
-      if (event && event.stopPropagation) {
-        event.stopPropagation();
+    svg.on('click', function(event: any) {
+      try {
+        if (event && typeof event.stopPropagation === 'function') {
+          event.stopPropagation();
+        }
+      } catch (e) {
+        // Ignore errors from event handling
+        console.debug('SVG click event handling:', e);
       }
     });
 
@@ -152,22 +157,24 @@ export default function GraphCanvas({ data, onNodeClick, layout = 'force', onZoo
     let simulation: any;
     
     if (layout === 'circular') {
-      // Circular layout
+      // Circular layout - STATIC
       const radius = Math.min(width, height) / 3;
       data.nodes.forEach((node: any, i: number) => {
         const angle = (i / data.nodes.length) * 2 * Math.PI;
         node.x = width / 2 + radius * Math.cos(angle);
         node.y = height / 2 + radius * Math.sin(angle);
+        node.fx = node.x;  // Fix position
+        node.fy = node.y;
       });
       
+      // Dummy simulation that stops immediately
       simulation = d3.forceSimulation(data.nodes as any)
-        .force('link', d3.forceLink(data.edges).id((d: any) => d.id).distance(100))
-        .force('collision', d3.forceCollide().radius(40))
-        .alpha(0.3)
-        .alphaDecay(0.05);
+        .force('link', d3.forceLink(data.edges).id((d: any) => d.id))
+        .alpha(0)
+        .stop();
         
     } else if (layout === 'hierarchical') {
-      // Hierarchical layout
+      // Hierarchical layout - STATIC
       const levels = Math.ceil(Math.sqrt(data.nodes.length));
       const nodesPerLevel = Math.ceil(data.nodes.length / levels);
       
@@ -176,16 +183,18 @@ export default function GraphCanvas({ data, onNodeClick, layout = 'force', onZoo
         const posInLevel = i % nodesPerLevel;
         node.x = (posInLevel + 1) * (width / (nodesPerLevel + 1));
         node.y = (level + 1) * (height / (levels + 1));
+        node.fx = node.x;  // Fix position
+        node.fy = node.y;
       });
       
+      // Dummy simulation that stops immediately
       simulation = d3.forceSimulation(data.nodes as any)
-        .force('link', d3.forceLink(data.edges).id((d: any) => d.id).distance(80))
-        .force('collision', d3.forceCollide().radius(40))
-        .alpha(0.3)
-        .alphaDecay(0.05);
+        .force('link', d3.forceLink(data.edges).id((d: any) => d.id))
+        .alpha(0)
+        .stop();
         
     } else if (layout === 'grid') {
-      // Grid layout
+      // Grid layout - STATIC
       const cols = Math.ceil(Math.sqrt(data.nodes.length));
       const cellWidth = width / (cols + 1);
       const cellHeight = height / (Math.ceil(data.nodes.length / cols) + 1);
@@ -195,13 +204,15 @@ export default function GraphCanvas({ data, onNodeClick, layout = 'force', onZoo
         const row = Math.floor(i / cols);
         node.x = (col + 1) * cellWidth;
         node.y = (row + 1) * cellHeight;
+        node.fx = node.x;  // Fix position
+        node.fy = node.y;
       });
       
+      // Dummy simulation that stops immediately
       simulation = d3.forceSimulation(data.nodes as any)
-        .force('link', d3.forceLink(data.edges).id((d: any) => d.id).distance(80))
-        .force('collision', d3.forceCollide().radius(40))
-        .alpha(0.2)
-        .alphaDecay(0.1);
+        .force('link', d3.forceLink(data.edges).id((d: any) => d.id))
+        .alpha(0)
+        .stop();
         
     } else {
       // Force-directed layout (default)
@@ -212,10 +223,20 @@ export default function GraphCanvas({ data, onNodeClick, layout = 'force', onZoo
           .strength(0.5))
         .force('charge', d3.forceManyBody().strength(-300))
         .force('center', d3.forceCenter(width / 2, height / 2))
-        .force('collision', d3.forceCollide().radius(40));
+        .force('collision', d3.forceCollide().radius(40))
+        .alphaDecay(0.02)  // Slower decay for smoother animation
+        .velocityDecay(0.4);  // More friction to stop movement faster
     }
     
     simulationRef.current = simulation;
+    
+    // Stop simulation after a fixed time to prevent continuous movement
+    setTimeout(() => {
+      if (simulation) {
+        simulation.stop();
+        console.log('Simulation stopped after timeout');
+      }
+    }, 5000);  // Stop after 5 seconds
 
     // Create edges
     const link = g.append('g')
@@ -312,34 +333,58 @@ export default function GraphCanvas({ data, onNodeClick, layout = 'force', onZoo
       .style('pointer-events', 'none');
 
     // Add click handler
-    node.on('click', (event: any, d: Node) => {
-      if (event && event.stopPropagation) {
-        event.stopPropagation();
-      }
-      if (onNodeClick) {
-        onNodeClick(d);
+    node.on('click', function(event: any, d: Node) {
+      try {
+        if (event && typeof event.stopPropagation === 'function') {
+          event.stopPropagation();
+        }
+        if (onNodeClick) {
+          onNodeClick(d);
+        }
+      } catch (e) {
+        // Ignore errors from event handling
+        console.debug('Node click event handling:', e);
       }
     });
 
     // Add hover effects
-    node.on('mouseenter', function(this: SVGGElement) {
-      d3.select(this).select('circle')
-        .transition()
-        .duration(200)
-        .attr('r', 25)
-        .attr('stroke-width', 3);
+    node.on('mouseenter', function(this: SVGGElement, event: any, d: any) {
+      const circle = d3.select(this).select('circle');
+      if (!circle.empty()) {
+        const currentRadius = d.type === 'video' ? 25 : 15;
+        circle
+          .transition()
+          .duration(200)
+          .attr('r', currentRadius + 5)
+          .attr('stroke-width', 3);
+      }
     });
 
-    node.on('mouseleave', function(this: SVGGElement) {
-      d3.select(this).select('circle')
-        .transition()
-        .duration(200)
-        .attr('r', 20)
-        .attr('stroke-width', 2);
+    node.on('mouseleave', function(this: SVGGElement, event: any, d: any) {
+      const circle = d3.select(this).select('circle');
+      if (!circle.empty()) {
+        const currentRadius = d.type === 'video' ? 25 : 15;
+        circle
+          .transition()
+          .duration(200)
+          .attr('r', currentRadius)
+          .attr('stroke-width', 2);
+      }
     });
 
-    // Update positions on simulation tick
-    simulation.on('tick', () => {
+    // Update positions on simulation tick (only for force layout)
+    if (layout === 'force') {
+      simulation.on('tick', () => {
+        link
+          .attr('x1', (d: any) => d.source.x)
+          .attr('y1', (d: any) => d.source.y)
+          .attr('x2', (d: any) => d.target.x)
+          .attr('y2', (d: any) => d.target.y);
+
+        node.attr('transform', (d: any) => `translate(${d.x},${d.y})`);
+      });
+    } else {
+      // For static layouts, render once immediately
       link
         .attr('x1', (d: any) => d.source.x)
         .attr('y1', (d: any) => d.source.y)
@@ -347,63 +392,122 @@ export default function GraphCanvas({ data, onNodeClick, layout = 'force', onZoo
         .attr('y2', (d: any) => d.target.y);
 
       node.attr('transform', (d: any) => `translate(${d.x},${d.y})`);
-    });
+    }
 
-    // Center the graph after initial layout
-    simulation.on('end', () => {
-      // Calculate bounding box of all nodes
-      let minX = Infinity, maxX = -Infinity;
-      let minY = Infinity, maxY = -Infinity;
-      
-      data.nodes.forEach((node: any) => {
-        if (node.x < minX) minX = node.x;
-        if (node.x > maxX) maxX = node.x;
-        if (node.y < minY) minY = node.y;
-        if (node.y > maxY) maxY = node.y;
+    // Center the graph after initial layout (only for force layout)
+    if (layout === 'force') {
+      simulation.on('end', () => {
+        // Calculate bounding box of all nodes
+        let minX = Infinity, maxX = -Infinity;
+        let minY = Infinity, maxY = -Infinity;
+        
+        data.nodes.forEach((node: any) => {
+          if (node.x < minX) minX = node.x;
+          if (node.x > maxX) maxX = node.x;
+          if (node.y < minY) minY = node.y;
+          if (node.y > maxY) maxY = node.y;
+        });
+
+        // Calculate center offset
+        const graphWidth = maxX - minX;
+        const graphHeight = maxY - minY;
+        const graphCenterX = minX + graphWidth / 2;
+        const graphCenterY = minY + graphHeight / 2;
+        
+        // Calculate scale to fit
+        const scale = Math.min(
+          width / (graphWidth + 200),
+          height / (graphHeight + 200),
+          1
+        );
+        
+        // Center transform
+        const centerX = width / 2 - graphCenterX * scale;
+        const centerY = height / 2 - graphCenterY * scale;
+        
+        const transform = d3.zoomIdentity
+          .translate(centerX, centerY)
+          .scale(scale);
+        
+        svg.transition()
+          .duration(750)
+          .call(zoom.transform, transform);
       });
+    } else {
+      // For static layouts, center immediately
+      setTimeout(() => {
+        let minX = Infinity, maxX = -Infinity;
+        let minY = Infinity, maxY = -Infinity;
+        
+        data.nodes.forEach((node: any) => {
+          if (node.x < minX) minX = node.x;
+          if (node.x > maxX) maxX = node.x;
+          if (node.y < minY) minY = node.y;
+          if (node.y > maxY) maxY = node.y;
+        });
 
-      // Calculate center offset
-      const graphWidth = maxX - minX;
-      const graphHeight = maxY - minY;
-      const graphCenterX = minX + graphWidth / 2;
-      const graphCenterY = minY + graphHeight / 2;
-      
-      // Calculate scale to fit
-      const scale = Math.min(
-        width / (graphWidth + 200),
-        height / (graphHeight + 200),
-        1
-      );
-      
-      // Center transform
-      const centerX = width / 2 - graphCenterX * scale;
-      const centerY = height / 2 - graphCenterY * scale;
-      
-      const transform = d3.zoomIdentity
-        .translate(centerX, centerY)
-        .scale(scale);
-      
-      svg.transition()
-        .duration(750)
-        .call(zoom.transform, transform);
-    });
+        const graphWidth = maxX - minX;
+        const graphHeight = maxY - minY;
+        const graphCenterX = minX + graphWidth / 2;
+        const graphCenterY = minY + graphHeight / 2;
+        
+        const scale = Math.min(
+          width / (graphWidth + 200),
+          height / (graphHeight + 200),
+          1
+        );
+        
+        const centerX = width / 2 - graphCenterX * scale;
+        const centerY = height / 2 - graphCenterY * scale;
+        
+        const transform = d3.zoomIdentity
+          .translate(centerX, centerY)
+          .scale(scale);
+        
+        svg.transition()
+          .duration(750)
+          .call(zoom.transform, transform);
+      }, 100);
+    }
 
     // Drag functions
     function dragstarted(event: any, d: any) {
-      if (!event.active) simulation.alphaTarget(0.3).restart();
+      // Fix the node position at current location
       d.fx = d.x;
       d.fy = d.y;
     }
 
     function dragged(event: any, d: any) {
+      // Update fixed position
       d.fx = event.x;
       d.fy = event.y;
+      
+      // Update actual position
+      d.x = event.x;
+      d.y = event.y;
+      
+      // Update visual position immediately
+      const nodeElement = d3.select(event.sourceEvent.target.parentNode);
+      nodeElement.attr('transform', `translate(${d.x},${d.y})`);
+      
+      // Update all connected edges in real-time
+      link.each(function(l: any) {
+        if (l.source === d || l.target === d) {
+          d3.select(this)
+            .attr('x1', l.source.x)
+            .attr('y1', l.source.y)
+            .attr('x2', l.target.x)
+            .attr('y2', l.target.y);
+        }
+      });
     }
 
     function dragended(event: any, d: any) {
-      if (!event.active) simulation.alphaTarget(0);
-      d.fx = null;
-      d.fy = null;
+      // Keep node fixed at the new dragged position
+      d.fx = event.x;
+      d.fy = event.y;
+      d.x = event.x;
+      d.y = event.y;
     }
 
     // Cleanup

@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { FiHome, FiVideo, FiGrid, FiMessageSquare } from 'react-icons/fi';
+import { FiHome, FiVideo, FiGrid, FiMessageSquare, FiServer } from 'react-icons/fi';
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -12,6 +12,7 @@ export default function Navbar() {
     { href: '/videos', label: 'Videos', icon: FiVideo },
     { href: '/graph', label: 'Knowledge Graph', icon: FiGrid },
     { href: '/chat', label: 'Chat', icon: FiMessageSquare },
+    { href: '/lightrag', label: 'LightRAG Server', icon: FiServer },
   ];
 
   return (
