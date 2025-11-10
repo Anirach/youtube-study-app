@@ -1,0 +1,68 @@
+// Prisma Schema for YouTube Study App
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Video {
+  id              String          @id @default(uuid())
+  youtubeId       String          @unique
+  url             String
+  title           String
+  author          String?
+  duration        Int?
+  uploadDate      DateTime?
+  thumbnail       String?
+  categoryId      String?
+  category        Category?       @relation(fields: [categoryId], references: [id])
+  tags            String          @default("[]") // JSON array as string
+  watchStatus     String          @default("unwatched") // unwatched, watching, watched
+  transcription   String?
+  summaryJson     String?         // JSON with quick, detailed, keyPoints
+  createdAt       DateTime        @default(now())
+  updatedAt       DateTime        @updatedAt
+  knowledgeGraph  KnowledgeGraph?
+
+  @@index([categoryId])
+  @@index([watchStatus])
+  @@index([createdAt])
+  @@index([title])
+  @@index([author])
+}
+
+model Category {
+  id          String   @id @default(uuid())
+  name        String   @unique
+  parentId    String?
+  color       String?
+  icon        String?
+  videoCount  Int      @default(0)
+  videos      Video[]
+  createdAt   DateTime @default(now())
+}
+
+model KnowledgeGraph {
+  id            String   @id @default(uuid())
+  videoId       String   @unique
+  video         Video    @relation(fields: [videoId], references: [id], onDelete: Cascade)
+  embeddings    String   // JSON array as string
+  relationships String   // JSON object as string
+  ragIndexRef   String?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}
+
+model ChatSession {
+  id             String   @id @default(uuid())
+  videoIds       String   // JSON array as string
+  messages       String   // JSON array as string
+  contextSummary String?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
+
