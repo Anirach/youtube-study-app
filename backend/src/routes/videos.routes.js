@@ -269,12 +269,67 @@ router.put('/:id', async (req, res, next) => {
  */
 router.delete('/:id', async (req, res, next) => {
   try {
+    // Get video data before deletion (to get track_id)
+    const video = await req.prisma.video.findUnique({
+      where: { id: req.params.id }
+    });
+
+    if (!video) {
+      return res.status(404).json({ error: 'Video not found' });
+    }
+
+    // Delete from database
     await req.prisma.video.delete({
       where: { id: req.params.id }
     });
 
     // Remove from RAG index
     await ragService.removeVideo(req.params.id);
+
+    // Remove from LightRAG Server if configured
+    const LIGHTRAG_SERVER = process.env.LIGHTRAG_SERVER_URL;
+    
+    if (LIGHTRAG_SERVER && video.tags) {
+      try {
+        const tags = JSON.parse(video.tags);
+        const trackId = tags.lightrag_track_id;
+        
+        if (trackId) {
+          console.log(`Removing video from LightRAG Server: ${trackId}`);
+          const axios = require('axios');
+          
+          // Get document ID from track status
+          const statusResponse = await axios.get(
+            `${LIGHTRAG_SERVER}/track_status/${trackId}`,
+            { timeout: 10000 }
+          );
+          
+          const docId = statusResponse.data?.id;
+          
+          if (docId) {
+            // Delete document from LightRAG
+            await axios.delete(
+              `${LIGHTRAG_SERVER}/documents/delete_document`,
+              {
+                data: {
+                  doc_ids: [docId],
+                  delete_file: false,
+                  delete_llm_cache: true
+                },
+                timeout: 30000
+              }
+            );
+            
+            console.log(`Successfully removed from LightRAG Server: ${docId}`);
+          } else {
+            console.log(`Document ID not found for track: ${trackId}`);
+          }
+        }
+      } catch (lightragError) {
+        console.error('Failed to remove from LightRAG Server:', lightragError.message);
+        // Don't fail the deletion if LightRAG removal fails
+      }
+    }
 
     res.json({ message: 'Video deleted successfully' });
   } catch (error) {

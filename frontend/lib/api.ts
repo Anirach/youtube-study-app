@@ -147,8 +147,12 @@ export const lightragApi = {
     });
     return res.data;
   },
-  uploadText: async (text: string, description?: string) => {
-    const res = await api.post('/lightrag/documents/text', { text, description });
+  uploadText: async (text: string, description?: string, filePath?: string) => {
+    const res = await api.post('/lightrag/documents/text', { 
+      text, 
+      description,
+      file_path: filePath || `upload_${Date.now()}.txt`
+    });
     return res.data;
   },
   uploadVideoTranscript: async (videoId: string) => {

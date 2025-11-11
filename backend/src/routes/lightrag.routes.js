@@ -9,7 +9,7 @@ const LIGHTRAG_SERVER = process.env.LIGHTRAG_SERVER_URL || 'http://localhost:962
  */
 router.post('/documents/text', async (req, res, next) => {
   try {
-    const { text, description } = req.body;
+    const { text, description, file_path } = req.body;
 
     if (!text) {
       return res.status(400).json({ error: 'Text is required' });
@@ -17,12 +17,17 @@ router.post('/documents/text', async (req, res, next) => {
 
     console.log(`Uploading text to LightRAG: ${description || 'No description'}`);
     console.log(`Text length: ${text.length} characters`);
+    console.log(`File path: ${file_path || 'Not specified'}`);
 
     try {
       // Forward to LightRAG server
       const response = await axios.post(
         `${LIGHTRAG_SERVER}/documents/text`,
-        { text, description },
+        { 
+          text, 
+          description,
+          file_path: file_path || `document_${Date.now()}.txt`
+        },
         {
           headers: {
             'Content-Type': 'application/json'
@@ -226,12 +231,17 @@ router.post('/auto-upload-videos', async (req, res, next) => {
 
         const documentText = documentParts.join('\n');
         const description = `YouTube: ${video.title} by ${video.author}`;
+        const fileName = `youtube_${video.youtubeId}.txt`;
 
         // Upload to LightRAG Server
         try {
           const response = await axios.post(
             `${LIGHTRAG_SERVER}/documents/text`,
-            { text: documentText, description },
+            { 
+              text: documentText, 
+              description,
+              file_path: fileName
+            },
             {
               headers: {
                 'Content-Type': 'application/json'

@@ -83,10 +83,10 @@ export default function GraphPage() {
   const buildCooccurrenceGraph = (data: any) => {
     // Co-occurrence: Show only entities and their co-occurrence relationships
     const entityNodes = data.nodes.filter((n: any) => n.type !== 'video');
-    const videoNodes = data.nodes.filter((n: any) => n.type === 'video');
     
     // Build co-occurrence edges between entities that appear in the same video
     const cooccurrenceEdges: any[] = [];
+    const cooccurrenceCount = new Map<string, number>();
     const entityByVideo = new Map<string, any[]>();
     
     // Group entities by video
@@ -108,26 +108,45 @@ export default function GraphPage() {
       }
     });
     
-    // Create co-occurrence edges
+    // Create co-occurrence edges with count
     entityByVideo.forEach((entities, videoId) => {
       for (let i = 0; i < entities.length; i++) {
         for (let j = i + 1; j < entities.length; j++) {
-          cooccurrenceEdges.push({
-            source: entities[i].id,
-            target: entities[j].id,
-            type: 'cooccurs',
-            similarity: 0.8,
-            reason: 'Co-occur in same video'
-          });
+          const edgeKey = [entities[i].id, entities[j].id].sort().join('-');
+          cooccurrenceCount.set(edgeKey, (cooccurrenceCount.get(edgeKey) || 0) + 1);
         }
       }
     });
     
+    // Convert to edges with weight
+    cooccurrenceCount.forEach((count, edgeKey) => {
+      const [sourceId, targetId] = edgeKey.split('-');
+      cooccurrenceEdges.push({
+        source: sourceId,
+        target: targetId,
+        type: 'cooccurs',
+        similarity: Math.min(count / 3, 1), // Normalize weight
+        weight: count,
+        reason: `Co-occur in ${count} video(s)`
+      });
+    });
+    
+    // Filter out isolated nodes (nodes with no edges)
+    const connectedNodeIds = new Set<string>();
+    cooccurrenceEdges.forEach(edge => {
+      connectedNodeIds.add(edge.source);
+      connectedNodeIds.add(edge.target);
+    });
+    
+    const connectedNodes = entityNodes.filter((n: any) => connectedNodeIds.has(n.id));
+    
     return {
-      nodes: [...videoNodes, ...entityNodes],
+      nodes: connectedNodes,
       edges: cooccurrenceEdges,
       stats: {
         ...data.stats,
+        nodes: connectedNodes.length,
+        edges: cooccurrenceEdges.length,
         graphType: 'Co-occurrence'
       }
     };
@@ -199,7 +218,9 @@ export default function GraphPage() {
   };
 
   const handleNodeClick = (node: any) => {
+    console.log('handleNodeClick called with:', node);
     setSelectedNode(node);
+    console.log('selectedNode updated');
   };
 
   const handleSearch = (query: string) => {

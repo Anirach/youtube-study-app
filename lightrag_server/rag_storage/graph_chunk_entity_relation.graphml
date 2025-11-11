@@ -1,0 +1,3111 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="truncate" attr.type="string"/>
+<key id="d12" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d11" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d10" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d9" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d8" for="edge" attr.name="description" attr.type="string"/>
+<key id="d7" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d6" for="node" attr.name="truncate" attr.type="string"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Cursor 2.0">
+  <data key="d0">Cursor 2.0</data>
+  <data key="d1">concept</data>
+  <data key="d2">Cursor 2.0 is an advanced version of a coding environment designed to enhance productivity and transform the daily workflow of product builders through a range of innovative features. It represents a significant update in software tools that aims to streamline processes and support builder activities more effectively.
+
+One of the key aspects of Cursor 2.0 is its ability to facilitate the work of autonomous agents in software development. This version allows multiple agents to operate in parallel on various tasks, significantly improving efficiency and collaboration within a clean and organized interface. The capacity for these agents to work simultaneously on different branches is a notable improvement that helps in managing complex projects more effectively.
+
+Additionally, Cursor 2.0 incorporates advanced AI capabilities that automate responsiveness adjustments for applications, ultimately reducing frontend development time. This automation represents a crucial advancement for software builders, making workflows smoother and more efficient. The introduction of such features marks Cursor 2.0 as a pivotal software update that not only enhances productivity but also represents a new direction in the development of workflows for builders in the software industry.&lt;SEP&gt;Cursor 2.0 is a software tool designed to enhance app development efficiency, allowing users to build applications with minimal coding experience.&lt;SEP&gt;Cursor 2.0 is a productivity tool with advanced features designed to assist users in building user interfaces (UIs) and productivity apps.&lt;SEP&gt;Cursor 2.0 is a productivity application featuring various user interface options and capabilities designed to enhance user experience.&lt;SEP&gt;Cursor 2.0 is a software that includes a built-in browser feature for application testing and development.&lt;SEP&gt;Cursor 2.0 is a software tool designed to improve coding efficiency and debugging processes with advanced features like AI-assisted code review.&lt;SEP&gt;Cursor 2.0 is the latest version of the Cursor platform, described as having excellent updates for coding workflows.</data>
+  <data key="d3">chunk-0e538563cfeaca32d95f4fbb946b94e1&lt;SEP&gt;chunk-f888f0ed259626b9f499359fe191f151&lt;SEP&gt;chunk-01b1c4ac16553afd0afdc2e711bf48af&lt;SEP&gt;chunk-ab77935f953989272da57f59882374b9&lt;SEP&gt;chunk-0c3aeae84e858e945028337fd9b14989&lt;SEP&gt;chunk-6b7677c4f8fc4bf9aaebb48cfc74f281&lt;SEP&gt;chunk-bf68108c40a765a1deeb3dd263c8d29a&lt;SEP&gt;chunk-d95cb7cb8e78350439a2bb9cb6beaccc&lt;SEP&gt;chunk-5cd932152b96c289c36d89b58befde90&lt;SEP&gt;chunk-2d5aba0e76d6f9fa8a40b36074b2067e&lt;SEP&gt;chunk-8edec14a01bd263b06b727e0df56a5a9&lt;SEP&gt;chunk-5d283f51692fb48d04e65714a81d29c6&lt;SEP&gt;chunk-d5fe695fec8f929154aa9f850db7e8f8&lt;SEP&gt;chunk-4e216006999d9903874d00dd750bf56e</data>
+  <data key="d4"></data>
+  <data key="d5">1762756706</data>
+  <data key="d6"></data>
+</node>
+<node id="Agent Mode">
+  <data key="d0">Agent Mode</data>
+  <data key="d1">method</data>
+  <data key="d2">Agent Mode is one of the dual modes introduced in Cursor 2.0 that allows for delegation of tasks to automated agents.&lt;SEP&gt;Agent Mode refers to a mode of operation mentioned in the context of the structure and functionality of BuilderMethods.com.&lt;SEP&gt;Agent Mode is a working mode within the software that allows users to toggle between different agents.</data>
+  <data key="d3">chunk-0e538563cfeaca32d95f4fbb946b94e1&lt;SEP&gt;chunk-924f1aa8bb2ecb89181beacf404f0aea&lt;SEP&gt;chunk-bf68108c40a765a1deeb3dd263c8d29a</data>
+  <data key="d4"></data>
+  <data key="d5">1762756644</data>
+  <data key="d6"></data>
+</node>
+<node id="Editor Mode">
+  <data key="d0">Editor Mode</data>
+  <data key="d1">method</data>
+  <data key="d2">Editor Mode is the second of the dual modes in Cursor 2.0 that facilitates hands-on interaction with development tasks.&lt;SEP&gt;Editor Mode is a working mode that enables users to interact with agents and manage their work.</data>
+  <data key="d3">chunk-0e538563cfeaca32d95f4fbb946b94e1&lt;SEP&gt;chunk-bf68108c40a765a1deeb3dd263c8d29a</data>
+  <data key="d4"></data>
+  <data key="d5">1762756644</data>
+  <data key="d6"></data>
+</node>
+<node id="Sonnet 4.5">
+  <data key="d0">Sonnet 4.5</data>
+  <data key="d1">project</data>
+  <data key="d2">Sonnet 4.5 is an advanced planning model noted for its effectiveness in handling large builds and generating clarifying questions during development.&lt;SEP&gt;Sonnet 4.5 is identified as a preferred model for various tasks due to its quality and capability.&lt;SEP&gt;Sonnet 4.5 is a specific project under which agents perform tasks and complete their work.&lt;SEP&gt;Sonnet 4.5 is a software version that the narrator interacted with to fix errors and adjust design features.</data>
+  <data key="d3">chunk-0e538563cfeaca32d95f4fbb946b94e1&lt;SEP&gt;chunk-70b12219b03a4948e1580e4ccd8ec1d6&lt;SEP&gt;chunk-3fc4fc44decb107a1ea6c9d51ef34535&lt;SEP&gt;chunk-5c70463ff5660ff7d32273684da618b7</data>
+  <data key="d4"></data>
+  <data key="d5">1762756644</data>
+  <data key="d6"></data>
+</node>
+<node id="Hidden Folder">
+  <data key="d0">Hidden Folder</data>
+  <data key="d1">data</data>
+  <data key="d2">Hidden Folder refers to a folder on the system that contains important files, including work trees for projects.</data>
+  <data key="d3">chunk-0e538563cfeaca32d95f4fbb946b94e1</data>
+  <data key="d4"></data>
+  <data key="d5">1762756644</data>
+  <data key="d6"></data>
+</node>
+<node id="Work Tree">
+  <data key="d0">Work Tree</data>
+  <data key="d1">concept</data>
+  <data key="d2">A Work Tree is a complete replica of the codebase, organized into folders for each agent’s tasks.</data>
+  <data key="d3">chunk-0e538563cfeaca32d95f4fbb946b94e1</data>
+  <data key="d4"></data>
+  <data key="d5">1762756644</data>
+  <data key="d6"></data>
+</node>
+<node id="Cursor Folder">
+  <data key="d0">Cursor Folder</data>
+  <data key="d1">data</data>
+  <data key="d2">The Cursor Folder is a specific directory within the system that houses various components related to the Cursor software.</data>
+  <data key="d3">chunk-0e538563cfeaca32d95f4fbb946b94e1</data>
+  <data key="d4"></data>
+  <data key="d5">1762756644</data>
+  <data key="d6"></data>
+</node>
+<node id="Agent">
+  <data key="d0">Agent</data>
+  <data key="d1">softwarefeature</data>
+  <data key="d2">Agent refers to an instance created to build the same thing, related to the discussion of responsive design and models.&lt;SEP&gt;An Agent is a component within the Cursor software that performs specific tasks within the work structure.&lt;SEP&gt;The Agent is a functionality within Cursor that facilitates user interaction to build new features.</data>
+  <data key="d3">chunk-0e538563cfeaca32d95f4fbb946b94e1&lt;SEP&gt;chunk-70b12219b03a4948e1580e4ccd8ec1d6&lt;SEP&gt;chunk-5d283f51692fb48d04e65714a81d29c6</data>
+  <data key="d4"></data>
+  <data key="d5">1762756706</data>
+  <data key="d6"></data>
+</node>
+<node id="Work Trees">
+  <data key="d0">Work Trees</data>
+  <data key="d1">concept</data>
+  <data key="d2">Work Trees are multiple instances of folders created for different agents to organize their tasks within a project.</data>
+  <data key="d3">chunk-0e538563cfeaca32d95f4fbb946b94e1</data>
+  <data key="d4"></data>
+  <data key="d5">1762756645</data>
+  <data key="d6"></data>
+</node>
+<node id="Composer One">
+  <data key="d0">Composer One</data>
+  <data key="d1">software</data>
+  <data key="d2">Composer One is recognized as Cursor's new model, noted for its speed and efficiency in comparison to others.&lt;SEP&gt;Composer One is a tool or agent that facilitates fast implementation of changes in a software development context.</data>
+  <data key="d3">chunk-f888f0ed259626b9f499359fe191f151&lt;SEP&gt;chunk-70b12219b03a4948e1580e4ccd8ec1d6</data>
+  <data key="d4"></data>
+  <data key="d5">1762756645</data>
+  <data key="d6"></data>
+</node>
+<node id="Weather Forecast">
+  <data key="d0">Weather Forecast</data>
+  <data key="d1">concept</data>
+  <data key="d2">Weather forecast refers to the predicted atmospheric conditions, including hourly and 7-day forecasts mentioned in the text.</data>
+  <data key="d3">chunk-f888f0ed259626b9f499359fe191f151</data>
+  <data key="d4"></data>
+  <data key="d5">1762756645</data>
+  <data key="d6"></data>
+</node>
+<node id="User Interface">
+  <data key="d0">User Interface</data>
+  <data key="d1">concept</data>
+  <data key="d2">User interface design involves the layout and functionality of light mode and dark mode switchers for user interaction.&lt;SEP&gt;User Interface refers to the means by which the user interacts with a software application, which is a central topic in the provided text regarding navigation and testing.&lt;SEP&gt;User Interface refers to the visual and interactive elements that allow users to engage with the application and variations.&lt;SEP&gt;User Interface refers to the visual elements and interaction mechanisms of the application, essential for user experience.</data>
+  <data key="d3">chunk-f888f0ed259626b9f499359fe191f151&lt;SEP&gt;chunk-990b8548e737c735a7b73c57799190e1&lt;SEP&gt;chunk-d7db8da421382d250965b3f01a625383&lt;SEP&gt;chunk-5d283f51692fb48d04e65714a81d29c6</data>
+  <data key="d4"></data>
+  <data key="d5">1762756706</data>
+  <data key="d6"></data>
+</node>
+<node id="Team at Cursor">
+  <data key="d0">Team at Cursor</data>
+  <data key="d1">organization</data>
+  <data key="d2">The Team at Cursor is responsible for developing the Cursor 2.0 software, which integrates various modes of working.</data>
+  <data key="d3">chunk-f888f0ed259626b9f499359fe191f151</data>
+  <data key="d4"></data>
+  <data key="d5">1762756645</data>
+  <data key="d6"></data>
+</node>
+<node id="Light Mode">
+  <data key="d0">Light Mode</data>
+  <data key="d1">concept</data>
+  <data key="d2">Light mode is a user interface setting that provides a brighter display style for software applications.</data>
+  <data key="d3">chunk-f888f0ed259626b9f499359fe191f151</data>
+  <data key="d4"></data>
+  <data key="d5">1762756645</data>
+  <data key="d6"></data>
+</node>
+<node id="Dark Mode">
+  <data key="d0">Dark Mode</data>
+  <data key="d1">concept</data>
+  <data key="d2">Dark mode is a user interface setting that offers a darker display style, often preferred for reduced eye strain.&lt;SEP&gt;Dark Mode is a feature for applications that provides a darker color scheme to enhance user experience, especially in low-light conditions.</data>
+  <data key="d3">chunk-f888f0ed259626b9f499359fe191f151&lt;SEP&gt;chunk-562d394ba4374399755c3e2575c8d190</data>
+  <data key="d4"></data>
+  <data key="d5">1762756704</data>
+  <data key="d6"></data>
+</node>
+<node id="Loading Animation">
+  <data key="d0">Loading Animation</data>
+  <data key="d1">concept</data>
+  <data key="d2">Loading animation refers to a visual effect displayed while content is being loaded in a software application.</data>
+  <data key="d3">chunk-f888f0ed259626b9f499359fe191f151</data>
+  <data key="d4"></data>
+  <data key="d5">1762756645</data>
+  <data key="d6"></data>
+</node>
+<node id="Brian Castle">
+  <data key="d0">Brian Castle</data>
+  <data key="d1">person</data>
+  <data key="d2">Brian Castle is an individual who helps professionals stay ahead in building with AI and hosts a weekly builder briefing.</data>
+  <data key="d3">chunk-01b1c4ac16553afd0afdc2e711bf48af</data>
+  <data key="d4"></data>
+  <data key="d5">1762756645</data>
+  <data key="d6"></data>
+</node>
+<node id="Builder Briefing">
+  <data key="d0">Builder Briefing</data>
+  <data key="d1">content</data>
+  <data key="d2">Builder Briefing is a five-minute read sent out by Brian Castle to help professionals stay informed and sharp.</data>
+  <data key="d3">chunk-01b1c4ac16553afd0afdc2e711bf48af</data>
+  <data key="d4"></data>
+  <data key="d5">1762756645</data>
+  <data key="d6"></data>
+</node>
+<node id="Composer 1">
+  <data key="d0">Composer 1</data>
+  <data key="d1">product</data>
+  <data key="d2">Composer 1 is the first large language model launched by the team at Cursor, known for its high speed compared to other models.&lt;SEP&gt;Composer 1 is a software version that the narrator refers to when discussing fixing errors and applying a previous version.</data>
+  <data key="d3">chunk-01b1c4ac16553afd0afdc2e711bf48af&lt;SEP&gt;chunk-3fc4fc44decb107a1ea6c9d51ef34535</data>
+  <data key="d4"></data>
+  <data key="d5">1762756645</data>
+  <data key="d6"></data>
+</node>
+<node id="AI">
+  <data key="d0">AI</data>
+  <data key="d1">concept</data>
+  <data key="d2">AI refers to artificial intelligence technologies that are used in coding environments for various automations and enhancements.&lt;SEP&gt;AI is a topic for future videos and discussions related to building and development methodologies.&lt;SEP&gt;AI refers to artificial intelligence technologies that enhance the efficiency of tasks such as user interface testing and code review.&lt;SEP&gt;AI is mentioned as a reviewer that constantly assesses the quality of code within the Cursor platform.</data>
+  <data key="d3">chunk-01b1c4ac16553afd0afdc2e711bf48af&lt;SEP&gt;chunk-0c3aeae84e858e945028337fd9b14989&lt;SEP&gt;chunk-990b8548e737c735a7b73c57799190e1&lt;SEP&gt;chunk-2d5aba0e76d6f9fa8a40b36074b2067e</data>
+  <data key="d4"></data>
+  <data key="d5">1762756703</data>
+  <data key="d6"></data>
+</node>
+<node id="Cursor">
+  <data key="d0">Cursor</data>
+  <data key="d1">concept</data>
+  <data key="d2">Cursor is an organization that specializes in the development of advanced coding tools and environments. Notably, it is responsible for the creation of Cursor 2.0 and Composer 1, which are designed to improve coding efficiency and facilitate rapid code writing. The organization is actively involved in discussions surrounding responsive layouts and various models related to coding and development.
+
+In addition to its software products, Cursor is described as a digital platform that offers a comprehensive suite of tools and workflows aimed at enhancing the user experience in coding and debugging in real time. The platform caters to users on the go with a fully optimized mobile application that allows them to code and manage their activities efficiently.
+
+Furthermore, the term "Cursor" also refers to the visual representation seen in user interfaces, commonly indicating the position of user input. This aspect was mentioned in the context of video discussions related to Cursor's updates and functionalities. Overall, Cursor is portrayed as an innovative entity focused on providing developers with the resources necessary to streamline their coding processes.</data>
+  <data key="d3">chunk-01b1c4ac16553afd0afdc2e711bf48af&lt;SEP&gt;chunk-ab77935f953989272da57f59882374b9&lt;SEP&gt;chunk-70b12219b03a4948e1580e4ccd8ec1d6&lt;SEP&gt;chunk-6b7677c4f8fc4bf9aaebb48cfc74f281&lt;SEP&gt;chunk-990b8548e737c735a7b73c57799190e1&lt;SEP&gt;chunk-fc254cca680a25b82b24b89154a0b556&lt;SEP&gt;chunk-2d5aba0e76d6f9fa8a40b36074b2067e&lt;SEP&gt;chunk-562d394ba4374399755c3e2575c8d190&lt;SEP&gt;chunk-528f1b1062a253235002782d2c88c9bc</data>
+  <data key="d4"></data>
+  <data key="d5">1762756707</data>
+  <data key="d6"></data>
+</node>
+<node id="Composer">
+  <data key="d0">Composer</data>
+  <data key="d1">organization</data>
+  <data key="d2">Composer is a tool used for refactoring code, known for making perfect UI changes rapidly and efficiently.&lt;SEP&gt;Composer is a tool utilized for making UI changes and adding features in a codebase rapidly.&lt;SEP&gt;Composer is a planning tool that, while effective, is considered less capable than Sonnet 4.5 in certain aspects of development planning.</data>
+  <data key="d3">chunk-ab77935f953989272da57f59882374b9&lt;SEP&gt;chunk-08aae6b335003c94b3350b86400571d0&lt;SEP&gt;chunk-5c70463ff5660ff7d32273684da618b7</data>
+  <data key="d4"></data>
+  <data key="d5">1762756646</data>
+  <data key="d6"></data>
+</node>
+<node id="Claude Sonnet 4.5">
+  <data key="d0">Claude Sonnet 4.5</data>
+  <data key="d1">concept</data>
+  <data key="d2">Claude Sonnet 4.5 is referenced as a model that competes with Cursor's Composer model in terms of performance and competence.</data>
+  <data key="d3">chunk-ab77935f953989272da57f59882374b9</data>
+  <data key="d4"></data>
+  <data key="d5">1762756646</data>
+  <data key="d6"></data>
+</node>
+<node id="Autonomous Agents">
+  <data key="d0">Autonomous Agents</data>
+  <data key="d1">concept</data>
+  <data key="d2">Autonomous agents are mentioned as tools operating independently to assist in the development process.&lt;SEP&gt;Autonomous agents are systems that can perform tasks on their own, with increasing trust placed in their ability to execute instructions.</data>
+  <data key="d3">chunk-ab77935f953989272da57f59882374b9&lt;SEP&gt;chunk-6b7677c4f8fc4bf9aaebb48cfc74f281</data>
+  <data key="d4"></data>
+  <data key="d5">1762756646</data>
+  <data key="d6"></data>
+</node>
+<node id="User Base of Developers">
+  <data key="d0">User Base of Developers</data>
+  <data key="d1">data</data>
+  <data key="d2">The user base of developers provides unique training data for Cursor’s models to optimize their performance.</data>
+  <data key="d3">chunk-ab77935f953989272da57f59882374b9</data>
+  <data key="d4"></data>
+  <data key="d5">1762756646</data>
+  <data key="d6"></data>
+</node>
+<node id="My App">
+  <data key="d0">My App</data>
+  <data key="d1">other</data>
+  <data key="d2">My App refers to the application in which features and changes were made using Composer.&lt;SEP&gt;My App is a software application in which tasks are being managed and automated through the use of autonomous agents and tools.</data>
+  <data key="d3">chunk-ab77935f953989272da57f59882374b9&lt;SEP&gt;chunk-08aae6b335003c94b3350b86400571d0</data>
+  <data key="d4"></data>
+  <data key="d5">1762756646</data>
+  <data key="d6"></data>
+</node>
+<node id="Feature">
+  <data key="d0">Feature</data>
+  <data key="d1">other</data>
+  <data key="d2">Feature refers to new capabilities being developed within the context of the autonomous agents for the software application.</data>
+  <data key="d3">chunk-ab77935f953989272da57f59882374b9</data>
+  <data key="d4"></data>
+  <data key="d5">1762756646</data>
+  <data key="d6"></data>
+</node>
+<node id="BuilderMethods.com">
+  <data key="d0">BuilderMethods.com</data>
+  <data key="d1">organization</data>
+  <data key="d2">BuilderMethods.com is a website where the speaker discusses their efforts to create an "about" page and includes free resources and membership details.</data>
+  <data key="d3">chunk-924f1aa8bb2ecb89181beacf404f0aea</data>
+  <data key="d4"></data>
+  <data key="d5">1762756646</data>
+  <data key="d6"></data>
+</node>
+<node id="Claude">
+  <data key="d0">Claude</data>
+  <data key="d1">person</data>
+  <data key="d2">Claude is a collaborator who assisted in creating an artifact for BuilderMethods.com.</data>
+  <data key="d3">chunk-924f1aa8bb2ecb89181beacf404f0aea</data>
+  <data key="d4"></data>
+  <data key="d5">1762756646</data>
+  <data key="d6"></data>
+</node>
+<node id="About Page">
+  <data key="d0">About Page</data>
+  <data key="d1">content</data>
+  <data key="d2">The About Page is a section on the BuilderMethods.com site intended to detail the brand and the speaker's story behind it.</data>
+  <data key="d3">chunk-924f1aa8bb2ecb89181beacf404f0aea</data>
+  <data key="d4"></data>
+  <data key="d5">1762756646</data>
+  <data key="d6"></data>
+</node>
+<node id="Composer Model">
+  <data key="d0">Composer Model</data>
+  <data key="d1">concept</data>
+  <data key="d2">The Composer Model is a coding model referred to in the context of BuilderMethods.com and is described as an agentic model used in the website's coding.</data>
+  <data key="d3">chunk-924f1aa8bb2ecb89181beacf404f0aea</data>
+  <data key="d4"></data>
+  <data key="d5">1762756646</data>
+  <data key="d6"></data>
+</node>
+<node id="Markdown">
+  <data key="d0">Markdown</data>
+  <data key="d1">content</data>
+  <data key="d2">Markdown is a markup language that the speaker uses to format the content for the About Page.</data>
+  <data key="d3">chunk-924f1aa8bb2ecb89181beacf404f0aea</data>
+  <data key="d4"></data>
+  <data key="d5">1762756646</data>
+  <data key="d6"></data>
+</node>
+<node id="Footer">
+  <data key="d0">Footer</data>
+  <data key="d1">content</data>
+  <data key="d2">The Footer is a section of the BuilderMethods.com website where links to different pages, including the About Page, are included.</data>
+  <data key="d3">chunk-924f1aa8bb2ecb89181beacf404f0aea</data>
+  <data key="d4"></data>
+  <data key="d5">1762756646</data>
+  <data key="d6"></data>
+</node>
+<node id="Model">
+  <data key="d0">Model</data>
+  <data key="d1">concept</data>
+  <data key="d2">Model represents different configurations or frameworks that can be used within the agent setup.</data>
+  <data key="d3">chunk-70b12219b03a4948e1580e4ccd8ec1d6</data>
+  <data key="d4"></data>
+  <data key="d5">1762756646</data>
+  <data key="d6"></data>
+</node>
+<node id="GPT5 Codeex">
+  <data key="d0">GPT5 Codeex</data>
+  <data key="d1">model</data>
+  <data key="d2">GPT5 Codeex is another model discussed for use, known for its performance and quality.&lt;SEP&gt;GPT5 Codeex is a computational tool that successfully functioned and provided a good first draft after application.</data>
+  <data key="d3">chunk-70b12219b03a4948e1580e4ccd8ec1d6&lt;SEP&gt;chunk-dab68701c27538a2236247a295a3b9c3</data>
+  <data key="d4"></data>
+  <data key="d5">1762756646</data>
+  <data key="d6"></data>
+</node>
+<node id="To-Do List">
+  <data key="d0">To-Do List</data>
+  <data key="d1">concept</data>
+  <data key="d2">To-Do List refers to a simple task management tool discussed in the context of building agents and workflows.&lt;SEP&gt;A to-do list is a feature within the productivity app that allows users to track tasks they need to complete.&lt;SEP&gt;The To-Do List is a task management tool mentioned in the context of enhancing productivity through precise issue tracking.&lt;SEP&gt;The To-Do List is a task management feature that allows users to track and manage their tasks and can be modified using the Select Element Button.</data>
+  <data key="d3">chunk-70b12219b03a4948e1580e4ccd8ec1d6&lt;SEP&gt;chunk-8560efb191b74e68b9018143f3ee2c4c&lt;SEP&gt;chunk-5cd932152b96c289c36d89b58befde90&lt;SEP&gt;chunk-d5fe695fec8f929154aa9f850db7e8f8</data>
+  <data key="d4"></data>
+  <data key="d5">1762756702</data>
+  <data key="d6"></data>
+</node>
+<node id="Multiple Models">
+  <data key="d0">Multiple Models</data>
+  <data key="d1">concept</data>
+  <data key="d2">Multiple Models refers to the discussion around utilizing various models within agents for improved functionality.</data>
+  <data key="d3">chunk-70b12219b03a4948e1580e4ccd8ec1d6</data>
+  <data key="d4"></data>
+  <data key="d5">1762756646</data>
+  <data key="d6"></data>
+</node>
+<node id="Sonnet 4.5 Agent">
+  <data key="d0">Sonnet 4.5 Agent</data>
+  <data key="d1">method</data>
+  <data key="d2">Sonnet 4.5 Agent is a tool applied in processes related to managing outputs in a computational context.</data>
+  <data key="d3">chunk-dab68701c27538a2236247a295a3b9c3</data>
+  <data key="d4"></data>
+  <data key="d5">1762756646</data>
+  <data key="d6"></data>
+</node>
+<node id="Agent Composer One">
+  <data key="d0">Agent Composer One</data>
+  <data key="d1">method</data>
+  <data key="d2">Agent Composer One is a method that appears to have issues while being applied in the context.</data>
+  <data key="d3">chunk-dab68701c27538a2236247a295a3b9c3</data>
+  <data key="d4"></data>
+  <data key="d5">1762756646</data>
+  <data key="d6"></data>
+</node>
+<node id="Current Location">
+  <data key="d0">Current Location</data>
+  <data key="d1">concept</data>
+  <data key="d2">Current Location refers to the geographical point being referenced, which the system is attempting to accurately identify.</data>
+  <data key="d3">chunk-dab68701c27538a2236247a295a3b9c3</data>
+  <data key="d4"></data>
+  <data key="d5">1762756646</data>
+  <data key="d6"></data>
+</node>
+<node id="7-Day Forecast">
+  <data key="d0">7-Day Forecast</data>
+  <data key="d1">content</data>
+  <data key="d2">7-Day Forecast is a feature that provides weather predictions over a week with a clear design appreciated by the user.&lt;SEP&gt;The 7-Day Forecast is a weather prediction service that the narrator is checking for local weather updates.</data>
+  <data key="d3">chunk-dab68701c27538a2236247a295a3b9c3&lt;SEP&gt;chunk-3fc4fc44decb107a1ea6c9d51ef34535</data>
+  <data key="d4"></data>
+  <data key="d5">1762756647</data>
+  <data key="d6"></data>
+</node>
+<node id="Console">
+  <data key="d0">Console</data>
+  <data key="d1">other</data>
+  <data key="d2">The Console is a debugging tool that displays errors related to the application processes within the context described.</data>
+  <data key="d3">chunk-dab68701c27538a2236247a295a3b9c3</data>
+  <data key="d4"></data>
+  <data key="d5">1762756647</data>
+  <data key="d6"></data>
+</node>
+<node id="Errors">
+  <data key="d0">Errors</data>
+  <data key="d1">concept</data>
+  <data key="d2">Errors refer to issues encountered during the application of various agents as observed in the debugging process.</data>
+  <data key="d3">chunk-dab68701c27538a2236247a295a3b9c3</data>
+  <data key="d4"></data>
+  <data key="d5">1762756647</data>
+  <data key="d6"></data>
+</node>
+<node id="Location Name">
+  <data key="d0">Location Name</data>
+  <data key="d1">concept</data>
+  <data key="d2">Location Name is a specific data point being referenced in the context of fetching the user's current geographical position.</data>
+  <data key="d3">chunk-dab68701c27538a2236247a295a3b9c3</data>
+  <data key="d4"></data>
+  <data key="d5">1762756647</data>
+  <data key="d6"></data>
+</node>
+<node id="Spec-Driven Development">
+  <data key="d0">Spec-Driven Development</data>
+  <data key="d1">method</data>
+  <data key="d2">Spec-Driven Development is a new paradigm discussed in relation to builders, emphasizing its relevance in Cursor 2.0, particularly in agent mode.</data>
+  <data key="d3">chunk-0c3aeae84e858e945028337fd9b14989</data>
+  <data key="d4"></data>
+  <data key="d5">1762756647</data>
+  <data key="d6"></data>
+</node>
+<node id="Channel">
+  <data key="d0">Channel</data>
+  <data key="d1">content</data>
+  <data key="d2">The Channel is a medium where discussion of spec-driven development and updates related to Cursor 2.0 is presented.</data>
+  <data key="d3">chunk-0c3aeae84e858e945028337fd9b14989</data>
+  <data key="d4"></data>
+  <data key="d5">1762756647</data>
+  <data key="d6"></data>
+</node>
+<node id="Workflow">
+  <data key="d0">Workflow</data>
+  <data key="d1">concept</data>
+  <data key="d2">Workflow refers to the process by which builders evolve their methods and techniques in development, mentioned in relation to the update.&lt;SEP&gt;Workflow refers to a structured series of tasks or processes to achieve a specific outcome, particularly regarding the software being developed or used.</data>
+  <data key="d3">chunk-0c3aeae84e858e945028337fd9b14989&lt;SEP&gt;chunk-8edec14a01bd263b06b727e0df56a5a9</data>
+  <data key="d4"></data>
+  <data key="d5">1762756704</data>
+  <data key="d6"></data>
+</node>
+<node id="Cloud Code">
+  <data key="d0">Cloud Code</data>
+  <data key="d1">concept</data>
+  <data key="d2">Cloud code is a method that has facilitated a shift from manual coding to trusting autonomous agents for task execution.</data>
+  <data key="d3">chunk-6b7677c4f8fc4bf9aaebb48cfc74f281</data>
+  <data key="d4"></data>
+  <data key="d5">1762756647</data>
+  <data key="d6"></data>
+</node>
+<node id="Background Agents">
+  <data key="d0">Background Agents</data>
+  <data key="d1">concept</data>
+  <data key="d2">Background agents are a type of software agent launched by Cursor that operate consistently in the background.</data>
+  <data key="d3">chunk-6b7677c4f8fc4bf9aaebb48cfc74f281</data>
+  <data key="d4"></data>
+  <data key="d5">1762756647</data>
+  <data key="d6"></data>
+</node>
+<node id="AAI">
+  <data key="d0">AAI</data>
+  <data key="d1">organization</data>
+  <data key="d2">AAI is an organization that has launched technologies named codecs for improved coding efficiency.</data>
+  <data key="d3">chunk-6b7677c4f8fc4bf9aaebb48cfc74f281</data>
+  <data key="d4"></data>
+  <data key="d5">1762756647</data>
+  <data key="d6"></data>
+</node>
+<node id="Weather App">
+  <data key="d0">Weather App</data>
+  <data key="d1">application</data>
+  <data key="d2">The weather app is a simple application being built in a demonstration using Cursor 2.0 to show parallel agent functionality.</data>
+  <data key="d3">chunk-6b7677c4f8fc4bf9aaebb48cfc74f281</data>
+  <data key="d4"></data>
+  <data key="d5">1762756647</data>
+  <data key="d6"></data>
+</node>
+<node id="Weatheroo">
+  <data key="d0">Weatheroo</data>
+  <data key="d1">project</data>
+  <data key="d2">Weatheroo is a project name mentioned as the actual application being worked on, developed using the Rails framework.</data>
+  <data key="d3">chunk-60f529ec1784a379e6876437deaad8ef</data>
+  <data key="d4"></data>
+  <data key="d5">1762756647</data>
+  <data key="d6"></data>
+</node>
+<node id="Rails App">
+  <data key="d0">Rails App</data>
+  <data key="d1">software</data>
+  <data key="d2">The Rails App refers to the application structure being utilized for the Weatheroo project, indicating it is built with the Ruby on Rails framework.</data>
+  <data key="d3">chunk-60f529ec1784a379e6876437deaad8ef</data>
+  <data key="d4"></data>
+  <data key="d5">1762756647</data>
+  <data key="d6"></data>
+</node>
+<node id="Finder">
+  <data key="d0">Finder</data>
+  <data key="d1">software</data>
+  <data key="d2">Finder is a file management application mentioned as being used to navigate and manage project files on the system.</data>
+  <data key="d3">chunk-60f529ec1784a379e6876437deaad8ef</data>
+  <data key="d4"></data>
+  <data key="d5">1762756647</data>
+  <data key="d6"></data>
+</node>
+<node id="Git Work Trees">
+  <data key="d0">Git Work Trees</data>
+  <data key="d1">concept</data>
+  <data key="d2">Git Work Trees refers to a Git feature that allows users to manage multiple working directories, facilitating version control in the project.</data>
+  <data key="d3">chunk-60f529ec1784a379e6876437deaad8ef</data>
+  <data key="d4"></data>
+  <data key="d5">1762756647</data>
+  <data key="d6"></data>
+</node>
+<node id="Interface">
+  <data key="d0">Interface</data>
+  <data key="d1">concept</data>
+  <data key="d2">The interface refers to the visual interaction framework within the project that allows for navigation and usability of features.</data>
+  <data key="d3">chunk-60f529ec1784a379e6876437deaad8ef</data>
+  <data key="d4"></data>
+  <data key="d5">1762756648</data>
+  <data key="d6"></data>
+</node>
+<node id="Agents">
+  <data key="d0">Agents</data>
+  <data key="d1">concept</data>
+  <data key="d2">Agents refer to distinct components or entities involved in making edits to files within the project, as mentioned in the context of editing.</data>
+  <data key="d3">chunk-60f529ec1784a379e6876437deaad8ef</data>
+  <data key="d4"></data>
+  <data key="d5">1762756648</data>
+  <data key="d6"></data>
+</node>
+<node id="Three Agents">
+  <data key="d0">Three Agents</data>
+  <data key="d1">concept</data>
+  <data key="d2">Three Agents refer to specific components involved in the project development that are making edits to the code but have not altered the core Rails application yet.</data>
+  <data key="d3">chunk-60f529ec1784a379e6876437deaad8ef</data>
+  <data key="d4"></data>
+  <data key="d5">1762756648</data>
+  <data key="d6"></data>
+</node>
+<node id="Orange">
+  <data key="d0">Orange</data>
+  <data key="d1">location</data>
+  <data key="d2">Orange is a town in Connecticut where the narrator lives and observes the weather.</data>
+  <data key="d3">chunk-3fc4fc44decb107a1ea6c9d51ef34535</data>
+  <data key="d4"></data>
+  <data key="d5">1762756648</data>
+  <data key="d6"></data>
+</node>
+<node id="Connecticut">
+  <data key="d0">Connecticut</data>
+  <data key="d1">location</data>
+  <data key="d2">Connecticut is the U.S. state where the town of Orange is located.</data>
+  <data key="d3">chunk-3fc4fc44decb107a1ea6c9d51ef34535</data>
+  <data key="d4"></data>
+  <data key="d5">1762756648</data>
+  <data key="d6"></data>
+</node>
+<node id="CleanShot">
+  <data key="d0">CleanShot</data>
+  <data key="d1">software</data>
+  <data key="d2">CleanShot is a screenshot application that the narrator uses on a Mac for capturing screen content.</data>
+  <data key="d3">chunk-3fc4fc44decb107a1ea6c9d51ef34535</data>
+  <data key="d4"></data>
+  <data key="d5">1762756648</data>
+  <data key="d6"></data>
+</node>
+<node id="24-Hour Forecast">
+  <data key="d0">24-Hour Forecast</data>
+  <data key="d1">data</data>
+  <data key="d2">The 24-Hour Forecast provides short-term weather predictions, which the narrator is utilizing.</data>
+  <data key="d3">chunk-3fc4fc44decb107a1ea6c9d51ef34535</data>
+  <data key="d4"></data>
+  <data key="d5">1762756648</data>
+  <data key="d6"></data>
+</node>
+<node id="Div Element">
+  <data key="d0">Div Element</data>
+  <data key="d1">other</data>
+  <data key="d2">A div element is a section within a webpage that can be styled and manipulated, mentioned as a point of reference for layout adjustments.</data>
+  <data key="d3">chunk-08aae6b335003c94b3350b86400571d0</data>
+  <data key="d4"></data>
+  <data key="d5">1762756648</data>
+  <data key="d6"></data>
+</node>
+<node id="Keyboard Shortcuts">
+  <data key="d0">Keyboard Shortcuts</data>
+  <data key="d1">concept</data>
+  <data key="d2">Keyboard shortcuts are combinations of keys used to perform functions more quickly, referenced as a feature of the user interface.</data>
+  <data key="d3">chunk-08aae6b335003c94b3350b86400571d0</data>
+  <data key="d4"></data>
+  <data key="d5">1762756648</data>
+  <data key="d6"></data>
+</node>
+<node id="Browser">
+  <data key="d0">Browser</data>
+  <data key="d1">software</data>
+  <data key="d2">The browser is an application used for accessing content on the web, mentioned for its new built-in features.&lt;SEP&gt;The Browser is a feature within Cursor 2.0 that allows users to view and interact with their applications in real time.</data>
+  <data key="d3">chunk-08aae6b335003c94b3350b86400571d0&lt;SEP&gt;chunk-5d283f51692fb48d04e65714a81d29c6</data>
+  <data key="d4"></data>
+  <data key="d5">1762756706</data>
+  <data key="d6"></data>
+</node>
+<node id="User Interface Changes">
+  <data key="d0">User Interface Changes</data>
+  <data key="d1">concept</data>
+  <data key="d2">User interface changes refer to modifications made to the visual layout and elements of a software application, particularly in the context of web development.</data>
+  <data key="d3">chunk-08aae6b335003c94b3350b86400571d0</data>
+  <data key="d4"></data>
+  <data key="d5">1762756648</data>
+  <data key="d6"></data>
+</node>
+<node id="Features">
+  <data key="d0">Features</data>
+  <data key="d1">concept</data>
+  <data key="d2">Features refer to specific functionalities within software applications, mentioned in the context of utilizing Composer to enhance their capabilities.</data>
+  <data key="d3">chunk-08aae6b335003c94b3350b86400571d0</data>
+  <data key="d4"></data>
+  <data key="d5">1762756648</data>
+  <data key="d6"></data>
+</node>
+<node id="Brian Casel">
+  <data key="d0">Brian Casel</data>
+  <data key="d1">person</data>
+  <data key="d2">Brian Casel is the author and host of the YouTube video discussing the impacts of Cursor 2.0 on work processes.</data>
+  <data key="d3">chunk-bf68108c40a765a1deeb3dd263c8d29a</data>
+  <data key="d4"></data>
+  <data key="d5">1762756648</data>
+  <data key="d6"></data>
+</node>
+<node id="Video ID: plAGTrg0wic">
+  <data key="d0">Video ID: plAGTrg0wic</data>
+  <data key="d1">data</data>
+  <data key="d2">Video ID: plAGTrg0wic is the unique identifier for the YouTube video focused on Cursor 2.0.</data>
+  <data key="d3">chunk-bf68108c40a765a1deeb3dd263c8d29a</data>
+  <data key="d4"></data>
+  <data key="d5">1762756648</data>
+  <data key="d6"></data>
+</node>
+<node id="YouTube">
+  <data key="d0">YouTube</data>
+  <data key="d1">organization</data>
+  <data key="d2">YouTube is the platform where the video about Cursor 2.0 was uploaded.</data>
+  <data key="d3">chunk-bf68108c40a765a1deeb3dd263c8d29a</data>
+  <data key="d4"></data>
+  <data key="d5">1762756648</data>
+  <data key="d6"></data>
+</node>
+<node id="Builder Methods">
+  <data key="d0">Builder Methods</data>
+  <data key="d1">organization</data>
+  <data key="d2">Builder Methods is associated with Brian Casel's insights shared to help professionals in the development workflow.</data>
+  <data key="d3">chunk-bf68108c40a765a1deeb3dd263c8d29a</data>
+  <data key="d4"></data>
+  <data key="d5">1762756648</data>
+  <data key="d6"></data>
+</node>
+<node id="Duration">
+  <data key="d0">Duration</data>
+  <data key="d1">data</data>
+  <data key="d2">Duration refers to the length of the YouTube video discussing Cursor 2.0, which is 1217 seconds.</data>
+  <data key="d3">chunk-bf68108c40a765a1deeb3dd263c8d29a</data>
+  <data key="d4"></data>
+  <data key="d5">1762756649</data>
+  <data key="d6"></data>
+</node>
+<node id="Upload Date">
+  <data key="d0">Upload Date</data>
+  <data key="d1">data</data>
+  <data key="d2">Upload Date indicates when the video was uploaded, which is Fri Nov 07 2025.</data>
+  <data key="d3">chunk-bf68108c40a765a1deeb3dd263c8d29a</data>
+  <data key="d4"></data>
+  <data key="d5">1762756649</data>
+  <data key="d6"></data>
+</node>
+<node id="Cursor's Plan Mode">
+  <data key="d0">Cursor's Plan Mode</data>
+  <data key="d1">concept</data>
+  <data key="d2">Cursor's Plan Mode is a planning method that allows the creation of organized plans and alignment among multiple agents in a development setting.</data>
+  <data key="d3">chunk-5c70463ff5660ff7d32273684da618b7</data>
+  <data key="d4"></data>
+  <data key="d5">1762756649</data>
+  <data key="d6"></data>
+</node>
+<node id="Agent OS">
+  <data key="d0">Agent OS</data>
+  <data key="d1">concept</data>
+  <data key="d2">Agent OS is a software tool designed for developing detailed specifications and task lists, enhancing planning processes.</data>
+  <data key="d3">chunk-5c70463ff5660ff7d32273684da618b7</data>
+  <data key="d4"></data>
+  <data key="d5">1762756649</data>
+  <data key="d6"></data>
+</node>
+<node id="Weather Data">
+  <data key="d0">Weather Data</data>
+  <data key="d1">data</data>
+  <data key="d2">Weather Data refers to information that will be displayed on a homepage as part of the project being planned.</data>
+  <data key="d3">chunk-5c70463ff5660ff7d32273684da618b7</data>
+  <data key="d4"></data>
+  <data key="d5">1762756649</data>
+  <data key="d6"></data>
+</node>
+<node id="Cursors">
+  <data key="d0">Cursors</data>
+  <data key="d1">concept</data>
+  <data key="d2">Cursors refers to a method or tool within the context of planning and development, particularly related to creating plans and managing agents.</data>
+  <data key="d3">chunk-5c70463ff5660ff7d32273684da618b7</data>
+  <data key="d4"></data>
+  <data key="d5">1762756649</data>
+  <data key="d6"></data>
+</node>
+<node id="Codecs">
+  <data key="d0">Codecs</data>
+  <data key="d3">chunk-6b7677c4f8fc4bf9aaebb48cfc74f281</data>
+  <data key="d2">AAI has launched codecs that enhance the functionality and performance of coding through automation.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4"></data>
+  <data key="d5">1762756661</data>
+  <data key="d6"></data>
+</node>
+<node id="Cursor AI">
+  <data key="d0">Cursor AI</data>
+  <data key="d1">organization</data>
+  <data key="d2">Cursor AI is an advanced application that automates processes across different devices, enhancing productivity in coding workflows.&lt;SEP&gt;Cursor AI is a software that operates in incognito mode, which affects user accessibility and security.&lt;SEP&gt;Cursor AI refers to the technology underlying Cursor 2.0, which is designed to assist developers in streamlining their workflow.</data>
+  <data key="d3">chunk-1cc7aed3d64986d6abba1111fb92427b&lt;SEP&gt;chunk-d95cb7cb8e78350439a2bb9cb6beaccc&lt;SEP&gt;chunk-672c95411f06056743ee21e1759bf7df</data>
+  <data key="d4"></data>
+  <data key="d5">1762756700</data>
+  <data key="d6"></data>
+</node>
+<node id="Chrome">
+  <data key="d0">Chrome</data>
+  <data key="d1">organization</data>
+  <data key="d2">Chrome is a web browser that implements security measures requiring users to log in for account features in incognito mode.</data>
+  <data key="d3">chunk-1cc7aed3d64986d6abba1111fb92427b</data>
+  <data key="d4"></data>
+  <data key="d5">1762756700</data>
+  <data key="d6"></data>
+</node>
+<node id="Carbon-Fiber Spikes">
+  <data key="d0">Carbon-Fiber Spikes</data>
+  <data key="d1">equipment</data>
+  <data key="d2">Carbon-fiber spikes are advanced athletic shoes designed to enhance performance and speed.</data>
+  <data key="d3">chunk-1cc7aed3d64986d6abba1111fb92427b</data>
+  <data key="d4"></data>
+  <data key="d5">1762756700</data>
+  <data key="d6"></data>
+</node>
+<node id="Automated Test Software">
+  <data key="d0">Automated Test Software</data>
+  <data key="d1">software</data>
+  <data key="d2">Automated test software is utilized to perform web navigation and functionality tests without manual intervention.</data>
+  <data key="d3">chunk-1cc7aed3d64986d6abba1111fb92427b</data>
+  <data key="d4"></data>
+  <data key="d5">1762756700</data>
+  <data key="d6"></data>
+</node>
+<node id="Junior Engineer">
+  <data key="d0">Junior Engineer</data>
+  <data key="d1">person</data>
+  <data key="d2">A junior engineer is a professional who may be tasked with labor confirmation and intricate processes in software operations.&lt;SEP&gt;A Junior Engineer refers to a novice engineer who is typically responsible for tasks like creating pull requests and seeking reviews from senior engineers.</data>
+  <data key="d3">chunk-1cc7aed3d64986d6abba1111fb92427b&lt;SEP&gt;chunk-5f6bd8990ea0375d2e16747009d156c6</data>
+  <data key="d4"></data>
+  <data key="d5">1762756700</data>
+  <data key="d6"></data>
+</node>
+<node id="Lead the Llama">
+  <data key="d0">Lead the Llama</data>
+  <data key="d1">concept</data>
+  <data key="d2">Lead the Llama refers to a workflow component mentioned in the context of navigating through a website and testing functionalities.</data>
+  <data key="d3">chunk-1cc7aed3d64986d6abba1111fb92427b</data>
+  <data key="d4"></data>
+  <data key="d5">1762756700</data>
+  <data key="d6"></data>
+</node>
+<node id="Hamburger Request">
+  <data key="d0">Hamburger Request</data>
+  <data key="d1">concept</data>
+  <data key="d2">The Hamburger Request refers to a specific user requirement or feature related to mobile navigation and presentation in a software application.</data>
+  <data key="d3">chunk-990b8548e737c735a7b73c57799190e1</data>
+  <data key="d4"></data>
+  <data key="d5">1762756700</data>
+  <data key="d6"></data>
+</node>
+<node id="Mobile Navigation">
+  <data key="d0">Mobile Navigation</data>
+  <data key="d1">concept</data>
+  <data key="d2">Mobile Navigation involves the techniques and user interfaces used to navigate information on mobile devices, which the text indicates is being tested for functionality.&lt;SEP&gt;Mobile Navigation refers to the functionality of navigating a software application on mobile devices, which is being tested for correctness.</data>
+  <data key="d3">chunk-990b8548e737c735a7b73c57799190e1&lt;SEP&gt;chunk-5f6bd8990ea0375d2e16747009d156c6</data>
+  <data key="d4"></data>
+  <data key="d5">1762756700</data>
+  <data key="d6"></data>
+</node>
+<node id="Front End Engineering">
+  <data key="d0">Front End Engineering</data>
+  <data key="d1">method</data>
+  <data key="d2">Front End Engineering encompasses the practices and technologies used to develop the visual and interactive aspects of a website or application.</data>
+  <data key="d3">chunk-990b8548e737c735a7b73c57799190e1</data>
+  <data key="d4"></data>
+  <data key="d5">1762756700</data>
+  <data key="d6"></data>
+</node>
+<node id="Pricing Section">
+  <data key="d0">Pricing Section</data>
+  <data key="d1">concept</data>
+  <data key="d2">The Pricing Section is part of the user interface that displays pricing information and is mentioned in relation to navigation and testing.</data>
+  <data key="d3">chunk-990b8548e737c735a7b73c57799190e1</data>
+  <data key="d4"></data>
+  <data key="d5">1762756700</data>
+  <data key="d6"></data>
+</node>
+<node id="Tablet">
+  <data key="d0">Tablet</data>
+  <data key="d1">device</data>
+  <data key="d2">A Tablet is a portable computing device that combines features of both a smartphone and a computer, mentioned in the context of viewing the application interface.</data>
+  <data key="d3">chunk-990b8548e737c735a7b73c57799190e1</data>
+  <data key="d4"></data>
+  <data key="d5">1762756700</data>
+  <data key="d6"></data>
+</node>
+<node id="Mobile">
+  <data key="d0">Mobile</data>
+  <data key="d1">device</data>
+  <data key="d2">Mobile refers to the mobile devices and platforms being targeted for testing and user experience improvements in the software application.</data>
+  <data key="d3">chunk-990b8548e737c735a7b73c57799190e1</data>
+  <data key="d4"></data>
+  <data key="d5">1762756700</data>
+  <data key="d6"></data>
+</node>
+<node id="McDonald's">
+  <data key="d0">McDonald's</data>
+  <data key="d1">organization</data>
+  <data key="d2">McDonald's is referenced as a popular fast-food chain, contrasting with the preference for In-N-Out.&lt;SEP&gt;McDonald's is a global fast-food chain known for its hamburgers and other food offerings.</data>
+  <data key="d3">chunk-a87922f604b09b16a4abaee8772bc56d&lt;SEP&gt;chunk-fc254cca680a25b82b24b89154a0b556</data>
+  <data key="d4"></data>
+  <data key="d5">1762756701</data>
+  <data key="d6"></data>
+</node>
+<node id="In-N-Out">
+  <data key="d0">In-N-Out</data>
+  <data key="d1">organization</data>
+  <data key="d2">In-N-Out is mentioned as a fast-food restaurant known for its hamburgers, reflecting the speaker's personal preference.&lt;SEP&gt;In-N-Out is a regional fast-food chain celebrated for its hamburgers and unique menu items.</data>
+  <data key="d3">chunk-a87922f604b09b16a4abaee8772bc56d&lt;SEP&gt;chunk-fc254cca680a25b82b24b89154a0b556</data>
+  <data key="d4"></data>
+  <data key="d5">1762756701</data>
+  <data key="d6"></data>
+</node>
+<node id="Banana Peppers">
+  <data key="d0">Banana Peppers</data>
+  <data key="d1">ingredient</data>
+  <data key="d2">Banana peppers are a type of mild chili pepper, mentioned in connection with food preferences.</data>
+  <data key="d3">chunk-a87922f604b09b16a4abaee8772bc56d</data>
+  <data key="d4"></data>
+  <data key="d5">1762756701</data>
+  <data key="d6"></data>
+</node>
+<node id="Junior Engineers">
+  <data key="d0">Junior Engineers</data>
+  <data key="d1">concept</data>
+  <data key="d2">Junior engineers are characterized as less experienced professionals who may produce suboptimal code that requires review.&lt;SEP&gt;Junior engineers are individuals at an entry-level position, referred to in the context of coding and software development skills.</data>
+  <data key="d3">chunk-c2550653d75f17ab4baaa33411409f65&lt;SEP&gt;chunk-fc254cca680a25b82b24b89154a0b556</data>
+  <data key="d4"></data>
+  <data key="d5">1762756701</data>
+  <data key="d6"></data>
+</node>
+<node id="Hamburger Menu">
+  <data key="d0">Hamburger Menu</data>
+  <data key="d1">concept</data>
+  <data key="d2">Hamburger menu refers to a navigation feature represented by three lines that expands to reveal further options.&lt;SEP&gt;The hamburger menu is a user interface element that typically contains a list of options or functionalities, but in this context, it is noted for not functioning properly.</data>
+  <data key="d3">chunk-c2550653d75f17ab4baaa33411409f65&lt;SEP&gt;chunk-fc254cca680a25b82b24b89154a0b556</data>
+  <data key="d4"></data>
+  <data key="d5">1762756701</data>
+  <data key="d6"></data>
+</node>
+<node id="Code Review">
+  <data key="d0">Code Review</data>
+  <data key="d1">method</data>
+  <data key="d2">Code review refers to the practice of evaluating the source code for mistakes and improving quality, which is emphasized as crucial for junior engineers.</data>
+  <data key="d3">chunk-c2550653d75f17ab4baaa33411409f65</data>
+  <data key="d4"></data>
+  <data key="d5">1762756701</data>
+  <data key="d6"></data>
+</node>
+<node id="GitHub">
+  <data key="d0">GitHub</data>
+  <data key="d1">organization</data>
+  <data key="d2">GitHub is a platform for version control and collaboration, essential for software engineering, and is mentioned as a topic of interest for understanding coding practices.&lt;SEP&gt;GitHub is a platform for version control and collaboration, enabling users to manage and store their code repositories online.</data>
+  <data key="d3">chunk-c2550653d75f17ab4baaa33411409f65&lt;SEP&gt;chunk-8edec14a01bd263b06b727e0df56a5a9</data>
+  <data key="d4"></data>
+  <data key="d5">1762756704</data>
+  <data key="d6"></data>
+</node>
+<node id="Pull Request">
+  <data key="d0">Pull Request</data>
+  <data key="d1">artifact</data>
+  <data key="d2">A pull request is a method used in software development to submit contributions from one repository to another, particularly in the context of front-end and back-end development.</data>
+  <data key="d3">chunk-c2550653d75f17ab4baaa33411409f65</data>
+  <data key="d4"></data>
+  <data key="d5">1762756701</data>
+  <data key="d6"></data>
+</node>
+<node id="Front End">
+  <data key="d0">Front End</data>
+  <data key="d1">concept</data>
+  <data key="d2">Front end refers to the part of a software application that interacts with users, as mentioned in the context of completing tasks before moving on to the back end.</data>
+  <data key="d3">chunk-c2550653d75f17ab4baaa33411409f65</data>
+  <data key="d4"></data>
+  <data key="d5">1762756701</data>
+  <data key="d6"></data>
+</node>
+<node id="Back End">
+  <data key="d0">Back End</data>
+  <data key="d1">concept</data>
+  <data key="d2">Back end refers to the server-side component of a software application that processes requests and manages data, mentioned in relation to development phases.</data>
+  <data key="d3">chunk-c2550653d75f17ab4baaa33411409f65</data>
+  <data key="d4"></data>
+  <data key="d5">1762756701</data>
+  <data key="d6"></data>
+</node>
+<node id="AI Coder">
+  <data key="d0">AI Coder</data>
+  <data key="d1">concept</data>
+  <data key="d2">AI coder represents the role of a person coding or working with artificial intelligence technologies and systems.</data>
+  <data key="d3">chunk-fc254cca680a25b82b24b89154a0b556</data>
+  <data key="d4"></data>
+  <data key="d5">1762756701</data>
+  <data key="d6"></data>
+</node>
+<node id="Senior Engineer">
+  <data key="d0">Senior Engineer</data>
+  <data key="d1">person</data>
+  <data key="d2">Senior engineer is referred to as an experienced professional responsible for reviewing code and mentoring junior engineers.&lt;SEP&gt;A Senior Engineer is an experienced engineer who reviews pull requests submitted by junior engineers.</data>
+  <data key="d3">chunk-fc254cca680a25b82b24b89154a0b556&lt;SEP&gt;chunk-5f6bd8990ea0375d2e16747009d156c6</data>
+  <data key="d4"></data>
+  <data key="d5">1762756701</data>
+  <data key="d6"></data>
+</node>
+<node id="Responsive Layout">
+  <data key="d0">Responsive Layout</data>
+  <data key="d1">concept</data>
+  <data key="d2">Responsive layout refers to a design approach that ensures visual elements adapt to different screen sizes and conditions.</data>
+  <data key="d3">chunk-fc254cca680a25b82b24b89154a0b556</data>
+  <data key="d4"></data>
+  <data key="d5">1762756701</data>
+  <data key="d6"></data>
+</node>
+<node id="Sections">
+  <data key="d0">Sections</data>
+  <data key="d1">other</data>
+  <data key="d2">Sections are parts of the layout that organize content and are noted to render as expected in the described context.</data>
+  <data key="d3">chunk-fc254cca680a25b82b24b89154a0b556</data>
+  <data key="d4"></data>
+  <data key="d5">1762756701</data>
+  <data key="d6"></data>
+</node>
+<node id="Corbin">
+  <data key="d0">Corbin</data>
+  <data key="d1">person</data>
+  <data key="d2">Corbin is the author of the YouTube video discussing Cursor 2.0 and its capabilities.</data>
+  <data key="d3">chunk-d95cb7cb8e78350439a2bb9cb6beaccc</data>
+  <data key="d4"></data>
+  <data key="d5">1762756701</data>
+  <data key="d6"></data>
+</node>
+<node id="YouTube Video">
+  <data key="d0">YouTube Video</data>
+  <data key="d1">content</data>
+  <data key="d2">The YouTube video titled "Cursor 2.0 Can Vibe Code ENTIRE Apps" showcases the features and workflow of Cursor 2.0 in frontend development.&lt;SEP&gt;The YouTube video titled "Cursor 2.0 is INSANE, but only if you use it like this..." features a discussion on improving app development using Cursor 2.0.</data>
+  <data key="d3">chunk-d95cb7cb8e78350439a2bb9cb6beaccc&lt;SEP&gt;chunk-4e216006999d9903874d00dd750bf56e</data>
+  <data key="d4"></data>
+  <data key="d5">1762756706</data>
+  <data key="d6"></data>
+</node>
+<node id="Responsive Design">
+  <data key="d0">Responsive Design</data>
+  <data key="d1">concept</data>
+  <data key="d2">Responsive Design is a crucial aspect of frontend development that ensures applications function properly on various devices, including tablets, mobiles, and desktops.</data>
+  <data key="d3">chunk-d95cb7cb8e78350439a2bb9cb6beaccc</data>
+  <data key="d4"></data>
+  <data key="d5">1762756702</data>
+  <data key="d6"></data>
+</node>
+<node id="Google Chrome">
+  <data key="d0">Google Chrome</data>
+  <data key="d1">software</data>
+  <data key="d2">Google Chrome is a web browser that is suggested to be used with Cursy 2.0 for optimal performance, especially for browsing features.&lt;SEP&gt;Google Chrome is highlighted as the preferred browser for using specific features related to the workflow of Cursor 2.0.</data>
+  <data key="d3">chunk-d95cb7cb8e78350439a2bb9cb6beaccc&lt;SEP&gt;chunk-f207b33cee39ff6ad505a19e3e615259</data>
+  <data key="d4"></data>
+  <data key="d5">1762756702</data>
+  <data key="d6"></data>
+</node>
+<node id="Frontend Development">
+  <data key="d0">Frontend Development</data>
+  <data key="d1">method</data>
+  <data key="d2">Frontend Development is a practice involving the implementation of visual and interactive aspects of web applications.</data>
+  <data key="d3">chunk-d95cb7cb8e78350439a2bb9cb6beaccc</data>
+  <data key="d4"></data>
+  <data key="d5">1762756702</data>
+  <data key="d6"></data>
+</node>
+<node id="30 Minutes">
+  <data key="d0">30 Minutes</data>
+  <data key="d1">time</data>
+  <data key="d2">30 Minutes is the time taken by Cursor 2.0 to accomplish tasks that would typically take a junior engineer two weeks.</data>
+  <data key="d3">chunk-d95cb7cb8e78350439a2bb9cb6beaccc</data>
+  <data key="d4"></data>
+  <data key="d5">1762756702</data>
+  <data key="d6"></data>
+</node>
+<node id="November 6, 2025">
+  <data key="d0">November 6, 2025</data>
+  <data key="d1">date</data>
+  <data key="d2">November 6, 2025 is the upload date of the YouTube video about Cursor 2.0.</data>
+  <data key="d3">chunk-d95cb7cb8e78350439a2bb9cb6beaccc</data>
+  <data key="d4"></data>
+  <data key="d5">1762756702</data>
+  <data key="d6"></data>
+</node>
+<node id="Slack">
+  <data key="d0">Slack</data>
+  <data key="d1">organization</data>
+  <data key="d2">Slack is a communication platform used for direct messaging between team members, including engineers.</data>
+  <data key="d3">chunk-5f6bd8990ea0375d2e16747009d156c6</data>
+  <data key="d4"></data>
+  <data key="d5">1762756702</data>
+  <data key="d6"></data>
+</node>
+<node id="Pull Request (PR)">
+  <data key="d0">Pull Request (PR)</data>
+  <data key="d1">concept</data>
+  <data key="d2">A Pull Request (PR) is a method of submitting contributions to a project, typically used within software engineering to request code reviews.</data>
+  <data key="d3">chunk-5f6bd8990ea0375d2e16747009d156c6</data>
+  <data key="d4"></data>
+  <data key="d5">1762756702</data>
+  <data key="d6"></data>
+</node>
+<node id="Hamburger Situation">
+  <data key="d0">Hamburger Situation</data>
+  <data key="d1">concept</data>
+  <data key="d2">The Hamburger Situation refers to a specific bug or issue related to a feature in the software being developed that required attention.</data>
+  <data key="d3">chunk-5f6bd8990ea0375d2e16747009d156c6</data>
+  <data key="d4"></data>
+  <data key="d5">1762756702</data>
+  <data key="d6"></data>
+</node>
+<node id="AI Studio">
+  <data key="d0">AI Studio</data>
+  <data key="d1">concept</data>
+  <data key="d2">AI Studio is a platform or tool mentioned for coding software with the aid of artificial intelligence.</data>
+  <data key="d3">chunk-5f6bd8990ea0375d2e16747009d156c6</data>
+  <data key="d4"></data>
+  <data key="d5">1762756702</data>
+  <data key="d6"></data>
+</node>
+<node id="Video Series">
+  <data key="d0">Video Series</data>
+  <data key="d1">content</data>
+  <data key="d2">The Video Series mentioned provides extensive tutorials and insights into advanced coding techniques, aimed at helping viewers understand complex application development.&lt;SEP&gt;The Video Series is a collection of instructional videos covering various aspects of software development and AI tools.</data>
+  <data key="d3">chunk-5f6bd8990ea0375d2e16747009d156c6&lt;SEP&gt;chunk-672c95411f06056743ee21e1759bf7df</data>
+  <data key="d4"></data>
+  <data key="d5">1762756702</data>
+  <data key="d6"></data>
+</node>
+<node id="Select Element Button">
+  <data key="d0">Select Element Button</data>
+  <data key="d1">artifact</data>
+  <data key="d2">The Select Element Button is a feature that allows users to specify the exact location for placing new elements in a user interface.</data>
+  <data key="d3">chunk-8560efb191b74e68b9018143f3ee2c4c</data>
+  <data key="d4"></data>
+  <data key="d5">1762756702</data>
+  <data key="d6"></data>
+</node>
+<node id="AI Browser">
+  <data key="d0">AI Browser</data>
+  <data key="d1">artifact</data>
+  <data key="d2">The AI Browser is an integrated tool that assists in making precise changes within a system, facilitating debugging and feature adjustments.</data>
+  <data key="d3">chunk-8560efb191b74e68b9018143f3ee2c4c</data>
+  <data key="d4"></data>
+  <data key="d5">1762756702</data>
+  <data key="d6"></data>
+</node>
+<node id="Calendar">
+  <data key="d0">Calendar</data>
+  <data key="d1">concept</data>
+  <data key="d2">A calendar is a feature within the productivity app used to visualize scheduled events and tasks.&lt;SEP&gt;The Calendar is a tool mentioned for organizing and visualizing tasks and app designs in a week view or month view.&lt;SEP&gt;The Calendar is a time management tool that displays dates and schedules where new buttons can be added in real-time.</data>
+  <data key="d3">chunk-8560efb191b74e68b9018143f3ee2c4c&lt;SEP&gt;chunk-5cd932152b96c289c36d89b58befde90&lt;SEP&gt;chunk-d8468a296c808146dd6c8defb4e5d405</data>
+  <data key="d4"></data>
+  <data key="d5">1762756702</data>
+  <data key="d6"></data>
+</node>
+<node id="AI Builders">
+  <data key="d0">AI Builders</data>
+  <data key="d1">concept</data>
+  <data key="d2">AI Builders refer to tools or platforms used to create and modify applications, which can sometimes lead to unintended changes if not directed explicitly.</data>
+  <data key="d3">chunk-8560efb191b74e68b9018143f3ee2c4c</data>
+  <data key="d4"></data>
+  <data key="d5">1762756702</data>
+  <data key="d6"></data>
+</node>
+<node id="Productivity App">
+  <data key="d0">Productivity App</data>
+  <data key="d1">concept</data>
+  <data key="d2">The Productivity App is an example created in the video that features a calendar and to-do list, showcasing the capabilities of Cursor 2.0.&lt;SEP&gt;The Productivity App is designed to help users manage tasks efficiently and effectively through various features and user interfaces.&lt;SEP&gt;A productivity app that includes a calendar and a to-do list side by side to help users manage their tasks and time efficiently.</data>
+  <data key="d3">chunk-5cd932152b96c289c36d89b58befde90&lt;SEP&gt;chunk-8edec14a01bd263b06b727e0df56a5a9&lt;SEP&gt;chunk-4e216006999d9903874d00dd750bf56e</data>
+  <data key="d4"></data>
+  <data key="d5">1762756702</data>
+  <data key="d6"></data>
+</node>
+<node id="AI Model">
+  <data key="d0">AI Model</data>
+  <data key="d1">concept</data>
+  <data key="d2">The AI model referenced is used by Cursor 2.0 for coding tasks and UI design, and is considered one of the best in the current context.</data>
+  <data key="d3">chunk-5cd932152b96c289c36d89b58befde90</data>
+  <data key="d4"></data>
+  <data key="d5">1762756702</data>
+  <data key="d6"></data>
+</node>
+<node id="Engineer">
+  <data key="d0">Engineer</data>
+  <data key="d1">person</data>
+  <data key="d2">An Engineer refers to a professional who is responsible for designing, developing, and maintaining software projects.</data>
+  <data key="d3">chunk-5f6bd8990ea0375d2e16747009d156c6</data>
+  <data key="d4"></data>
+  <data key="d5">1762756702</data>
+  <data key="d6"></data>
+</node>
+<node id="New Era of Coding">
+  <data key="d0">New Era of Coding</data>
+  <data key="d1">concept</data>
+  <data key="d2">The New Era of Coding represents a significant transformation in software development workflows, emphasizing automation and advanced tools.</data>
+  <data key="d3">chunk-672c95411f06056743ee21e1759bf7df</data>
+  <data key="d4"></data>
+  <data key="d5">1762756702</data>
+  <data key="d6"></data>
+</node>
+<node id="Software Development">
+  <data key="d0">Software Development</data>
+  <data key="d1">concept</data>
+  <data key="d2">Software Development encompasses the process and methodologies of creating applications, particularly influenced by new technologies.</data>
+  <data key="d3">chunk-672c95411f06056743ee21e1759bf7df</data>
+  <data key="d4"></data>
+  <data key="d5">1762756702</data>
+  <data key="d6"></data>
+</node>
+<node id="Playlist Description">
+  <data key="d0">Playlist Description</data>
+  <data key="d1">concept</data>
+  <data key="d2">The Playlist Description refers to a compilation of videos aimed at providing the audience with advanced coding knowledge and practical skills.</data>
+  <data key="d3">chunk-672c95411f06056743ee21e1759bf7df</data>
+  <data key="d4"></data>
+  <data key="d5">1762756702</data>
+  <data key="d6"></data>
+</node>
+<node id="Cursy 2.0">
+  <data key="d0">Cursy 2.0</data>
+  <data key="d1">software</data>
+  <data key="d2">Cursy 2.0 is an AI model with browser capabilities that was recently released and has a few bugs in its features.</data>
+  <data key="d3">chunk-f207b33cee39ff6ad505a19e3e615259</data>
+  <data key="d4"></data>
+  <data key="d5">1762756703</data>
+  <data key="d6"></data>
+</node>
+<node id="localhost 3000">
+  <data key="d0">localhost 3000</data>
+  <data key="d1">system</data>
+  <data key="d2">localhost 3000 is a local server address referenced for running certain applications and features associated with the discussion.</data>
+  <data key="d3">chunk-f207b33cee39ff6ad505a19e3e615259</data>
+  <data key="d4"></data>
+  <data key="d5">1762756703</data>
+  <data key="d6"></data>
+</node>
+<node id="Browser Tab">
+  <data key="d0">Browser Tab</data>
+  <data key="d1">concept</data>
+  <data key="d2">The Browser Tab refers to the user interface element that allows users to navigate between different web pages and applications within a web browser.</data>
+  <data key="d3">chunk-f207b33cee39ff6ad505a19e3e615259</data>
+  <data key="d4"></data>
+  <data key="d5">1762756703</data>
+  <data key="d6"></data>
+</node>
+<node id="UI Components">
+  <data key="d0">UI Components</data>
+  <data key="d1">concept</data>
+  <data key="d2">UI components are individual elements of the user interface that can be built out using Cursor's features.</data>
+  <data key="d3">chunk-5cd932152b96c289c36d89b58befde90</data>
+  <data key="d4"></data>
+  <data key="d5">1762756703</data>
+  <data key="d6"></data>
+</node>
+<node id="Token Usage">
+  <data key="d0">Token Usage</data>
+  <data key="d1">concept</data>
+  <data key="d2">Token usage refers to the amount of processing tokens consumed during interactions with the AI model in Cursor 2.0, which can impact costs for the user.</data>
+  <data key="d3">chunk-5cd932152b96c289c36d89b58befde90</data>
+  <data key="d4"></data>
+  <data key="d5">1762756703</data>
+  <data key="d6"></data>
+</node>
+<node id="User Interface (UI)">
+  <data key="d0">User Interface (UI)</data>
+  <data key="d1">concept</data>
+  <data key="d2">User Interface (UI) refers to the visual part of the productivity app where users interact with features such as the calendar and to-do list.</data>
+  <data key="d3">chunk-5cd932152b96c289c36d89b58befde90</data>
+  <data key="d4"></data>
+  <data key="d5">1762756703</data>
+  <data key="d6"></data>
+</node>
+<node id="Mobile App">
+  <data key="d0">Mobile App</data>
+  <data key="d1">application</data>
+  <data key="d2">The Mobile App for Cursor allows users to access their work and coding tools on the go.</data>
+  <data key="d3">chunk-2d5aba0e76d6f9fa8a40b36074b2067e</data>
+  <data key="d4"></data>
+  <data key="d5">1762756703</data>
+  <data key="d6"></data>
+</node>
+<node id="Cloud Agent">
+  <data key="d0">Cloud Agent</data>
+  <data key="d1">technology</data>
+  <data key="d2">The Cloud Agent is a feature of the Cursor platform that enables employees to work and build continuously.</data>
+  <data key="d3">chunk-2d5aba0e76d6f9fa8a40b36074b2067e</data>
+  <data key="d4"></data>
+  <data key="d5">1762756703</data>
+  <data key="d6"></data>
+</node>
+<node id="Incognito Mode">
+  <data key="d0">Incognito Mode</data>
+  <data key="d1">concept</data>
+  <data key="d2">Incognito Mode is a browsing feature in web browsers like Google Chrome that allows users to browse privately without storing history or cookies.</data>
+  <data key="d3">chunk-f207b33cee39ff6ad505a19e3e615259</data>
+  <data key="d4"></data>
+  <data key="d5">1762756703</data>
+  <data key="d6"></data>
+</node>
+<node id="Cursor Team">
+  <data key="d0">Cursor Team</data>
+  <data key="d1">organization</data>
+  <data key="d2">The Cursor Team is the group responsible for updates and improvements to the Cursor platform.</data>
+  <data key="d3">chunk-2d5aba0e76d6f9fa8a40b36074b2067e</data>
+  <data key="d4"></data>
+  <data key="d5">1762756704</data>
+  <data key="d6"></data>
+</node>
+<node id="AI Newsletter">
+  <data key="d0">AI Newsletter</data>
+  <data key="d1">content</data>
+  <data key="d2">The AI Newsletter is a free publication linked in the description, likely providing information related to artificial intelligence updates and news.</data>
+  <data key="d3">chunk-2d5aba0e76d6f9fa8a40b36074b2067e</data>
+  <data key="d4"></data>
+  <data key="d5">1762756704</data>
+  <data key="d6"></data>
+</node>
+<node id="Mobile Experience">
+  <data key="d0">Mobile Experience</data>
+  <data key="d1">concept</data>
+  <data key="d2">Mobile Experience refers to a fully optimized user interface and usability for users accessing services via mobile devices.</data>
+  <data key="d3">chunk-562d394ba4374399755c3e2575c8d190</data>
+  <data key="d4"></data>
+  <data key="d5">1762756704</data>
+  <data key="d6"></data>
+</node>
+<node id="Cloud Agents">
+  <data key="d0">Cloud Agents</data>
+  <data key="d1">concept</data>
+  <data key="d2">Cloud Agents are software components that execute tasks and make changes in cloud environments, allowing users to pull down results to local devices.&lt;SEP&gt;Cloud Agents are automated processes or applications that work simultaneously in the cloud environment to enhance productivity.&lt;SEP&gt;Cloud Agents are part of the Cursor platform that facilitates mobile coding and optimizes workflow processes.</data>
+  <data key="d3">chunk-562d394ba4374399755c3e2575c8d190&lt;SEP&gt;chunk-528f1b1062a253235002782d2c88c9bc&lt;SEP&gt;chunk-e0921b86d1a9819be58dbfb18eeeacad</data>
+  <data key="d4"></data>
+  <data key="d5">1762756704</data>
+  <data key="d6"></data>
+</node>
+<node id="Road Map">
+  <data key="d0">Road Map</data>
+  <data key="d1">concept</data>
+  <data key="d2">Road Map is a planning document outlining the features and tasks required for future application development or marketing strategies.&lt;SEP&gt;The Road Map is a strategic plan outlining future features and developments for the Cursor Mobile App.</data>
+  <data key="d3">chunk-562d394ba4374399755c3e2575c8d190&lt;SEP&gt;chunk-e0921b86d1a9819be58dbfb18eeeacad</data>
+  <data key="d4"></data>
+  <data key="d5">1762756704</data>
+  <data key="d6"></data>
+</node>
+<node id="Gym">
+  <data key="d0">Gym</data>
+  <data key="d1">location</data>
+  <data key="d2">The Gym is a place where the individual experiences heightened creativity and idea generation while working out.</data>
+  <data key="d3">chunk-562d394ba4374399755c3e2575c8d190</data>
+  <data key="d4"></data>
+  <data key="d5">1762756704</data>
+  <data key="d6"></data>
+</node>
+<node id="Terminal">
+  <data key="d0">Terminal</data>
+  <data key="d1">tool</data>
+  <data key="d2">The Terminal is a command-line interface used for executing commands and managing files and operations on a computer system.&lt;SEP&gt;The Terminal is a command-line interface used for executing commands and managing files and applications.</data>
+  <data key="d3">chunk-8edec14a01bd263b06b727e0df56a5a9&lt;SEP&gt;chunk-d7db8da421382d250965b3f01a625383</data>
+  <data key="d4"></data>
+  <data key="d5">1762756704</data>
+  <data key="d6"></data>
+</node>
+<node id="Variation">
+  <data key="d0">Variation</data>
+  <data key="d1">concept</data>
+  <data key="d2">Variation refers to the different options or models being tested in the workflow for user interface design.</data>
+  <data key="d3">chunk-8edec14a01bd263b06b727e0df56a5a9</data>
+  <data key="d4"></data>
+  <data key="d5">1762756704</data>
+  <data key="d6"></data>
+</node>
+<node id="Safari">
+  <data key="d0">Safari</data>
+  <data key="d1">application</data>
+  <data key="d2">Safari is a web browser used to access the Cursor website; users are instructed to use it to download the Cursor mobile app.</data>
+  <data key="d3">chunk-528f1b1062a253235002782d2c88c9bc</data>
+  <data key="d4"></data>
+  <data key="d5">1762756705</data>
+  <data key="d6"></data>
+</node>
+<node id="iPhone">
+  <data key="d0">iPhone</data>
+  <data key="d1">device</data>
+  <data key="d2">iPhone is the device that users utilize to access and install the Cursor mobile app onto their home screen.</data>
+  <data key="d3">chunk-528f1b1062a253235002782d2c88c9bc</data>
+  <data key="d4"></data>
+  <data key="d5">1762756705</data>
+  <data key="d6"></data>
+</node>
+<node id="cursor.com">
+  <data key="d0">cursor.com</data>
+  <data key="d1">website</data>
+  <data key="d2">cursor.com is the official website where users can find information about the Cursor mobile app and begin the installation process.</data>
+  <data key="d3">chunk-528f1b1062a253235002782d2c88c9bc</data>
+  <data key="d4"></data>
+  <data key="d5">1762756705</data>
+  <data key="d6"></data>
+</node>
+<node id="Cursor Mobile App">
+  <data key="d0">Cursor Mobile App</data>
+  <data key="d1">concept</data>
+  <data key="d2">The Cursor Mobile App is an application for mobile devices that facilitates task management and productivity in the cloud.&lt;SEP&gt;The Cursor Mobile App refers to the application that enables users to code on mobile devices, emphasizing a seamless user experience.</data>
+  <data key="d3">chunk-528f1b1062a253235002782d2c88c9bc&lt;SEP&gt;chunk-e0921b86d1a9819be58dbfb18eeeacad</data>
+  <data key="d4"></data>
+  <data key="d5">1762756705</data>
+  <data key="d6"></data>
+</node>
+<node id="Local Environment">
+  <data key="d0">Local Environment</data>
+  <data key="d1">concept</data>
+  <data key="d2">The Local Environment refers to the user's personal device setup where cloud agents can be reviewed and managed.</data>
+  <data key="d3">chunk-e0921b86d1a9819be58dbfb18eeeacad&lt;SEP&gt;chunk-562d394ba4374399755c3e2575c8d190</data>
+  <data key="d4"></data>
+  <data key="d5">1762756705</data>
+  <data key="d6"></data>
+</node>
+<node id="UI Changes">
+  <data key="d0">UI Changes</data>
+  <data key="d1">concept</data>
+  <data key="d2">UI Changes refer to modifications made to the user interface of the application to improve user experience.</data>
+  <data key="d3">chunk-e0921b86d1a9819be58dbfb18eeeacad</data>
+  <data key="d4"></data>
+  <data key="d5">1762756705</data>
+  <data key="d6"></data>
+</node>
+<node id="Employee">
+  <data key="d0">Employee</data>
+  <data key="d1">person</data>
+  <data key="d2">Employees are individuals working for an organization, in this context referred to in relation to the productivity facilitated by the Cursor Mobile App.</data>
+  <data key="d3">chunk-e0921b86d1a9819be58dbfb18eeeacad</data>
+  <data key="d4"></data>
+  <data key="d5">1762756705</data>
+  <data key="d6"></data>
+</node>
+<node id="Variations">
+  <data key="d0">Variations</data>
+  <data key="d1">concept</data>
+  <data key="d2">Variations refer to different versions or adaptations of a particular element that can be interacted with and viewed.</data>
+  <data key="d3">chunk-d7db8da421382d250965b3f01a625383</data>
+  <data key="d4"></data>
+  <data key="d5">1762756705</data>
+  <data key="d6"></data>
+</node>
+<node id="npmi">
+  <data key="d0">npmi</data>
+  <data key="d1">method</data>
+  <data key="d2">npmi is a command used in the terminal to install technology related to a variation onto a computer.</data>
+  <data key="d3">chunk-d7db8da421382d250965b3f01a625383</data>
+  <data key="d4"></data>
+  <data key="d5">1762756705</data>
+  <data key="d6"></data>
+</node>
+<node id="npm rundev">
+  <data key="d0">npm rundev</data>
+  <data key="d1">method</data>
+  <data key="d2">npm rundev is a command used in the terminal to run a server with specific code on it.</data>
+  <data key="d3">chunk-d7db8da421382d250965b3f01a625383</data>
+  <data key="d4"></data>
+  <data key="d5">1762756705</data>
+  <data key="d6"></data>
+</node>
+<node id="KLUXW">
+  <data key="d0">KLUXW</data>
+  <data key="d1">folder</data>
+  <data key="d2">KLUXW is a specific folder referenced in the context of navigating variations in the terminal.</data>
+  <data key="d3">chunk-d7db8da421382d250965b3f01a625383</data>
+  <data key="d4"></data>
+  <data key="d5">1762756705</data>
+  <data key="d6"></data>
+</node>
+<node id="Weekly View">
+  <data key="d0">Weekly View</data>
+  <data key="d1">feature</data>
+  <data key="d2">The Weekly View is a feature intended for implementation in an app's calendar functionality.</data>
+  <data key="d3">chunk-5d283f51692fb48d04e65714a81d29c6</data>
+  <data key="d4"></data>
+  <data key="d5">1762756706</data>
+  <data key="d6"></data>
+</node>
+<node id="Agent Review">
+  <data key="d0">Agent Review</data>
+  <data key="d1">method</data>
+  <data key="d2">Agent Review is a command feature within Cursor 2.0 that allows users to review code for security and efficiency issues, enhancing application quality.</data>
+  <data key="d3">chunk-d5fe695fec8f929154aa9f850db7e8f8</data>
+  <data key="d4"></data>
+  <data key="d5">1762756706</data>
+  <data key="d6"></data>
+</node>
+<node id="Debugging">
+  <data key="d0">Debugging</data>
+  <data key="d1">method</data>
+  <data key="d2">Debugging is the process of identifying and resolving code errors, which is described as labor-intensive without the features provided by Cursor 2.0.</data>
+  <data key="d3">chunk-d5fe695fec8f929154aa9f850db7e8f8</data>
+  <data key="d4"></data>
+  <data key="d5">1762756706</data>
+  <data key="d6"></data>
+</node>
+<node id="Debugging Consoles">
+  <data key="d0">Debugging Consoles</data>
+  <data key="d1">method</data>
+  <data key="d2">Debugging Consoles refer to the development tools used to track and resolve coding issues in a software environment, as mentioned in the context of earlier debugging processes.</data>
+  <data key="d3">chunk-d5fe695fec8f929154aa9f850db7e8f8</data>
+  <data key="d4"></data>
+  <data key="d5">1762756706</data>
+  <data key="d6"></data>
+</node>
+<node id="Alex Finn">
+  <data key="d0">Alex Finn</data>
+  <data key="d1">person</data>
+  <data key="d2">Alex Finn is the author and presenter of the YouTube video discussing Cursor 2.0 and its application in building workflows.</data>
+  <data key="d3">chunk-4e216006999d9903874d00dd750bf56e</data>
+  <data key="d4"></data>
+  <data key="d5">1762756706</data>
+  <data key="d6"></data>
+</node>
+<node id="20 Minute Call">
+  <data key="d0">20 Minute Call</data>
+  <data key="d3">chunk-1cc7aed3d64986d6abba1111fb92427b</data>
+  <data key="d2">The time taken for a task is compared to the labor confirmation process that involves a junior engineer during communication.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4"></data>
+  <data key="d5">1762756706</data>
+  <data key="d6"></data>
+</node>
+<node id="Video ID: qSW2kEbVvmU">
+  <data key="d0">Video ID: qSW2kEbVvmU</data>
+  <data key="d1">data</data>
+  <data key="d2">The Video ID "qSW2kEbVvmU" uniquely identifies the YouTube video about Cursor 2.0.</data>
+  <data key="d3">chunk-4e216006999d9903874d00dd750bf56e</data>
+  <data key="d4"></data>
+  <data key="d5">1762756706</data>
+  <data key="d6"></data>
+</node>
+<node id="1021 Seconds">
+  <data key="d0">1021 Seconds</data>
+  <data key="d1">data</data>
+  <data key="d2">The duration of the YouTube video is 1021 seconds, which outlines the time spent discussing the features and workflows of Cursor 2.0.</data>
+  <data key="d3">chunk-4e216006999d9903874d00dd750bf56e</data>
+  <data key="d4"></data>
+  <data key="d5">1762756706</data>
+  <data key="d6"></data>
+</node>
+<node id="Cursor 2.0 Workflow">
+  <data key="d0">Cursor 2.0 Workflow</data>
+  <data key="d1">concept</data>
+  <data key="d2">Cursor 2.0 Workflow refers to the methodology introduced in the video for utilizing Cursor 2.0 to enhance app development speed and efficiency.</data>
+  <data key="d3">chunk-4e216006999d9903874d00dd750bf56e</data>
+  <data key="d4"></data>
+  <data key="d5">1762756706</data>
+  <data key="d6"></data>
+</node>
+<node id="JGR8A">
+  <data key="d0">JGR8A</data>
+  <data key="d1">other</data>
+  <data key="d2">JGR8A is a variation referenced in the context of building an app, which is favored for its UI design.</data>
+  <data key="d3">chunk-d8468a296c808146dd6c8defb4e5d405</data>
+  <data key="d4"></data>
+  <data key="d5">1762756706</data>
+  <data key="d6"></data>
+</node>
+<node id="HM23S">
+  <data key="d0">HM23S</data>
+  <data key="d1">other</data>
+  <data key="d2">HM23S is another variation mentioned during the process of app development, noted for its slight color differences.</data>
+  <data key="d3">chunk-d8468a296c808146dd6c8defb4e5d405</data>
+  <data key="d4"></data>
+  <data key="d5">1762756707</data>
+  <data key="d6"></data>
+</node>
+<node id="App">
+  <data key="d0">App</data>
+  <data key="d1">other</data>
+  <data key="d2">The App is a project being developed, involving multiple variations and design tests for better user interface experience.</data>
+  <data key="d3">chunk-d8468a296c808146dd6c8defb4e5d405</data>
+  <data key="d4"></data>
+  <data key="d5">1762756707</data>
+  <data key="d6"></data>
+</node>
+<node id="NPMI">
+  <data key="d0">NPMI</data>
+  <data key="d1">other</data>
+  <data key="d2">NPMI is a recurring command mentioned in the app development process, likely related to managing dependencies in the project.</data>
+  <data key="d3">chunk-d8468a296c808146dd6c8defb4e5d405</data>
+  <data key="d4"></data>
+  <data key="d5">1762756707</data>
+  <data key="d6"></data>
+</node>
+<node id="mobile experience">
+  <data key="d0">mobile experience</data>
+  <data key="d3">chunk-528f1b1062a253235002782d2c88c9bc</data>
+  <data key="d2">Cursor provides a fully optimized mobile experience for coding on the go.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4"></data>
+  <data key="d5">1762756717</data>
+  <data key="d6"></data>
+</node>
+<edge source="Cursor 2.0" target="Agent Mode">
+  <data key="d7">2.0</data>
+  <data key="d8">Agent Mode is a feature of Cursor 2.0 that changes how product builders delegate tasks.&lt;SEP&gt;Cursor 2.0 provides an Agent Mode that facilitates user interaction with multiple agents in the system.</data>
+  <data key="d9">feature introduction,software functionality,user interaction,workflow change</data>
+  <data key="d10">chunk-0e538563cfeaca32d95f4fbb946b94e1&lt;SEP&gt;chunk-bf68108c40a765a1deeb3dd263c8d29a</data>
+  <data key="d11"></data>
+  <data key="d12">1762756651</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="Editor Mode">
+  <data key="d7">2.0</data>
+  <data key="d8">Editor Mode is a feature of Cursor 2.0 that allows product builders to engage in hands-on work.&lt;SEP&gt;Cursor 2.0 includes an Editor Mode for managing agent work effectively.</data>
+  <data key="d9">feature introduction,software functionality,user interaction,workflow change</data>
+  <data key="d10">chunk-0e538563cfeaca32d95f4fbb946b94e1&lt;SEP&gt;chunk-bf68108c40a765a1deeb3dd263c8d29a</data>
+  <data key="d11"></data>
+  <data key="d12">1762756651</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="User Interface">
+  <data key="d7">2.0</data>
+  <data key="d8">Cursor 2.0 includes features that allow users to toggle between light mode and dark mode in its user interface.&lt;SEP&gt;The design of the User Interface in Cursor 2.0 is critical for enhancing the overall usability of the application.</data>
+  <data key="d9">application design,design consideration,software feature,usability</data>
+  <data key="d10">chunk-f888f0ed259626b9f499359fe191f151&lt;SEP&gt;chunk-5d283f51692fb48d04e65714a81d29c6</data>
+  <data key="d11"></data>
+  <data key="d12">1762756719</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="Team at Cursor">
+  <data key="d7">2.0</data>
+  <data key="d8">The Team at Cursor developed Cursor 2.0, reflecting their understanding of user needs and workflow changes.&lt;SEP&gt;The development effort by the Team at Cursor led to significant updates and improvements in Cursor 2.0.</data>
+  <data key="d9">collaboration,development effort,product development,software update</data>
+  <data key="d10">chunk-f888f0ed259626b9f499359fe191f151</data>
+  <data key="d11"></data>
+  <data key="d12">1762756654</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="Composer One">
+  <data key="d7">1.0</data>
+  <data key="d8">Composer One is a tool integrated within Cursor 2.0 that enhances productivity by implementing changes swiftly.</data>
+  <data key="d9">software enhancement,tool integration</data>
+  <data key="d10">chunk-f888f0ed259626b9f499359fe191f151</data>
+  <data key="d11"></data>
+  <data key="d12">1762756654</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="Composer 1">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursor 2.0 introduces Composer 1, indicating a significant improvement in coding performance.</data>
+  <data key="d9">feature enhancement,new technology</data>
+  <data key="d10">chunk-01b1c4ac16553afd0afdc2e711bf48af</data>
+  <data key="d11"></data>
+  <data key="d12">1762756655</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="Brian Castle">
+  <data key="d7">1.0</data>
+  <data key="d8">Brian Castle discusses the features of Cursor 2.0 in relation to improving user experience in programming.</data>
+  <data key="d9">product use,user experience</data>
+  <data key="d10">chunk-01b1c4ac16553afd0afdc2e711bf48af</data>
+  <data key="d11"></data>
+  <data key="d12">1762756655</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="Cursor">
+  <data key="d7">3.0</data>
+  <data key="d8">Cursor 2.0 was developed by Cursor, reflecting the organization's advancements in coding tools.&lt;SEP&gt;Cursor is the organization that developed Cursor 2.0, enhancing the functionality of autonomous agents.&lt;SEP&gt;Cursor 2.0 is an updated version of the Cursor platform that includes improved workflows.</data>
+  <data key="d9">enhanced features,organization development,organizational change,product development,software creation,software update</data>
+  <data key="d10">chunk-01b1c4ac16553afd0afdc2e711bf48af&lt;SEP&gt;chunk-6b7677c4f8fc4bf9aaebb48cfc74f281&lt;SEP&gt;chunk-2d5aba0e76d6f9fa8a40b36074b2067e</data>
+  <data key="d11"></data>
+  <data key="d12">1762756713</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="Autonomous Agents">
+  <data key="d7">2.0</data>
+  <data key="d8">Cursor 2.0 enhances the experience of using autonomous agents for software development.&lt;SEP&gt;Cursor 2.0 utilizes autonomous agents to automate tasks and improve efficiency in coding.</data>
+  <data key="d9">feature introduction,software development,software enhancement,task automation</data>
+  <data key="d10">chunk-ab77935f953989272da57f59882374b9&lt;SEP&gt;chunk-6b7677c4f8fc4bf9aaebb48cfc74f281</data>
+  <data key="d11"></data>
+  <data key="d12">1762756656</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="Spec-Driven Development">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursor 2.0 incorporates Spec-Driven Development as a key approach for builders.</data>
+  <data key="d9">development paradigm,software evolution</data>
+  <data key="d10">chunk-0c3aeae84e858e945028337fd9b14989</data>
+  <data key="d11"></data>
+  <data key="d12">1762756660</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="AI">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursor 2.0 sets the stage for future discussions on building with AI.</data>
+  <data key="d9">building technology,future development</data>
+  <data key="d10">chunk-0c3aeae84e858e945028337fd9b14989</data>
+  <data key="d11"></data>
+  <data key="d12">1762756661</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="Workflow">
+  <data key="d7">1.0</data>
+  <data key="d8">The evolution of workflow for builders is significantly impacted by the introduction of Cursor 2.0.</data>
+  <data key="d9">development process,software impact</data>
+  <data key="d10">chunk-0c3aeae84e858e945028337fd9b14989</data>
+  <data key="d11"></data>
+  <data key="d12">1762756661</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="Weather App">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursor 2.0 is used to demonstrate the building of a weather app through the use of multiple agents working in parallel.</data>
+  <data key="d9">agent demonstration,application development</data>
+  <data key="d10">chunk-6b7677c4f8fc4bf9aaebb48cfc74f281</data>
+  <data key="d11"></data>
+  <data key="d12">1762756662</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="Background Agents">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursor 2.0 introduced background agents that continuously perform tasks without user intervention.</data>
+  <data key="d9">continuous operation,software functionality</data>
+  <data key="d10">chunk-6b7677c4f8fc4bf9aaebb48cfc74f281</data>
+  <data key="d11"></data>
+  <data key="d12">1762756662</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="Brian Casel">
+  <data key="d7">1.0</data>
+  <data key="d8">Brian Casel presents insights on how Cursor 2.0 enhances the workflow in the YouTube video.</data>
+  <data key="d9">author intent,video content</data>
+  <data key="d10">chunk-bf68108c40a765a1deeb3dd263c8d29a</data>
+  <data key="d11"></data>
+  <data key="d12">1762756664</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="Productivity App">
+  <data key="d7">4.0</data>
+  <data key="d8">Cursor 2.0 is utilized to build a productivity app that integrates a calendar and a to-do list for enhanced productivity.&lt;SEP&gt;The Productivity App serves as a practical example of utilizing Cursor 2.0 features for efficient app development.&lt;SEP&gt;Cursor 2.0 serves as the foundation for the Productivity App, providing essential features and interfaces.&lt;SEP&gt;Cursor 2.0 is used to demonstrate how to build a productivity app featuring a calendar and to-do list.</data>
+  <data key="d9">app development,application,application functionality,feature integration,feature utilization,tool development,user interface,workflow demonstration</data>
+  <data key="d10">chunk-5cd932152b96c289c36d89b58befde90&lt;SEP&gt;chunk-8edec14a01bd263b06b727e0df56a5a9&lt;SEP&gt;chunk-4e216006999d9903874d00dd750bf56e</data>
+  <data key="d11"></data>
+  <data key="d12">1762756708</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="AI Model">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursor 2.0 employs an AI model to facilitate coding tasks and improve the design of user interfaces.</data>
+  <data key="d9">coding assistance,technical capability</data>
+  <data key="d10">chunk-5cd932152b96c289c36d89b58befde90</data>
+  <data key="d11"></data>
+  <data key="d12">1762756709</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="UI Components">
+  <data key="d7">1.0</data>
+  <data key="d8">UI components are created using features in Cursor 2.0 that enhance the design and functionality of applications.</data>
+  <data key="d9">feature utilization,productive design</data>
+  <data key="d10">chunk-5cd932152b96c289c36d89b58befde90</data>
+  <data key="d11"></data>
+  <data key="d12">1762756709</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="Token Usage">
+  <data key="d7">1.0</data>
+  <data key="d8">Token usage is an important consideration for users of Cursor 2.0, as it can lead to increased costs if not managed properly.</data>
+  <data key="d9">cost management,efficiency concern</data>
+  <data key="d10">chunk-5cd932152b96c289c36d89b58befde90</data>
+  <data key="d11"></data>
+  <data key="d12">1762756709</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="Responsive Design">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursor 2.0 automates the process of ensuring Responsive Design, thereby improving development efficiency.</data>
+  <data key="d9">automation,development efficiency</data>
+  <data key="d10">chunk-d95cb7cb8e78350439a2bb9cb6beaccc</data>
+  <data key="d11"></data>
+  <data key="d12">1762756710</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="Frontend Development">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursor 2.0 enhances productivity in Frontend Development by streamlining responsiveness adjustments.</data>
+  <data key="d9">productivity,software application</data>
+  <data key="d10">chunk-d95cb7cb8e78350439a2bb9cb6beaccc</data>
+  <data key="d11"></data>
+  <data key="d12">1762756710</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="Google Chrome">
+  <data key="d7">1.0</data>
+  <data key="d8">Google Chrome is the preferred software for accessing specific features used in the Cursor 2.0 workflow.</data>
+  <data key="d9">preferred software,tool integration</data>
+  <data key="d10">chunk-d95cb7cb8e78350439a2bb9cb6beaccc</data>
+  <data key="d11"></data>
+  <data key="d12">1762756711</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="30 Minutes">
+  <data key="d7">1.0</data>
+  <data key="d8">The 30 Minutes duration represents the time-saving capability of Cursor 2.0 compared to traditional coding methods.</data>
+  <data key="d9">task duration,time-saving</data>
+  <data key="d10">chunk-d95cb7cb8e78350439a2bb9cb6beaccc</data>
+  <data key="d11"></data>
+  <data key="d12">1762756711</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="Cursor Team">
+  <data key="d7">1.0</data>
+  <data key="d8">The Cursor Team contributed to the development and updates of Cursor 2.0.</data>
+  <data key="d9">product development,team effort</data>
+  <data key="d10">chunk-2d5aba0e76d6f9fa8a40b36074b2067e</data>
+  <data key="d11"></data>
+  <data key="d12">1762756712</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="Cursor AI">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursor AI serves as the foundational technology that enables the functionality of Cursor 2.0 for software development.</data>
+  <data key="d9">software development,technology foundation</data>
+  <data key="d10">chunk-d95cb7cb8e78350439a2bb9cb6beaccc</data>
+  <data key="d11"></data>
+  <data key="d12">1762756712</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="Browser">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursor 2.0 integrates a Browser feature that enhances real-time application development and testing.</data>
+  <data key="d9">integration,software functionality</data>
+  <data key="d10">chunk-5d283f51692fb48d04e65714a81d29c6</data>
+  <data key="d11"></data>
+  <data key="d12">1762756718</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="Weekly View">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursor 2.0 aims to add a Weekly View feature to enhance its calendar functionality.</data>
+  <data key="d9">application enhancement,feature development</data>
+  <data key="d10">chunk-5d283f51692fb48d04e65714a81d29c6</data>
+  <data key="d11"></data>
+  <data key="d12">1762756719</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="Agent Review">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursor 2.0 includes the Agent Review feature, which significantly enhances productivity by automating code reviews.</data>
+  <data key="d9">feature,productivity</data>
+  <data key="d10">chunk-d5fe695fec8f929154aa9f850db7e8f8</data>
+  <data key="d11"></data>
+  <data key="d12">1762756720</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="To-Do List">
+  <data key="d7">1.0</data>
+  <data key="d8">The To-Do List functionality in Cursor 2.0 is intended to improve task management and overall productivity.</data>
+  <data key="d9">productivity enhancement,task management</data>
+  <data key="d10">chunk-d5fe695fec8f929154aa9f850db7e8f8</data>
+  <data key="d11"></data>
+  <data key="d12">1762756720</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="Debugging">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursor 2.0 enhances the debugging process, making it more efficient for developers.</data>
+  <data key="d9">code improvement,workflow efficiency</data>
+  <data key="d10">chunk-d5fe695fec8f929154aa9f850db7e8f8</data>
+  <data key="d11"></data>
+  <data key="d12">1762756721</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="YouTube Video">
+  <data key="d7">1.0</data>
+  <data key="d8">The YouTube video focuses on the functionalities of Cursor 2.0 in relation to app development.</data>
+  <data key="d9">instructional,topic focus</data>
+  <data key="d10">chunk-4e216006999d9903874d00dd750bf56e</data>
+  <data key="d11"></data>
+  <data key="d12">1762756721</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor 2.0" target="Cursor 2.0 Workflow">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursor 2.0 is the tool that underpins the Cursor 2.0 Workflow, which aims to significantly enhance productivity in app development.</data>
+  <data key="d9">feature application,productivity improvement</data>
+  <data key="d10">chunk-4e216006999d9903874d00dd750bf56e</data>
+  <data key="d11"></data>
+  <data key="d12">1762756722</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Agent Mode" target="Editor Mode">
+  <data key="d7">1.0</data>
+  <data key="d8">Agent Mode and Editor Mode are different modes available to users within Cursor 2.0 for managing workflows.</data>
+  <data key="d9">software functionality,working modes</data>
+  <data key="d10">chunk-0e538563cfeaca32d95f4fbb946b94e1</data>
+  <data key="d11"></data>
+  <data key="d12">1762756652</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Sonnet 4.5" target="Work Tree">
+  <data key="d7">1.0</data>
+  <data key="d8">Sonnet 4.5 utilizes Work Trees to organize the tasks completed by its agents.</data>
+  <data key="d9">organization,project structure</data>
+  <data key="d10">chunk-0e538563cfeaca32d95f4fbb946b94e1</data>
+  <data key="d11"></data>
+  <data key="d12">1762756651</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Sonnet 4.5" target="Agent">
+  <data key="d7">1.0</data>
+  <data key="d8">Sonnet 4.5 is a model identified for use in agent tasks due to its capability.</data>
+  <data key="d9">model preference,task execution</data>
+  <data key="d10">chunk-70b12219b03a4948e1580e4ccd8ec1d6</data>
+  <data key="d11"></data>
+  <data key="d12">1762756660</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Sonnet 4.5" target="CleanShot">
+  <data key="d7">1.0</data>
+  <data key="d8">The narrator uses CleanShot to document interactions with Sonnet 4.5.</data>
+  <data key="d9">functionality,software interaction</data>
+  <data key="d10">chunk-3fc4fc44decb107a1ea6c9d51ef34535</data>
+  <data key="d11"></data>
+  <data key="d12">1762756662</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Sonnet 4.5" target="Orange">
+  <data key="d7">1.0</data>
+  <data key="d8">The narrator uses Sonnet 4.5 while discussing their experiences living in Orange.</data>
+  <data key="d9">local context,software use</data>
+  <data key="d10">chunk-3fc4fc44decb107a1ea6c9d51ef34535</data>
+  <data key="d11"></data>
+  <data key="d12">1762756663</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Sonnet 4.5" target="Composer 1">
+  <data key="d7">1.0</data>
+  <data key="d8">The narrator compares Sonnet 4.5 with Composer 1 while discussing design changes and performance.</data>
+  <data key="d9">functional evaluation,software comparison</data>
+  <data key="d10">chunk-3fc4fc44decb107a1ea6c9d51ef34535</data>
+  <data key="d11"></data>
+  <data key="d12">1762756663</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Sonnet 4.5" target="Cursor's Plan Mode">
+  <data key="d7">1.0</data>
+  <data key="d8">Sonnet 4.5 is regarded as a go-to method for most planning tasks despite the speed advantage of Composer.</data>
+  <data key="d9">go-to method,planning effectiveness</data>
+  <data key="d10">chunk-5c70463ff5660ff7d32273684da618b7</data>
+  <data key="d11"></data>
+  <data key="d12">1762756665</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Sonnet 4.5" target="Composer">
+  <data key="d7">1.0</data>
+  <data key="d8">Sonnet 4.5 is compared to Composer regarding their effectiveness in planning tasks and generating clarifying questions.</data>
+  <data key="d9">functionality,planning method comparison</data>
+  <data key="d10">chunk-5c70463ff5660ff7d32273684da618b7</data>
+  <data key="d11"></data>
+  <data key="d12">1762756669</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Hidden Folder" target="Cursor Folder">
+  <data key="d7">1.0</data>
+  <data key="d8">The Cursor Folder is part of a Hidden Folder that contains project-related files and work trees.</data>
+  <data key="d9">data organization,system directory</data>
+  <data key="d10">chunk-0e538563cfeaca32d95f4fbb946b94e1</data>
+  <data key="d11"></data>
+  <data key="d12">1762756651</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Agent" target="Work Trees">
+  <data key="d7">1.0</data>
+  <data key="d8">Each Agent corresponds to its own Work Trees, which are used for managing tasks within a project.</data>
+  <data key="d9">project organization,task management</data>
+  <data key="d10">chunk-0e538563cfeaca32d95f4fbb946b94e1</data>
+  <data key="d11"></data>
+  <data key="d12">1762756651</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Agent" target="Cursor">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursor is engaged in the creation and setup of agents for building tasks.</data>
+  <data key="d9">creation,development</data>
+  <data key="d10">chunk-70b12219b03a4948e1580e4ccd8ec1d6</data>
+  <data key="d11"></data>
+  <data key="d12">1762756659</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Agent" target="Model">
+  <data key="d7">1.0</data>
+  <data key="d8">Agents are configured to utilize various models as part of their operation.</data>
+  <data key="d9">configuration,utilization</data>
+  <data key="d10">chunk-70b12219b03a4948e1580e4ccd8ec1d6</data>
+  <data key="d11"></data>
+  <data key="d12">1762756660</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Agent" target="GPT5 Codeex">
+  <data key="d7">1.0</data>
+  <data key="d8">GPT5 Codeex is mentioned as an alternative model for use in agents.</data>
+  <data key="d9">alternative,model option</data>
+  <data key="d10">chunk-70b12219b03a4948e1580e4ccd8ec1d6</data>
+  <data key="d11"></data>
+  <data key="d12">1762756661</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Agent" target="Composer One">
+  <data key="d7">1.0</data>
+  <data key="d8">Composer One is used within agents for its faster performance.</data>
+  <data key="d9">model efficiency,performance</data>
+  <data key="d10">chunk-70b12219b03a4948e1580e4ccd8ec1d6</data>
+  <data key="d11"></data>
+  <data key="d12">1762756661</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Agent" target="Multiple Models">
+  <data key="d7">1.0</data>
+  <data key="d8">Agents are configured to use multiple models to achieve desired results.</data>
+  <data key="d9">agent configuration,task execution</data>
+  <data key="d10">chunk-70b12219b03a4948e1580e4ccd8ec1d6</data>
+  <data key="d11"></data>
+  <data key="d12">1762756662</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Agent" target="Weekly View">
+  <data key="d7">1.0</data>
+  <data key="d8">The Weekly View feature is facilitated by the Agent, allowing users to specify its placement in the application interface.</data>
+  <data key="d9">feature facilitation,user interaction</data>
+  <data key="d10">chunk-5d283f51692fb48d04e65714a81d29c6</data>
+  <data key="d11"></data>
+  <data key="d12">1762756718</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Weather Forecast" target="User Interface">
+  <data key="d7">1.0</data>
+  <data key="d8">The inclusion of weather forecasts within the user interface indicates a feature to provide users with relevant information.</data>
+  <data key="d9">feature requirement,information display</data>
+  <data key="d10">chunk-f888f0ed259626b9f499359fe191f151</data>
+  <data key="d11"></data>
+  <data key="d12">1762756651</data>
+  <data key="d13"></data>
+</edge>
+<edge source="User Interface" target="Light Mode">
+  <data key="d7">1.0</data>
+  <data key="d8">Light mode is designed as part of the user interface to enhance user experience with bright visuals.</data>
+  <data key="d9">display setting,user experience</data>
+  <data key="d10">chunk-f888f0ed259626b9f499359fe191f151</data>
+  <data key="d11"></data>
+  <data key="d12">1762756652</data>
+  <data key="d13"></data>
+</edge>
+<edge source="User Interface" target="Dark Mode">
+  <data key="d7">1.0</data>
+  <data key="d8">Dark mode is integrated into the user interface to improve user experience by providing an alternative, less glaring visual presentation.</data>
+  <data key="d9">display setting,user experience</data>
+  <data key="d10">chunk-f888f0ed259626b9f499359fe191f151</data>
+  <data key="d11"></data>
+  <data key="d12">1762756653</data>
+  <data key="d13"></data>
+</edge>
+<edge source="User Interface" target="Loading Animation">
+  <data key="d7">1.0</data>
+  <data key="d8">Loading animation serves as a visual element in the user interface to provide feedback to users while the software is processing.</data>
+  <data key="d9">user feedback,visual element</data>
+  <data key="d10">chunk-f888f0ed259626b9f499359fe191f151</data>
+  <data key="d11"></data>
+  <data key="d12">1762756654</data>
+  <data key="d13"></data>
+</edge>
+<edge source="User Interface" target="Hamburger Request">
+  <data key="d7">1.0</data>
+  <data key="d8">The User Interface is designed to meet the requirements set out in the Hamburger Request for improved navigation features.</data>
+  <data key="d9">interactive design,user satisfaction</data>
+  <data key="d10">chunk-990b8548e737c735a7b73c57799190e1</data>
+  <data key="d11"></data>
+  <data key="d12">1762756707</data>
+  <data key="d13"></data>
+</edge>
+<edge source="User Interface" target="Variations">
+  <data key="d7">1.0</data>
+  <data key="d8">The User Interface is used to display and engage with different variations, enhancing user interaction.</data>
+  <data key="d9">interaction,visual representation</data>
+  <data key="d10">chunk-d7db8da421382d250965b3f01a625383</data>
+  <data key="d11"></data>
+  <data key="d12">1762756719</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Dark Mode" target="Mobile Experience">
+  <data key="d7">1.0</data>
+  <data key="d8">The Mobile Experience includes features like Dark Mode to enhance user comfort and personalization.</data>
+  <data key="d9">feature implementation,user customization</data>
+  <data key="d10">chunk-562d394ba4374399755c3e2575c8d190</data>
+  <data key="d11"></data>
+  <data key="d12">1762756712</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Brian Castle" target="Builder Briefing">
+  <data key="d7">1.0</data>
+  <data key="d8">Brian Castle publishes the Builder Briefing weekly to provide insights to professionals.</data>
+  <data key="d9">content creation,weekly publication</data>
+  <data key="d10">chunk-01b1c4ac16553afd0afdc2e711bf48af</data>
+  <data key="d11"></data>
+  <data key="d12">1762756652</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Brian Castle" target="AI">
+  <data key="d7">1.0</data>
+  <data key="d8">Brian Castle aids professionals in using AI effectively in their work.</data>
+  <data key="d9">professional guidance,technology application</data>
+  <data key="d10">chunk-01b1c4ac16553afd0afdc2e711bf48af</data>
+  <data key="d11"></data>
+  <data key="d12">1762756652</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Composer 1" target="Cursor">
+  <data key="d7">1.0</data>
+  <data key="d8">Composer 1 is launched by Cursor, showcasing their capabilities in creating large language models.</data>
+  <data key="d9">product launch,technology provider</data>
+  <data key="d10">chunk-01b1c4ac16553afd0afdc2e711bf48af</data>
+  <data key="d11"></data>
+  <data key="d12">1762756658</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AI" target="Mobile Navigation">
+  <data key="d7">1.0</data>
+  <data key="d8">AI technologies are being utilized to improve Mobile Navigation functionalities through automated testing processes.</data>
+  <data key="d9">enhanced functionality,testing capability</data>
+  <data key="d10">chunk-990b8548e737c735a7b73c57799190e1</data>
+  <data key="d11"></data>
+  <data key="d12">1762756707</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AI" target="Front End Engineering">
+  <data key="d7">1.0</data>
+  <data key="d8">AI is used in Front End Engineering to facilitate faster updates and improvements in the application.</data>
+  <data key="d9">efficiency improvement,technology integration</data>
+  <data key="d10">chunk-990b8548e737c735a7b73c57799190e1</data>
+  <data key="d11"></data>
+  <data key="d12">1762756708</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AI" target="Cursor">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursor utilizes AI for constant code review to ensure high-quality coding practices.</data>
+  <data key="d9">code review,quality assurance</data>
+  <data key="d10">chunk-2d5aba0e76d6f9fa8a40b36074b2067e</data>
+  <data key="d11"></data>
+  <data key="d12">1762756710</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor" target="Composer">
+  <data key="d7">1.0</data>
+  <data key="d8">Composer is a tool developed by Cursor that enables rapid UI changes and feature implementations.</data>
+  <data key="d9">functionality,tool development</data>
+  <data key="d10">chunk-ab77935f953989272da57f59882374b9</data>
+  <data key="d11"></data>
+  <data key="d12">1762756656</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor" target="User Base of Developers">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursor utilizes data from its user base of developers to enhance the training of its models.</data>
+  <data key="d9">data utilization,model training</data>
+  <data key="d10">chunk-ab77935f953989272da57f59882374b9</data>
+  <data key="d11"></data>
+  <data key="d12">1762756657</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor" target="Claude Sonnet 4.5">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursor's Composer model is compared to Claude Sonnet 4.5 in terms of competency and speed in code generation.</data>
+  <data key="d9">competitive analysis,model comparison</data>
+  <data key="d10">chunk-ab77935f953989272da57f59882374b9</data>
+  <data key="d11"></data>
+  <data key="d12">1762756657</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor" target="My App">
+  <data key="d7">1.0</data>
+  <data key="d8">My App integrates Cursor as a tool to enhance productivity and manage code tasks.</data>
+  <data key="d9">software integration,tool application</data>
+  <data key="d10">chunk-ab77935f953989272da57f59882374b9</data>
+  <data key="d11"></data>
+  <data key="d12">1762756658</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor" target="To-Do List">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursor utilizes a to-do list as a tool for organizing tasks within the development process.</data>
+  <data key="d9">organizational tool,task management</data>
+  <data key="d10">chunk-70b12219b03a4948e1580e4ccd8ec1d6</data>
+  <data key="d11"></data>
+  <data key="d12">1762756660</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor" target="Front End Engineering">
+  <data key="d7">1.0</data>
+  <data key="d8">The design of the Cursor is an element of Front End Engineering that contributes to the user experience within applications.</data>
+  <data key="d9">application development,visual interaction</data>
+  <data key="d10">chunk-990b8548e737c735a7b73c57799190e1</data>
+  <data key="d11"></data>
+  <data key="d12">1762756708</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor" target="Hamburger Menu">
+  <data key="d7">1.0</data>
+  <data key="d8">The cursor is discussed in relation to its function in navigating the hamburger menu.</data>
+  <data key="d9">functionality,interaction</data>
+  <data key="d10">chunk-fc254cca680a25b82b24b89154a0b556</data>
+  <data key="d11"></data>
+  <data key="d12">1762756709</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor" target="Responsive Layout">
+  <data key="d7">1.0</data>
+  <data key="d8">The cursor is involved in the interaction with the responsive layout.</data>
+  <data key="d9">functionality,interaction</data>
+  <data key="d10">chunk-fc254cca680a25b82b24b89154a0b556</data>
+  <data key="d11"></data>
+  <data key="d12">1762756710</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor" target="Mobile App">
+  <data key="d7">1.0</data>
+  <data key="d8">The Mobile App provides users with portable access to Cursor's coding tools and features.</data>
+  <data key="d9">accessibility,mobile technology</data>
+  <data key="d10">chunk-2d5aba0e76d6f9fa8a40b36074b2067e</data>
+  <data key="d11"></data>
+  <data key="d12">1762756713</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor" target="Cloud Agent">
+  <data key="d7">1.0</data>
+  <data key="d8">The Cloud Agent feature supports ongoing employee productivity and development tasks on the Cursor platform.</data>
+  <data key="d9">continuous operation,workforce support</data>
+  <data key="d10">chunk-2d5aba0e76d6f9fa8a40b36074b2067e</data>
+  <data key="d11"></data>
+  <data key="d12">1762756714</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor" target="AI Newsletter">
+  <data key="d7">1.0</data>
+  <data key="d8">The AI Newsletter serves to engage users and provide them with relevant information related to the Cursor platform and AI.</data>
+  <data key="d9">information dissemination,user engagement</data>
+  <data key="d10">chunk-2d5aba0e76d6f9fa8a40b36074b2067e</data>
+  <data key="d11"></data>
+  <data key="d12">1762756714</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor" target="Mobile Experience">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursor enhances the Mobile Experience by providing a tool that optimizes user interactions on mobile devices.</data>
+  <data key="d9">tool functionality,user interface</data>
+  <data key="d10">chunk-562d394ba4374399755c3e2575c8d190</data>
+  <data key="d11"></data>
+  <data key="d12">1762756715</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor" target="Cloud Agents">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursor allows users to send commands to Cloud Agents, facilitating actions taken in cloud environments.</data>
+  <data key="d9">cloud computing,task execution</data>
+  <data key="d10">chunk-562d394ba4374399755c3e2575c8d190</data>
+  <data key="d11"></data>
+  <data key="d12">1762756715</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor" target="Road Map">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursor assists in developing a Road Map by enabling the creation of plans and features for development projects.</data>
+  <data key="d9">planning tool,project management</data>
+  <data key="d10">chunk-562d394ba4374399755c3e2575c8d190</data>
+  <data key="d11"></data>
+  <data key="d12">1762756716</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor" target="Gym">
+  <data key="d7">1.0</data>
+  <data key="d8">The use of Cursor at the Gym enhances idea generation for the individual during workouts.</data>
+  <data key="d9">creative space,idea generation</data>
+  <data key="d10">chunk-562d394ba4374399755c3e2575c8d190</data>
+  <data key="d11"></data>
+  <data key="d12">1762756716</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor" target="iPhone">
+  <data key="d7">1.0</data>
+  <data key="d8">The iPhone is used to install the Cursor app, enabling mobile coding capabilities.</data>
+  <data key="d9">installation,mobile app</data>
+  <data key="d10">chunk-528f1b1062a253235002782d2c88c9bc</data>
+  <data key="d11"></data>
+  <data key="d12">1762756717</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor" target="mobile experience">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursor provides a fully optimized mobile experience for coding on the go.</data>
+  <data key="d9">app functionality,coding</data>
+  <data key="d10">chunk-528f1b1062a253235002782d2c88c9bc</data>
+  <data key="d11"></data>
+  <data key="d12">1762756718</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Composer" target="User Interface Changes">
+  <data key="d7">1.0</data>
+  <data key="d8">Composer enables rapid user interface changes by refactoring code quickly.</data>
+  <data key="d9">coding efficiency,software functionality</data>
+  <data key="d10">chunk-08aae6b335003c94b3350b86400571d0</data>
+  <data key="d11"></data>
+  <data key="d12">1762756663</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Composer" target="My App">
+  <data key="d7">1.0</data>
+  <data key="d8">Composer is used within My App for implementing various features and changes.</data>
+  <data key="d9">software usage,tool application</data>
+  <data key="d10">chunk-08aae6b335003c94b3350b86400571d0</data>
+  <data key="d11"></data>
+  <data key="d12">1762756668</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Autonomous Agents" target="Cloud Code">
+  <data key="d7">1.0</data>
+  <data key="d8">Cloud code has enabled the transition to using autonomous agents, allowing coders to trust these agents more.</data>
+  <data key="d9">coding transition,technological advancement</data>
+  <data key="d10">chunk-6b7677c4f8fc4bf9aaebb48cfc74f281</data>
+  <data key="d11"></data>
+  <data key="d12">1762756661</data>
+  <data key="d13"></data>
+</edge>
+<edge source="My App" target="Features">
+  <data key="d7">1.0</data>
+  <data key="d8">My App includes various features that enhance its overall functionality through the use of Composer.</data>
+  <data key="d9">application functionality,software enhancement</data>
+  <data key="d10">chunk-08aae6b335003c94b3350b86400571d0</data>
+  <data key="d11"></data>
+  <data key="d12">1762756663</data>
+  <data key="d13"></data>
+</edge>
+<edge source="BuilderMethods.com" target="About Page">
+  <data key="d7">1.0</data>
+  <data key="d8">BuilderMethods.com is working on an About Page that will provide information about the brand and the speaker's story.</data>
+  <data key="d9">informational section,website content</data>
+  <data key="d10">chunk-924f1aa8bb2ecb89181beacf404f0aea</data>
+  <data key="d11"></data>
+  <data key="d12">1762756656</data>
+  <data key="d13"></data>
+</edge>
+<edge source="BuilderMethods.com" target="Claude">
+  <data key="d7">1.0</data>
+  <data key="d8">Claude collaborated in creating content for BuilderMethods.com.</data>
+  <data key="d9">collaboration,content creation</data>
+  <data key="d10">chunk-924f1aa8bb2ecb89181beacf404f0aea</data>
+  <data key="d11"></data>
+  <data key="d12">1762756656</data>
+  <data key="d13"></data>
+</edge>
+<edge source="BuilderMethods.com" target="Composer Model">
+  <data key="d7">1.0</data>
+  <data key="d8">The Composer Model is utilized in the coding of BuilderMethods.com.</data>
+  <data key="d9">coding model,technology use</data>
+  <data key="d10">chunk-924f1aa8bb2ecb89181beacf404f0aea</data>
+  <data key="d11"></data>
+  <data key="d12">1762756657</data>
+  <data key="d13"></data>
+</edge>
+<edge source="BuilderMethods.com" target="Footer">
+  <data key="d7">1.0</data>
+  <data key="d8">The Footer on BuilderMethods.com includes links for navigation, facilitating access to the About Page and other resources.</data>
+  <data key="d9">navigation,website feature</data>
+  <data key="d10">chunk-924f1aa8bb2ecb89181beacf404f0aea</data>
+  <data key="d11"></data>
+  <data key="d12">1762756657</data>
+  <data key="d13"></data>
+</edge>
+<edge source="About Page" target="Markdown">
+  <data key="d7">1.0</data>
+  <data key="d8">Markdown is used to format the content that will appear on the About Page.</data>
+  <data key="d9">content formatting,page content</data>
+  <data key="d10">chunk-924f1aa8bb2ecb89181beacf404f0aea</data>
+  <data key="d11"></data>
+  <data key="d12">1762756657</data>
+  <data key="d13"></data>
+</edge>
+<edge source="GPT5 Codeex" target="7-Day Forecast">
+  <data key="d7">1.0</data>
+  <data key="d8">GPT5 Codeex produced a desirable outcome concerning the 7-Day Forecast feature.</data>
+  <data key="d9">good output,successful implementation</data>
+  <data key="d10">chunk-dab68701c27538a2236247a295a3b9c3</data>
+  <data key="d11"></data>
+  <data key="d12">1762756659</data>
+  <data key="d13"></data>
+</edge>
+<edge source="To-Do List" target="Select Element Button">
+  <data key="d7">1.0</data>
+  <data key="d8">The Select Element Button can be used to insert elements into the To-Do List, enhancing its functionality.</data>
+  <data key="d9">feature integration,task management</data>
+  <data key="d10">chunk-8560efb191b74e68b9018143f3ee2c4c</data>
+  <data key="d11"></data>
+  <data key="d12">1762756709</data>
+  <data key="d13"></data>
+</edge>
+<edge source="To-Do List" target="Calendar">
+  <data key="d7">1.0</data>
+  <data key="d8">The calendar and to-do list are designed to work side by side in the productivity app, providing a comprehensive view of tasks and schedules.</data>
+  <data key="d9">feature co-functionality,task management</data>
+  <data key="d10">chunk-5cd932152b96c289c36d89b58befde90</data>
+  <data key="d11"></data>
+  <data key="d12">1762756709</data>
+  <data key="d13"></data>
+</edge>
+<edge source="To-Do List" target="Agent Review">
+  <data key="d7">1.0</data>
+  <data key="d8">Agent Review can be integrated with the To-Do List to help prioritize code review tasks effectively.</data>
+  <data key="d9">feature integration,task prioritization</data>
+  <data key="d10">chunk-d5fe695fec8f929154aa9f850db7e8f8</data>
+  <data key="d11"></data>
+  <data key="d12">1762756721</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Sonnet 4.5 Agent" target="Agent Composer One">
+  <data key="d7">1.0</data>
+  <data key="d8">Sonnet 4.5 Agent is used in relation to Agent Composer One in the computational processes discussed.</data>
+  <data key="d9">method interaction,tool application</data>
+  <data key="d10">chunk-dab68701c27538a2236247a295a3b9c3</data>
+  <data key="d11"></data>
+  <data key="d12">1762756659</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Current Location" target="7-Day Forecast">
+  <data key="d7">1.0</data>
+  <data key="d8">Current Location is relevant to the user's ability to receive accurate weather forecasts from the 7-Day Forecast.</data>
+  <data key="d9">data relevance,user experience</data>
+  <data key="d10">chunk-dab68701c27538a2236247a295a3b9c3</data>
+  <data key="d11"></data>
+  <data key="d12">1762756660</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Current Location" target="Location Name">
+  <data key="d7">1.0</data>
+  <data key="d8">Location Name is intended to accurately display the Current Location of the user, improving the user experience.</data>
+  <data key="d9">data identification,user interface</data>
+  <data key="d10">chunk-dab68701c27538a2236247a295a3b9c3</data>
+  <data key="d11"></data>
+  <data key="d12">1762756660</data>
+  <data key="d13"></data>
+</edge>
+<edge source="7-Day Forecast" target="Orange">
+  <data key="d7">1.0</data>
+  <data key="d8">The 7-Day Forecast relates specifically to weather conditions in Orange.</data>
+  <data key="d9">location-specific,weather service</data>
+  <data key="d10">chunk-3fc4fc44decb107a1ea6c9d51ef34535</data>
+  <data key="d11"></data>
+  <data key="d12">1762756663</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Console" target="Errors">
+  <data key="d7">1.0</data>
+  <data key="d8">The Console displays Errors encountered during the operation of the application, aiding in troubleshooting.</data>
+  <data key="d9">debugging,feedback</data>
+  <data key="d10">chunk-dab68701c27538a2236247a295a3b9c3</data>
+  <data key="d11"></data>
+  <data key="d12">1762756660</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Spec-Driven Development" target="Channel">
+  <data key="d7">1.0</data>
+  <data key="d8">The Channel focuses on discussing Spec-Driven Development and its application in the real world.</data>
+  <data key="d9">content focus,instructional material</data>
+  <data key="d10">chunk-0c3aeae84e858e945028337fd9b14989</data>
+  <data key="d11"></data>
+  <data key="d12">1762756661</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Workflow" target="GitHub">
+  <data key="d7">1.0</data>
+  <data key="d8">GitHub is utilized within the Workflow to manage code and version control effectively.</data>
+  <data key="d9">code management,source control</data>
+  <data key="d10">chunk-8edec14a01bd263b06b727e0df56a5a9</data>
+  <data key="d11"></data>
+  <data key="d12">1762756714</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Workflow" target="Terminal">
+  <data key="d7">1.0</data>
+  <data key="d8">The Terminal is used as a command interface during the Workflow to execute necessary operations and navigate files.</data>
+  <data key="d9">command interface,software management</data>
+  <data key="d10">chunk-8edec14a01bd263b06b727e0df56a5a9</data>
+  <data key="d11"></data>
+  <data key="d12">1762756714</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Workflow" target="Productivity App">
+  <data key="d7">1.0</data>
+  <data key="d8">The Productivity App is designed to streamline the Workflow, allowing users to manage tasks and processes efficiently.</data>
+  <data key="d9">process execution,task management</data>
+  <data key="d10">chunk-8edec14a01bd263b06b727e0df56a5a9</data>
+  <data key="d11"></data>
+  <data key="d12">1762756715</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Workflow" target="Variation">
+  <data key="d7">1.0</data>
+  <data key="d8">The Workflow involves testing each Variation of the user interface to determine the most effective design.</data>
+  <data key="d9">testing options,user interface</data>
+  <data key="d10">chunk-8edec14a01bd263b06b727e0df56a5a9</data>
+  <data key="d11"></data>
+  <data key="d12">1762756715</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AAI" target="Codecs">
+  <data key="d7">1.0</data>
+  <data key="d8">AAI has launched codecs that enhance the functionality and performance of coding through automation.</data>
+  <data key="d9">software enhancement,technology launch</data>
+  <data key="d10">chunk-6b7677c4f8fc4bf9aaebb48cfc74f281</data>
+  <data key="d11"></data>
+  <data key="d12">1762756662</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Weatheroo" target="Rails App">
+  <data key="d7">1.0</data>
+  <data key="d8">The Weatheroo project utilizes the Rails App as its underlying framework for development.</data>
+  <data key="d9">project structure,software development</data>
+  <data key="d10">chunk-60f529ec1784a379e6876437deaad8ef</data>
+  <data key="d11"></data>
+  <data key="d12">1762756661</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Weatheroo" target="Finder">
+  <data key="d7">1.0</data>
+  <data key="d8">Finder is used to navigate and manage files associated with the Weatheroo project.</data>
+  <data key="d9">file management,project navigation</data>
+  <data key="d10">chunk-60f529ec1784a379e6876437deaad8ef</data>
+  <data key="d11"></data>
+  <data key="d12">1762756662</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Weatheroo" target="Interface">
+  <data key="d7">1.0</data>
+  <data key="d8">The interface is part of the Weatheroo project that enhances user interaction and experience.</data>
+  <data key="d9">software usability,user experience</data>
+  <data key="d10">chunk-60f529ec1784a379e6876437deaad8ef</data>
+  <data key="d11"></data>
+  <data key="d12">1762756663</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Rails App" target="Three Agents">
+  <data key="d7">1.0</data>
+  <data key="d8">Three Agents are referenced as not yet having made edits to the core Rails App in the Weatheroo project.</data>
+  <data key="d9">application interaction,code editing</data>
+  <data key="d10">chunk-60f529ec1784a379e6876437deaad8ef</data>
+  <data key="d11"></data>
+  <data key="d12">1762756662</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Git Work Trees" target="Agents">
+  <data key="d7">1.0</data>
+  <data key="d8">Agents utilize Git Work Trees to make edits to files in the project, facilitating version control.</data>
+  <data key="d9">code editing,version control</data>
+  <data key="d10">chunk-60f529ec1784a379e6876437deaad8ef</data>
+  <data key="d11"></data>
+  <data key="d12">1762756662</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Orange" target="Connecticut">
+  <data key="d7">1.0</data>
+  <data key="d8">Orange is a town located within the state of Connecticut.</data>
+  <data key="d9">association,location</data>
+  <data key="d10">chunk-3fc4fc44decb107a1ea6c9d51ef34535</data>
+  <data key="d11"></data>
+  <data key="d12">1762756662</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Orange" target="24-Hour Forecast">
+  <data key="d7">1.0</data>
+  <data key="d8">The 24-Hour Forecast provides weather predictions pertinent to Orange.</data>
+  <data key="d9">location-specific,weather service</data>
+  <data key="d10">chunk-3fc4fc44decb107a1ea6c9d51ef34535</data>
+  <data key="d11"></data>
+  <data key="d12">1762756664</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Div Element" target="User Interface Changes">
+  <data key="d7">1.0</data>
+  <data key="d8">The div element serves as a reference point for making layout adjustments within the user interface.</data>
+  <data key="d9">layout adjustment,styling reference</data>
+  <data key="d10">chunk-08aae6b335003c94b3350b86400571d0</data>
+  <data key="d11"></data>
+  <data key="d12">1762756668</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Keyboard Shortcuts" target="Browser">
+  <data key="d7">1.0</data>
+  <data key="d8">The browser utilizes keyboard shortcuts to enhance user functionality and navigation efficiency.</data>
+  <data key="d9">navigation efficiency,user functionality</data>
+  <data key="d10">chunk-08aae6b335003c94b3350b86400571d0</data>
+  <data key="d11"></data>
+  <data key="d12">1762756663</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Keyboard Shortcuts" target="User Interface Changes">
+  <data key="d7">1.0</data>
+  <data key="d8">Keyboard shortcuts are integral to enhancing usability within user interface changes.</data>
+  <data key="d9">interface usability,shortcut features</data>
+  <data key="d10">chunk-08aae6b335003c94b3350b86400571d0</data>
+  <data key="d11"></data>
+  <data key="d12">1762756669</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Brian Casel" target="Builder Methods">
+  <data key="d7">1.0</data>
+  <data key="d8">Brian Casel uses Builder Methods to share insights and help professionals adapt to new technologies.</data>
+  <data key="d9">insight sharing,professional development</data>
+  <data key="d10">chunk-bf68108c40a765a1deeb3dd263c8d29a</data>
+  <data key="d11"></data>
+  <data key="d12">1762756664</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Video ID: plAGTrg0wic" target="YouTube">
+  <data key="d7">1.0</data>
+  <data key="d8">YouTube hosts the video identified by Video ID: plAGTrg0wic.</data>
+  <data key="d9">platform usage,video hosting</data>
+  <data key="d10">chunk-bf68108c40a765a1deeb3dd263c8d29a</data>
+  <data key="d11"></data>
+  <data key="d12">1762756664</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor's Plan Mode" target="Agent OS">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursor's Plan Mode can be used in conjunction with Agent OS to improve the planning and development process.</data>
+  <data key="d9">planning method,software tool</data>
+  <data key="d10">chunk-5c70463ff5660ff7d32273684da618b7</data>
+  <data key="d11"></data>
+  <data key="d12">1762756664</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor's Plan Mode" target="Weather Data">
+  <data key="d7">1.0</data>
+  <data key="d8">Weather Data is set to be displayed as part of the structured plan created using Cursor's Plan Mode.</data>
+  <data key="d9">data display,project planning</data>
+  <data key="d10">chunk-5c70463ff5660ff7d32273684da618b7</data>
+  <data key="d11"></data>
+  <data key="d12">1762756665</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor's Plan Mode" target="Cursors">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursor's Plan Mode utilizes Cursors to enhance planning processes during the development of projects.</data>
+  <data key="d9">implementation,planning method</data>
+  <data key="d10">chunk-5c70463ff5660ff7d32273684da618b7</data>
+  <data key="d11"></data>
+  <data key="d12">1762756666</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor AI" target="Chrome">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursor AI functions within Chrome's incognito mode, impacting how user accounts are accessed.</data>
+  <data key="d9">incognito mode,software operation</data>
+  <data key="d10">chunk-1cc7aed3d64986d6abba1111fb92427b</data>
+  <data key="d11"></data>
+  <data key="d12">1762756706</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor AI" target="New Era of Coding">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursor AI exemplifies the advancements in the New Era of Coding, offering automated solutions that enhance productivity.</data>
+  <data key="d9">automation,productivity</data>
+  <data key="d10">chunk-672c95411f06056743ee21e1759bf7df</data>
+  <data key="d11"></data>
+  <data key="d12">1762756711</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Chrome" target="Automated Test Software">
+  <data key="d7">1.0</data>
+  <data key="d8">Chrome is controlled by automated test software for testing purposes during browsing operations.</data>
+  <data key="d9">testing functionality,web browsing</data>
+  <data key="d10">chunk-1cc7aed3d64986d6abba1111fb92427b</data>
+  <data key="d11"></data>
+  <data key="d12">1762756707</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Carbon-Fiber Spikes" target="Automated Test Software">
+  <data key="d7">1.0</data>
+  <data key="d8">The automated test software may utilize carbon-fiber spikes to evaluate performance during testing scenarios.</data>
+  <data key="d9">athletic testing,performance enhancement</data>
+  <data key="d10">chunk-1cc7aed3d64986d6abba1111fb92427b</data>
+  <data key="d11"></data>
+  <data key="d12">1762756708</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Automated Test Software" target="Junior Engineer">
+  <data key="d7">2.0</data>
+  <data key="d8">A junior engineer's role may involve confirming labor associated with the use of automated test software.&lt;SEP&gt;The automated test software relates to a junior engineer’s role in task assignments and functioning within the workspace.</data>
+  <data key="d9">labor management,role assignment,role indication,task automation</data>
+  <data key="d10">chunk-1cc7aed3d64986d6abba1111fb92427b</data>
+  <data key="d11"></data>
+  <data key="d12">1762756707</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Junior Engineer" target="20 Minute Call">
+  <data key="d7">1.0</data>
+  <data key="d8">The time taken for a task is compared to the labor confirmation process that involves a junior engineer during communication.</data>
+  <data key="d9">labor process,time comparison</data>
+  <data key="d10">chunk-1cc7aed3d64986d6abba1111fb92427b</data>
+  <data key="d11"></data>
+  <data key="d12">1762756707</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Junior Engineer" target="Senior Engineer">
+  <data key="d7">1.0</data>
+  <data key="d8">The Junior Engineer creates pull requests and seeks reviews from the Senior Engineer for code validation in software development.</data>
+  <data key="d9">code review,software development</data>
+  <data key="d10">chunk-5f6bd8990ea0375d2e16747009d156c6</data>
+  <data key="d11"></data>
+  <data key="d12">1762756710</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Junior Engineer" target="Slack">
+  <data key="d7">1.0</data>
+  <data key="d8">The Junior Engineer uses Slack to communicate directly with colleagues, including the Senior Engineer, regarding project issues.</data>
+  <data key="d9">communication,teamwork</data>
+  <data key="d10">chunk-5f6bd8990ea0375d2e16747009d156c6</data>
+  <data key="d11"></data>
+  <data key="d12">1762756710</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Junior Engineer" target="Pull Request (PR)">
+  <data key="d7">1.0</data>
+  <data key="d8">The Junior Engineer submits a Pull Request (PR) to request code reviews from senior colleagues.</data>
+  <data key="d9">development process,submission</data>
+  <data key="d10">chunk-5f6bd8990ea0375d2e16747009d156c6</data>
+  <data key="d11"></data>
+  <data key="d12">1762756711</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Junior Engineer" target="Engineer">
+  <data key="d7">1.0</data>
+  <data key="d8">The Junior Engineer holds a position within the team and interacts with the broader category of Engineers, including more experienced colleagues.</data>
+  <data key="d9">professional relationship,role hierarchy</data>
+  <data key="d10">chunk-5f6bd8990ea0375d2e16747009d156c6</data>
+  <data key="d11"></data>
+  <data key="d12">1762756712</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Hamburger Request" target="Mobile Navigation">
+  <data key="d7">1.0</data>
+  <data key="d8">The Hamburger Request includes considerations for how well Mobile Navigation functions within the application.</data>
+  <data key="d9">feature testing,user interface</data>
+  <data key="d10">chunk-990b8548e737c735a7b73c57799190e1</data>
+  <data key="d11"></data>
+  <data key="d12">1762756706</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mobile Navigation" target="Pricing Section">
+  <data key="d7">1.0</data>
+  <data key="d8">The Pricing Section is designed to be easily accessible through Mobile Navigation, enhancing user experience.</data>
+  <data key="d9">interface design,user experience</data>
+  <data key="d10">chunk-990b8548e737c735a7b73c57799190e1</data>
+  <data key="d11"></data>
+  <data key="d12">1762756708</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mobile Navigation" target="Hamburger Situation">
+  <data key="d7">1.0</data>
+  <data key="d8">The Hamburger Situation involves testing the Mobile Navigation feature to ensure it operates correctly.</data>
+  <data key="d9">feature testing,user experience</data>
+  <data key="d10">chunk-5f6bd8990ea0375d2e16747009d156c6</data>
+  <data key="d11"></data>
+  <data key="d12">1762756711</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Tablet" target="Mobile">
+  <data key="d7">1.0</data>
+  <data key="d8">Tablets are part of the broader category of Mobile devices, indicating a focus on responsive design for multiple platforms.</data>
+  <data key="d9">device interaction,platform usage</data>
+  <data key="d10">chunk-990b8548e737c735a7b73c57799190e1</data>
+  <data key="d11"></data>
+  <data key="d12">1762756707</data>
+  <data key="d13"></data>
+</edge>
+<edge source="McDonald's" target="In-N-Out">
+  <data key="d7">2.0</data>
+  <data key="d8">In-N-Out is compared to McDonald's regarding personal preferences in fast food.&lt;SEP&gt;McDonald's and In-N-Out are compared as popular choices among hamburger lovers.</data>
+  <data key="d9">comparison,food comparison,preference</data>
+  <data key="d10">chunk-a87922f604b09b16a4abaee8772bc56d&lt;SEP&gt;chunk-fc254cca680a25b82b24b89154a0b556</data>
+  <data key="d11"></data>
+  <data key="d12">1762756707</data>
+  <data key="d13"></data>
+</edge>
+<edge source="In-N-Out" target="Banana Peppers">
+  <data key="d7">1.0</data>
+  <data key="d8">Banana peppers are mentioned as an ingredient associated with In-N-Out, indicating a preference for specific food items.</data>
+  <data key="d9">food preference,ingredient use</data>
+  <data key="d10">chunk-a87922f604b09b16a4abaee8772bc56d</data>
+  <data key="d11"></data>
+  <data key="d12">1762756708</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Junior Engineers" target="Code Review">
+  <data key="d7">1.0</data>
+  <data key="d8">Junior engineers are expected to develop good coding skills through the practice of code review.</data>
+  <data key="d9">skill development,software engineering</data>
+  <data key="d10">chunk-c2550653d75f17ab4baaa33411409f65</data>
+  <data key="d11"></data>
+  <data key="d12">1762756708</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Junior Engineers" target="GitHub">
+  <data key="d7">1.0</data>
+  <data key="d8">Junior engineers are encouraged to use GitHub for understanding and managing code in software engineering.</data>
+  <data key="d9">collaboration,development platform</data>
+  <data key="d10">chunk-c2550653d75f17ab4baaa33411409f65</data>
+  <data key="d11"></data>
+  <data key="d12">1762756708</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Junior Engineers" target="Pull Request">
+  <data key="d7">1.0</data>
+  <data key="d8">Junior engineers create pull requests as part of the software development lifecycle to contribute code.</data>
+  <data key="d9">code submission,development practice</data>
+  <data key="d10">chunk-c2550653d75f17ab4baaa33411409f65</data>
+  <data key="d11"></data>
+  <data key="d12">1762756709</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Junior Engineers" target="Senior Engineer">
+  <data key="d7">1.0</data>
+  <data key="d8">Senior engineers review the code produced by junior engineers as part of their mentoring role.</data>
+  <data key="d9">mentorship,skill development</data>
+  <data key="d10">chunk-fc254cca680a25b82b24b89154a0b556</data>
+  <data key="d11"></data>
+  <data key="d12">1762756709</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Junior Engineers" target="AI Coder">
+  <data key="d7">1.0</data>
+  <data key="d8">Junior engineers are compared to AI coders regarding their current skill level.</data>
+  <data key="d9">professional development,skill comparison</data>
+  <data key="d10">chunk-fc254cca680a25b82b24b89154a0b556</data>
+  <data key="d11"></data>
+  <data key="d12">1762756710</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Hamburger Menu" target="Code Review">
+  <data key="d7">1.0</data>
+  <data key="d8">The hamburger menu is referenced in a code review context where its functionality is questioned and noted as problematic.</data>
+  <data key="d9">functionality issue,user interface</data>
+  <data key="d10">chunk-c2550653d75f17ab4baaa33411409f65</data>
+  <data key="d11"></data>
+  <data key="d12">1762756708</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Hamburger Menu" target="Responsive Layout">
+  <data key="d7">1.0</data>
+  <data key="d8">The hamburger menu is a key component of the responsive layout, facilitating navigation.</data>
+  <data key="d9">design feature,navigation</data>
+  <data key="d10">chunk-fc254cca680a25b82b24b89154a0b556</data>
+  <data key="d11"></data>
+  <data key="d12">1762756709</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Code Review" target="GitHub">
+  <data key="d7">1.0</data>
+  <data key="d8">Code review frequently occurs on GitHub, enabling improvements and feedback for code contributions.</data>
+  <data key="d9">improvement process,version control</data>
+  <data key="d10">chunk-c2550653d75f17ab4baaa33411409f65</data>
+  <data key="d11"></data>
+  <data key="d12">1762756709</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Front End" target="Back End">
+  <data key="d7">1.0</data>
+  <data key="d8">The front end of a project is completed before transitioning to back-end development, indicating the order of tasks in software engineering.</data>
+  <data key="d9">development process,software architecture</data>
+  <data key="d10">chunk-c2550653d75f17ab4baaa33411409f65</data>
+  <data key="d11"></data>
+  <data key="d12">1762756708</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AI Coder" target="Senior Engineer">
+  <data key="d7">1.0</data>
+  <data key="d8">AI coders are expected to exhibit the same level of skill as senior engineers despite being less experienced currently.</data>
+  <data key="d9">professionalism,role</data>
+  <data key="d10">chunk-fc254cca680a25b82b24b89154a0b556</data>
+  <data key="d11"></data>
+  <data key="d12">1762756708</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Corbin" target="YouTube Video">
+  <data key="d7">1.0</data>
+  <data key="d8">Corbin authored the YouTube video discussing Cursor 2.0 features and its impact on frontend development.</data>
+  <data key="d9">authorship,content creation</data>
+  <data key="d10">chunk-d95cb7cb8e78350439a2bb9cb6beaccc</data>
+  <data key="d11"></data>
+  <data key="d12">1762756709</data>
+  <data key="d13"></data>
+</edge>
+<edge source="YouTube Video" target="Alex Finn">
+  <data key="d7">1.0</data>
+  <data key="d8">Alex Finn is the creator of the YouTube video that discusses the functionalities of Cursor 2.0.</data>
+  <data key="d9">content creation,presentation</data>
+  <data key="d10">chunk-4e216006999d9903874d00dd750bf56e</data>
+  <data key="d11"></data>
+  <data key="d12">1762756719</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Google Chrome" target="Cursy 2.0">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursy 2.0 is designed to operate effectively within Google Chrome for enhanced functionality and access to its browsing features.</data>
+  <data key="d9">feature utilization,software integration</data>
+  <data key="d10">chunk-f207b33cee39ff6ad505a19e3e615259</data>
+  <data key="d11"></data>
+  <data key="d12">1762756712</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Google Chrome" target="localhost 3000">
+  <data key="d7">1.0</data>
+  <data key="d8">Google Chrome is used to navigate to the localhost 3000 address for testing or displaying web applications.</data>
+  <data key="d9">browser capability,local address</data>
+  <data key="d10">chunk-f207b33cee39ff6ad505a19e3e615259</data>
+  <data key="d11"></data>
+  <data key="d12">1762756712</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Google Chrome" target="Browser Tab">
+  <data key="d7">1.0</data>
+  <data key="d8">The Browser Tab functionality is an integral part of Google Chrome, facilitating navigation across multiple pages.</data>
+  <data key="d9">navigation,user interface</data>
+  <data key="d10">chunk-f207b33cee39ff6ad505a19e3e615259</data>
+  <data key="d11"></data>
+  <data key="d12">1762756712</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Google Chrome" target="Incognito Mode">
+  <data key="d7">1.0</data>
+  <data key="d8">Incognito Mode is a privacy feature available in Google Chrome that enables private browsing for users.</data>
+  <data key="d9">browsing,privacy feature</data>
+  <data key="d10">chunk-f207b33cee39ff6ad505a19e3e615259</data>
+  <data key="d11"></data>
+  <data key="d12">1762756714</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Pull Request (PR)" target="Hamburger Situation">
+  <data key="d7">1.0</data>
+  <data key="d8">The Pull Request (PR) is related to fixing the Hamburger Situation within the software.</data>
+  <data key="d9">bug fix,issue tracking</data>
+  <data key="d10">chunk-5f6bd8990ea0375d2e16747009d156c6</data>
+  <data key="d11"></data>
+  <data key="d12">1762756710</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AI Studio" target="Video Series">
+  <data key="d7">1.0</data>
+  <data key="d8">The Video Series provides instructional content on using AI Studio for software development purposes.</data>
+  <data key="d9">instructional content,software development</data>
+  <data key="d10">chunk-5f6bd8990ea0375d2e16747009d156c6</data>
+  <data key="d11"></data>
+  <data key="d12">1762756711</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Video Series" target="Software Development">
+  <data key="d7">1.0</data>
+  <data key="d8">The Video Series serves as a learning resource for individuals interested in the Software Development practices presented in the New Era of Coding.</data>
+  <data key="d9">instructional content,learning resource</data>
+  <data key="d10">chunk-672c95411f06056743ee21e1759bf7df</data>
+  <data key="d11"></data>
+  <data key="d12">1762756711</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Video Series" target="Playlist Description">
+  <data key="d7">1.0</data>
+  <data key="d8">The Video Series is designed to enhance understanding of the Playlist Description, providing educational content on advanced coding.</data>
+  <data key="d9">educational content,instructional material</data>
+  <data key="d10">chunk-672c95411f06056743ee21e1759bf7df</data>
+  <data key="d11"></data>
+  <data key="d12">1762756712</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Select Element Button" target="AI Browser">
+  <data key="d7">1.0</data>
+  <data key="d8">The Select Element Button interacts with the AI Browser to modify the interface by allowing precise element placement.</data>
+  <data key="d9">feature usage,interaction</data>
+  <data key="d10">chunk-8560efb191b74e68b9018143f3ee2c4c</data>
+  <data key="d11"></data>
+  <data key="d12">1762756708</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Select Element Button" target="Calendar">
+  <data key="d7">1.0</data>
+  <data key="d8">The Select Element Button is used to add buttons to the Calendar interface in specific locations.</data>
+  <data key="d9">UI modification,feature application</data>
+  <data key="d10">chunk-8560efb191b74e68b9018143f3ee2c4c</data>
+  <data key="d11"></data>
+  <data key="d12">1762756709</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AI Browser" target="Calendar">
+  <data key="d7">1.0</data>
+  <data key="d8">The AI Browser enhances functionality by enabling users to debug the Calendar interface and make precise changes.</data>
+  <data key="d9">debugging,functionality enhancement</data>
+  <data key="d10">chunk-8560efb191b74e68b9018143f3ee2c4c</data>
+  <data key="d11"></data>
+  <data key="d12">1762756710</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Calendar" target="App">
+  <data key="d7">1.0</data>
+  <data key="d8">The Calendar is used in organizing tasks associated with the App during its development phases.</data>
+  <data key="d9">schedule,task organization</data>
+  <data key="d10">chunk-d8468a296c808146dd6c8defb4e5d405</data>
+  <data key="d11"></data>
+  <data key="d12">1762756721</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Productivity App" target="User Interface (UI)">
+  <data key="d7">1.0</data>
+  <data key="d8">The User Interface (UI) is a crucial part of the productivity app, allowing users to interact with its features effectively.</data>
+  <data key="d9">application functionality,interaction context</data>
+  <data key="d10">chunk-5cd932152b96c289c36d89b58befde90</data>
+  <data key="d11"></data>
+  <data key="d12">1762756709</data>
+  <data key="d13"></data>
+</edge>
+<edge source="New Era of Coding" target="Software Development">
+  <data key="d7">1.0</data>
+  <data key="d8">The New Era of Coding signifies a transformative trend within Software Development, changing traditional practices.</data>
+  <data key="d9">methodology,transformation</data>
+  <data key="d10">chunk-672c95411f06056743ee21e1759bf7df</data>
+  <data key="d11"></data>
+  <data key="d12">1762756712</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursy 2.0" target="localhost 3000">
+  <data key="d7">1.0</data>
+  <data key="d8">Cursy 2.0 requires localhost 3000 to be open for certain features to function properly.</data>
+  <data key="d9">dependency,system requirement</data>
+  <data key="d10">chunk-f207b33cee39ff6ad505a19e3e615259</data>
+  <data key="d11"></data>
+  <data key="d12">1762756712</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cloud Agents" target="Local Environment">
+  <data key="d7">2.0</data>
+  <data key="d8">Cloud Agents make changes in the cloud, which users can then pull down to review in their Local Environment.&lt;SEP&gt;Cloud Agents operate within the Local Environment, allowing users to review processes and changes made.</data>
+  <data key="d9">data management,review process,software development,task management</data>
+  <data key="d10">chunk-562d394ba4374399755c3e2575c8d190&lt;SEP&gt;chunk-e0921b86d1a9819be58dbfb18eeeacad</data>
+  <data key="d11"></data>
+  <data key="d12">1762756716</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cloud Agents" target="Cursor Mobile App">
+  <data key="d7">2.0</data>
+  <data key="d8">The Cursor Mobile App utilizes Cloud Agents to enhance user productivity by executing multiple tasks simultaneously.&lt;SEP&gt;The Cursor Mobile App utilizes Cloud Agents to enhance workflows and coding efficiency.</data>
+  <data key="d9">app functionality,application functionality,productivity enhancement,workflow enhancement</data>
+  <data key="d10">chunk-528f1b1062a253235002782d2c88c9bc&lt;SEP&gt;chunk-e0921b86d1a9819be58dbfb18eeeacad</data>
+  <data key="d11"></data>
+  <data key="d12">1762756718</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cloud Agents" target="Employee">
+  <data key="d7">1.0</data>
+  <data key="d8">Employees benefit from Cloud Agents which help manage tasks and enhance productivity.</data>
+  <data key="d9">productivity increase,work management</data>
+  <data key="d10">chunk-e0921b86d1a9819be58dbfb18eeeacad</data>
+  <data key="d11"></data>
+  <data key="d12">1762756718</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Road Map" target="Cursor Mobile App">
+  <data key="d7">1.0</data>
+  <data key="d8">The Road Map details the planned features and enhancements for the Cursor Mobile App.</data>
+  <data key="d9">feature planning,product development</data>
+  <data key="d10">chunk-e0921b86d1a9819be58dbfb18eeeacad</data>
+  <data key="d11"></data>
+  <data key="d12">1762756716</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Terminal" target="Variations">
+  <data key="d7">1.0</data>
+  <data key="d8">The terminal is used to navigate through and interact with different variations.</data>
+  <data key="d9">interaction,navigation</data>
+  <data key="d10">chunk-d7db8da421382d250965b3f01a625383</data>
+  <data key="d11"></data>
+  <data key="d12">1762756717</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Terminal" target="KLUXW">
+  <data key="d7">1.0</data>
+  <data key="d8">The KLUXW folder is accessed using the terminal command for navigation.</data>
+  <data key="d9">command line,folder navigation</data>
+  <data key="d10">chunk-d7db8da421382d250965b3f01a625383</data>
+  <data key="d11"></data>
+  <data key="d12">1762756717</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Safari" target="cursor.com">
+  <data key="d7">1.0</data>
+  <data key="d8">Safari is used to navigate to cursor.com to access the Cursor mobile app.</data>
+  <data key="d9">access,web browsing</data>
+  <data key="d10">chunk-528f1b1062a253235002782d2c88c9bc</data>
+  <data key="d11"></data>
+  <data key="d12">1762756715</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cursor Mobile App" target="UI Changes">
+  <data key="d7">1.0</data>
+  <data key="d8">UI Changes are part of the ongoing development of the Cursor Mobile App to improve user experience.</data>
+  <data key="d9">application improvement,user experience</data>
+  <data key="d10">chunk-e0921b86d1a9819be58dbfb18eeeacad</data>
+  <data key="d11"></data>
+  <data key="d12">1762756717</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Local Environment" target="UI Changes">
+  <data key="d7">1.0</data>
+  <data key="d8">UI Changes are reviewed and implemented within the Local Environment of users.</data>
+  <data key="d9">implementation,review process</data>
+  <data key="d10">chunk-e0921b86d1a9819be58dbfb18eeeacad</data>
+  <data key="d11"></data>
+  <data key="d12">1762756717</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Variations" target="npmi">
+  <data key="d7">1.0</data>
+  <data key="d8">The npmi command is used to install technology for a specific variation.</data>
+  <data key="d9">installation process,technology</data>
+  <data key="d10">chunk-d7db8da421382d250965b3f01a625383</data>
+  <data key="d11"></data>
+  <data key="d12">1762756717</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Variations" target="npm rundev">
+  <data key="d7">1.0</data>
+  <data key="d8">The npm rundev command operates the server with the selected variation code.</data>
+  <data key="d9">execution,server operation</data>
+  <data key="d10">chunk-d7db8da421382d250965b3f01a625383</data>
+  <data key="d11"></data>
+  <data key="d12">1762756718</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Agent Review" target="Debugging">
+  <data key="d7">1.0</data>
+  <data key="d8">Using Agent Review streamlines the debugging process by providing an automated review of code issues.</data>
+  <data key="d9">automation,efficiency improvement</data>
+  <data key="d10">chunk-d5fe695fec8f929154aa9f850db7e8f8</data>
+  <data key="d11"></data>
+  <data key="d12">1762756720</data>
+  <data key="d13"></data>
+</edge>
+<edge source="JGR8A" target="App">
+  <data key="d7">2.0</data>
+  <data key="d8">The app development process involves selecting JGR8A as the preferred design variation for its user interface.&lt;SEP&gt;The choice to pull in JGR8A reflects a preference for the UI design during app development.</data>
+  <data key="d9">app design,development choice,selection,ui preference</data>
+  <data key="d10">chunk-d8468a296c808146dd6c8defb4e5d405</data>
+  <data key="d11"></data>
+  <data key="d12">1762756720</data>
+  <data key="d13"></data>
+</edge>
+<edge source="HM23S" target="App">
+  <data key="d7">1.0</data>
+  <data key="d8">HM23S is tested as part of the app development process, showcasing different UI options.</data>
+  <data key="d9">app design,testing</data>
+  <data key="d10">chunk-d8468a296c808146dd6c8defb4e5d405</data>
+  <data key="d11"></data>
+  <data key="d12">1762756720</data>
+  <data key="d13"></data>
+</edge>
+<edge source="App" target="NPMI">
+  <data key="d7">1.0</data>
+  <data key="d8">NPMI is used in the app development process to manage project dependencies and run the application.</data>
+  <data key="d9">dependency management,development process</data>
+  <data key="d10">chunk-d8468a296c808146dd6c8defb4e5d405</data>
+  <data key="d11"></data>
+  <data key="d12">1762756721</data>
+  <data key="d13"></data>
+</edge>
+</graph></graphml>

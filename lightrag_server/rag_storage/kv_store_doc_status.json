@@ -1,0 +1,85 @@
+{
+  "doc-26a780bbdf36ec277ad7504f5bd047a9": {
+    "status": "processed",
+    "chunks_count": 14,
+    "chunks_list": [
+      "chunk-bf68108c40a765a1deeb3dd263c8d29a",
+      "chunk-01b1c4ac16553afd0afdc2e711bf48af",
+      "chunk-924f1aa8bb2ecb89181beacf404f0aea",
+      "chunk-08aae6b335003c94b3350b86400571d0",
+      "chunk-ab77935f953989272da57f59882374b9",
+      "chunk-6b7677c4f8fc4bf9aaebb48cfc74f281",
+      "chunk-5c70463ff5660ff7d32273684da618b7",
+      "chunk-70b12219b03a4948e1580e4ccd8ec1d6",
+      "chunk-60f529ec1784a379e6876437deaad8ef",
+      "chunk-0e538563cfeaca32d95f4fbb946b94e1",
+      "chunk-dab68701c27538a2236247a295a3b9c3",
+      "chunk-3fc4fc44decb107a1ea6c9d51ef34535",
+      "chunk-f888f0ed259626b9f499359fe191f151",
+      "chunk-0c3aeae84e858e945028337fd9b14989"
+    ],
+    "content_summary": "=== YouTube Video: Cursor 2.0 Changed How I Work ===\nAuthor: Brian Casel\nVideo ID: plAGTrg0wic\nURL: https://www.youtube.com/watch?v=plAGTrg0wic\nDuration: 1217\nUpload Date: Fri Nov 07 2025 20:01:48 GMT+0700 (Indochina Time)\n\n--- Key Points ---\n1. The ...",
+    "content_length": 65809,
+    "created_at": "2025-11-10T06:36:57.662379+00:00",
+    "updated_at": "2025-11-10T06:37:49.943507+00:00",
+    "file_path": null,
+    "track_id": "insert_20251110_133657_051ae530",
+    "metadata": {
+      "processing_start_time": 1762756617,
+      "processing_end_time": 1762756669
+    }
+  },
+  "doc-199963bdd191ad0849615cdcea7d7036": {
+    "status": "processed",
+    "chunks_count": 9,
+    "chunks_list": [
+      "chunk-d95cb7cb8e78350439a2bb9cb6beaccc",
+      "chunk-f207b33cee39ff6ad505a19e3e615259",
+      "chunk-1cc7aed3d64986d6abba1111fb92427b",
+      "chunk-672c95411f06056743ee21e1759bf7df",
+      "chunk-fc254cca680a25b82b24b89154a0b556",
+      "chunk-c2550653d75f17ab4baaa33411409f65",
+      "chunk-5f6bd8990ea0375d2e16747009d156c6",
+      "chunk-990b8548e737c735a7b73c57799190e1",
+      "chunk-a87922f604b09b16a4abaee8772bc56d"
+    ],
+    "content_summary": "=== YouTube Video: Cursor 2.0 Can Vibe Code ENTIRE Apps ===\nAuthor: corbin\nVideo ID: PAILPq1AImY\nURL: https://www.youtube.com/watch?v=PAILPq1AImY\nDuration: 617\nUpload Date: Thu Nov 06 2025 22:15:02 GMT+0700 (Indochina Time)\n\n--- Key Points ---\n1. Cur...",
+    "content_length": 41044,
+    "created_at": "2025-11-10T06:36:57.677239+00:00",
+    "updated_at": "2025-11-10T06:38:35.376989+00:00",
+    "file_path": null,
+    "track_id": "insert_20251110_133657_6b2852c6",
+    "metadata": {
+      "processing_start_time": 1762756669,
+      "processing_end_time": 1762756715
+    }
+  },
+  "doc-4460d7c1ba2f4cef938d18ed8937dd31": {
+    "status": "processed",
+    "chunks_count": 12,
+    "chunks_list": [
+      "chunk-4e216006999d9903874d00dd750bf56e",
+      "chunk-5cd932152b96c289c36d89b58befde90",
+      "chunk-8edec14a01bd263b06b727e0df56a5a9",
+      "chunk-d7db8da421382d250965b3f01a625383",
+      "chunk-d8468a296c808146dd6c8defb4e5d405",
+      "chunk-5d283f51692fb48d04e65714a81d29c6",
+      "chunk-8560efb191b74e68b9018143f3ee2c4c",
+      "chunk-d5fe695fec8f929154aa9f850db7e8f8",
+      "chunk-528f1b1062a253235002782d2c88c9bc",
+      "chunk-562d394ba4374399755c3e2575c8d190",
+      "chunk-e0921b86d1a9819be58dbfb18eeeacad",
+      "chunk-2d5aba0e76d6f9fa8a40b36074b2067e"
+    ],
+    "content_summary": "=== YouTube Video: Cursor 2.0 is INSANE, but only if you use it like this... ===\nAuthor: Alex Finn\nVideo ID: qSW2kEbVvmU\nURL: https://www.youtube.com/watch?v=qSW2kEbVvmU\nDuration: 1021\nUpload Date: Fri Nov 07 2025 04:31:13 GMT+0700 (Indochina Time)\n\n...",
+    "content_length": 57036,
+    "created_at": "2025-11-10T06:36:57.852074+00:00",
+    "updated_at": "2025-11-10T06:38:42.837003+00:00",
+    "file_path": null,
+    "track_id": "insert_20251110_133657_03b25581",
+    "metadata": {
+      "processing_start_time": 1762756669,
+      "processing_end_time": 1762756722
+    }
+  }
+}

@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
+import { FiLoader } from 'react-icons/fi';
 
 interface Node {
   id: string;
@@ -42,6 +43,8 @@ export default function GraphCanvas({ data, onNodeClick, layout = 'force', onZoo
   const svgRef = useRef<SVGSVGElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [dimensions, setDimensions] = useState({ width: 1200, height: 800 });
+  const [isSimulating, setIsSimulating] = useState(false);
+  const [simulationProgress, setSimulationProgress] = useState(0);
   const zoomBehaviorRef = useRef<any>(null);
   const simulationRef = useRef<any>(null);
 
@@ -215,28 +218,38 @@ export default function GraphCanvas({ data, onNodeClick, layout = 'force', onZoo
         .stop();
         
     } else {
-      // Force-directed layout (default)
+      // Force-directed layout (default) - OPTIMIZED
+      setIsSimulating(true);
+      setSimulationProgress(0);
+      
       simulation = d3.forceSimulation(data.nodes as any)
         .force('link', d3.forceLink(data.edges)
           .id((d: any) => d.id)
           .distance(100)
           .strength(0.5))
-        .force('charge', d3.forceManyBody().strength(-300))
+        .force('charge', d3.forceManyBody()
+          .strength(-300)
+          .distanceMax(500))  // Limit force calculation distance
         .force('center', d3.forceCenter(width / 2, height / 2))
         .force('collision', d3.forceCollide().radius(40))
-        .alphaDecay(0.02)  // Slower decay for smoother animation
-        .velocityDecay(0.4);  // More friction to stop movement faster
+        .alphaDecay(0.05)  // Faster decay for quicker stabilization (was 0.02)
+        .velocityDecay(0.6)  // More friction to stop faster (was 0.4)
+        .alphaMin(0.001);  // Stop earlier when alpha is low
     }
     
     simulationRef.current = simulation;
     
-    // Stop simulation after a fixed time to prevent continuous movement
-    setTimeout(() => {
-      if (simulation) {
-        simulation.stop();
-        console.log('Simulation stopped after timeout');
-      }
-    }, 5000);  // Stop after 5 seconds
+    // Stop simulation after shorter time (fallback)
+    let stopTimeout: NodeJS.Timeout | null = null;
+    if (layout === 'force') {
+      stopTimeout = setTimeout(() => {
+        if (simulation) {
+          simulation.stop();
+          setIsSimulating(false);
+          console.log('Simulation stopped after timeout (2s)');
+        }
+      }, 2000);  // Reduced from 5s to 2s
+    }
 
     // Create edges
     const link = g.append('g')
@@ -335,15 +348,19 @@ export default function GraphCanvas({ data, onNodeClick, layout = 'force', onZoo
     // Add click handler
     node.on('click', function(event: any, d: Node) {
       try {
+        console.log('Node clicked:', d.id, d.label || d.title);
         if (event && typeof event.stopPropagation === 'function') {
           event.stopPropagation();
         }
         if (onNodeClick) {
+          console.log('Calling onNodeClick with node data');
           onNodeClick(d);
+        } else {
+          console.warn('onNodeClick is not defined');
         }
       } catch (e) {
         // Ignore errors from event handling
-        console.debug('Node click event handling:', e);
+        console.error('Node click event handling error:', e);
       }
     });
 
@@ -374,7 +391,27 @@ export default function GraphCanvas({ data, onNodeClick, layout = 'force', onZoo
 
     // Update positions on simulation tick (only for force layout)
     if (layout === 'force') {
+      // Optimized tick handler - only update positions
+      let tickCount = 0;
+      const maxTicks = 300;  // Limit total ticks
+      const initialAlpha = simulation.alpha();
+      
       simulation.on('tick', () => {
+        tickCount++;
+        
+        // Update progress (0-100%)
+        const progress = Math.min(100, (tickCount / maxTicks) * 100);
+        setSimulationProgress(progress);
+        
+        // Stop if too many ticks
+        if (tickCount > maxTicks) {
+          simulation.stop();
+          setIsSimulating(false);
+          console.log('Simulation stopped - max ticks reached');
+          return;
+        }
+        
+        // Batch DOM updates for better performance
         link
           .attr('x1', (d: any) => d.source.x)
           .attr('y1', (d: any) => d.source.y)
@@ -382,6 +419,15 @@ export default function GraphCanvas({ data, onNodeClick, layout = 'force', onZoo
           .attr('y2', (d: any) => d.target.y);
 
         node.attr('transform', (d: any) => `translate(${d.x},${d.y})`);
+        
+        // Check alpha threshold
+        if (simulation.alpha() < 0.005) {
+          simulation.stop();
+          setIsSimulating(false);
+          setSimulationProgress(100);
+          if (stopTimeout) clearTimeout(stopTimeout);
+          console.log(`Simulation stopped - alpha threshold (${tickCount} ticks)`);
+        }
       });
     } else {
       // For static layouts, render once immediately
@@ -517,13 +563,39 @@ export default function GraphCanvas({ data, onNodeClick, layout = 'force', onZoo
   }, [data, dimensions, onNodeClick, layout, onZoomChange]);
 
   return (
-    <div ref={containerRef} className="w-full h-full">
+    <div ref={containerRef} className="w-full h-full relative">
       <svg
         ref={svgRef}
         width={dimensions.width}
         height={dimensions.height}
         className="w-full h-full bg-white"
       />
+      
+      {/* Loading Indicator */}
+      {isSimulating && (
+        <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-50">
+          <div className="bg-white rounded-lg shadow-lg px-6 py-4 border border-gray-200">
+            <div className="flex items-center gap-3">
+              <FiLoader className="w-5 h-5 text-blue-600 animate-spin" />
+              <div>
+                <div className="text-sm font-medium text-gray-900">
+                  Building Graph Layout...
+                </div>
+                <div className="text-xs text-gray-500 mt-1">
+                  {Math.round(simulationProgress)}% complete
+                </div>
+              </div>
+            </div>
+            {/* Progress Bar */}
+            <div className="mt-3 w-64 h-2 bg-gray-200 rounded-full overflow-hidden">
+              <div 
+                className="h-full bg-blue-600 transition-all duration-300 ease-out"
+                style={{ width: `${simulationProgress}%` }}
+              />
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

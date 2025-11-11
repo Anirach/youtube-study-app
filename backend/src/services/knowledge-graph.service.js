@@ -290,7 +290,9 @@ class KnowledgeGraphService {
         thumbnail: video.thumbnail,
         watchStatus: video.watchStatus,
         category: video.category?.name || 'Uncategorized',
-        categoryColor: video.category?.color || '#6b7280'
+        categoryColor: video.category?.color || '#6b7280',
+        hasTranscription: !!video.transcription,
+        hasSummary: !!video.summaryJson
       });
 
       // Extract entities from key points

@@ -1,0 +1,1574 @@
+{
+  "Cursor 2.0": {
+    "chunk_ids": [
+      "chunk-0e538563cfeaca32d95f4fbb946b94e1",
+      "chunk-f888f0ed259626b9f499359fe191f151",
+      "chunk-01b1c4ac16553afd0afdc2e711bf48af",
+      "chunk-ab77935f953989272da57f59882374b9",
+      "chunk-0c3aeae84e858e945028337fd9b14989",
+      "chunk-6b7677c4f8fc4bf9aaebb48cfc74f281",
+      "chunk-bf68108c40a765a1deeb3dd263c8d29a",
+      "chunk-d95cb7cb8e78350439a2bb9cb6beaccc",
+      "chunk-5cd932152b96c289c36d89b58befde90",
+      "chunk-2d5aba0e76d6f9fa8a40b36074b2067e",
+      "chunk-8edec14a01bd263b06b727e0df56a5a9",
+      "chunk-5d283f51692fb48d04e65714a81d29c6",
+      "chunk-d5fe695fec8f929154aa9f850db7e8f8",
+      "chunk-4e216006999d9903874d00dd750bf56e"
+    ],
+    "count": 14,
+    "update_time": 1762756706,
+    "_id": "Cursor 2.0"
+  },
+  "Agent Mode": {
+    "chunk_ids": [
+      "chunk-0e538563cfeaca32d95f4fbb946b94e1",
+      "chunk-924f1aa8bb2ecb89181beacf404f0aea",
+      "chunk-bf68108c40a765a1deeb3dd263c8d29a"
+    ],
+    "count": 3,
+    "create_time": 1762756644,
+    "update_time": 1762756644,
+    "_id": "Agent Mode"
+  },
+  "Editor Mode": {
+    "chunk_ids": [
+      "chunk-0e538563cfeaca32d95f4fbb946b94e1",
+      "chunk-bf68108c40a765a1deeb3dd263c8d29a"
+    ],
+    "count": 2,
+    "create_time": 1762756644,
+    "update_time": 1762756644,
+    "_id": "Editor Mode"
+  },
+  "Sonnet 4.5": {
+    "chunk_ids": [
+      "chunk-0e538563cfeaca32d95f4fbb946b94e1",
+      "chunk-70b12219b03a4948e1580e4ccd8ec1d6",
+      "chunk-3fc4fc44decb107a1ea6c9d51ef34535",
+      "chunk-5c70463ff5660ff7d32273684da618b7"
+    ],
+    "count": 4,
+    "create_time": 1762756644,
+    "update_time": 1762756644,
+    "_id": "Sonnet 4.5"
+  },
+  "Hidden Folder": {
+    "chunk_ids": [
+      "chunk-0e538563cfeaca32d95f4fbb946b94e1"
+    ],
+    "count": 1,
+    "create_time": 1762756644,
+    "update_time": 1762756644,
+    "_id": "Hidden Folder"
+  },
+  "Work Tree": {
+    "chunk_ids": [
+      "chunk-0e538563cfeaca32d95f4fbb946b94e1"
+    ],
+    "count": 1,
+    "create_time": 1762756644,
+    "update_time": 1762756644,
+    "_id": "Work Tree"
+  },
+  "Cursor Folder": {
+    "chunk_ids": [
+      "chunk-0e538563cfeaca32d95f4fbb946b94e1"
+    ],
+    "count": 1,
+    "create_time": 1762756644,
+    "update_time": 1762756644,
+    "_id": "Cursor Folder"
+  },
+  "Agent": {
+    "chunk_ids": [
+      "chunk-0e538563cfeaca32d95f4fbb946b94e1",
+      "chunk-70b12219b03a4948e1580e4ccd8ec1d6",
+      "chunk-5d283f51692fb48d04e65714a81d29c6"
+    ],
+    "count": 3,
+    "update_time": 1762756706,
+    "_id": "Agent"
+  },
+  "Work Trees": {
+    "chunk_ids": [
+      "chunk-0e538563cfeaca32d95f4fbb946b94e1"
+    ],
+    "count": 1,
+    "create_time": 1762756645,
+    "update_time": 1762756645,
+    "_id": "Work Trees"
+  },
+  "Composer One": {
+    "chunk_ids": [
+      "chunk-f888f0ed259626b9f499359fe191f151",
+      "chunk-70b12219b03a4948e1580e4ccd8ec1d6"
+    ],
+    "count": 2,
+    "create_time": 1762756645,
+    "update_time": 1762756645,
+    "_id": "Composer One"
+  },
+  "Weather Forecast": {
+    "chunk_ids": [
+      "chunk-f888f0ed259626b9f499359fe191f151"
+    ],
+    "count": 1,
+    "create_time": 1762756645,
+    "update_time": 1762756645,
+    "_id": "Weather Forecast"
+  },
+  "User Interface": {
+    "chunk_ids": [
+      "chunk-f888f0ed259626b9f499359fe191f151",
+      "chunk-990b8548e737c735a7b73c57799190e1",
+      "chunk-d7db8da421382d250965b3f01a625383",
+      "chunk-5d283f51692fb48d04e65714a81d29c6"
+    ],
+    "count": 4,
+    "update_time": 1762756706,
+    "_id": "User Interface"
+  },
+  "Team at Cursor": {
+    "chunk_ids": [
+      "chunk-f888f0ed259626b9f499359fe191f151"
+    ],
+    "count": 1,
+    "create_time": 1762756645,
+    "update_time": 1762756645,
+    "_id": "Team at Cursor"
+  },
+  "Light Mode": {
+    "chunk_ids": [
+      "chunk-f888f0ed259626b9f499359fe191f151"
+    ],
+    "count": 1,
+    "create_time": 1762756645,
+    "update_time": 1762756645,
+    "_id": "Light Mode"
+  },
+  "Dark Mode": {
+    "chunk_ids": [
+      "chunk-f888f0ed259626b9f499359fe191f151",
+      "chunk-562d394ba4374399755c3e2575c8d190"
+    ],
+    "count": 2,
+    "update_time": 1762756704,
+    "_id": "Dark Mode"
+  },
+  "Loading Animation": {
+    "chunk_ids": [
+      "chunk-f888f0ed259626b9f499359fe191f151"
+    ],
+    "count": 1,
+    "create_time": 1762756645,
+    "update_time": 1762756645,
+    "_id": "Loading Animation"
+  },
+  "Brian Castle": {
+    "chunk_ids": [
+      "chunk-01b1c4ac16553afd0afdc2e711bf48af"
+    ],
+    "count": 1,
+    "create_time": 1762756645,
+    "update_time": 1762756645,
+    "_id": "Brian Castle"
+  },
+  "Builder Briefing": {
+    "chunk_ids": [
+      "chunk-01b1c4ac16553afd0afdc2e711bf48af"
+    ],
+    "count": 1,
+    "create_time": 1762756645,
+    "update_time": 1762756645,
+    "_id": "Builder Briefing"
+  },
+  "Composer 1": {
+    "chunk_ids": [
+      "chunk-01b1c4ac16553afd0afdc2e711bf48af",
+      "chunk-3fc4fc44decb107a1ea6c9d51ef34535"
+    ],
+    "count": 2,
+    "create_time": 1762756645,
+    "update_time": 1762756645,
+    "_id": "Composer 1"
+  },
+  "AI": {
+    "chunk_ids": [
+      "chunk-01b1c4ac16553afd0afdc2e711bf48af",
+      "chunk-0c3aeae84e858e945028337fd9b14989",
+      "chunk-990b8548e737c735a7b73c57799190e1",
+      "chunk-2d5aba0e76d6f9fa8a40b36074b2067e"
+    ],
+    "count": 4,
+    "update_time": 1762756703,
+    "_id": "AI"
+  },
+  "Cursor": {
+    "chunk_ids": [
+      "chunk-01b1c4ac16553afd0afdc2e711bf48af",
+      "chunk-ab77935f953989272da57f59882374b9",
+      "chunk-70b12219b03a4948e1580e4ccd8ec1d6",
+      "chunk-6b7677c4f8fc4bf9aaebb48cfc74f281",
+      "chunk-990b8548e737c735a7b73c57799190e1",
+      "chunk-fc254cca680a25b82b24b89154a0b556",
+      "chunk-2d5aba0e76d6f9fa8a40b36074b2067e",
+      "chunk-562d394ba4374399755c3e2575c8d190",
+      "chunk-528f1b1062a253235002782d2c88c9bc"
+    ],
+    "count": 9,
+    "update_time": 1762756703,
+    "_id": "Cursor"
+  },
+  "Composer": {
+    "chunk_ids": [
+      "chunk-ab77935f953989272da57f59882374b9",
+      "chunk-08aae6b335003c94b3350b86400571d0",
+      "chunk-5c70463ff5660ff7d32273684da618b7"
+    ],
+    "count": 3,
+    "create_time": 1762756646,
+    "update_time": 1762756646,
+    "_id": "Composer"
+  },
+  "Claude Sonnet 4.5": {
+    "chunk_ids": [
+      "chunk-ab77935f953989272da57f59882374b9"
+    ],
+    "count": 1,
+    "create_time": 1762756646,
+    "update_time": 1762756646,
+    "_id": "Claude Sonnet 4.5"
+  },
+  "Autonomous Agents": {
+    "chunk_ids": [
+      "chunk-ab77935f953989272da57f59882374b9",
+      "chunk-6b7677c4f8fc4bf9aaebb48cfc74f281"
+    ],
+    "count": 2,
+    "create_time": 1762756646,
+    "update_time": 1762756646,
+    "_id": "Autonomous Agents"
+  },
+  "User Base of Developers": {
+    "chunk_ids": [
+      "chunk-ab77935f953989272da57f59882374b9"
+    ],
+    "count": 1,
+    "create_time": 1762756646,
+    "update_time": 1762756646,
+    "_id": "User Base of Developers"
+  },
+  "My App": {
+    "chunk_ids": [
+      "chunk-ab77935f953989272da57f59882374b9",
+      "chunk-08aae6b335003c94b3350b86400571d0"
+    ],
+    "count": 2,
+    "create_time": 1762756646,
+    "update_time": 1762756646,
+    "_id": "My App"
+  },
+  "Feature": {
+    "chunk_ids": [
+      "chunk-ab77935f953989272da57f59882374b9"
+    ],
+    "count": 1,
+    "create_time": 1762756646,
+    "update_time": 1762756646,
+    "_id": "Feature"
+  },
+  "BuilderMethods.com": {
+    "chunk_ids": [
+      "chunk-924f1aa8bb2ecb89181beacf404f0aea"
+    ],
+    "count": 1,
+    "create_time": 1762756646,
+    "update_time": 1762756646,
+    "_id": "BuilderMethods.com"
+  },
+  "Claude": {
+    "chunk_ids": [
+      "chunk-924f1aa8bb2ecb89181beacf404f0aea"
+    ],
+    "count": 1,
+    "create_time": 1762756646,
+    "update_time": 1762756646,
+    "_id": "Claude"
+  },
+  "About Page": {
+    "chunk_ids": [
+      "chunk-924f1aa8bb2ecb89181beacf404f0aea"
+    ],
+    "count": 1,
+    "create_time": 1762756646,
+    "update_time": 1762756646,
+    "_id": "About Page"
+  },
+  "Composer Model": {
+    "chunk_ids": [
+      "chunk-924f1aa8bb2ecb89181beacf404f0aea"
+    ],
+    "count": 1,
+    "create_time": 1762756646,
+    "update_time": 1762756646,
+    "_id": "Composer Model"
+  },
+  "Markdown": {
+    "chunk_ids": [
+      "chunk-924f1aa8bb2ecb89181beacf404f0aea"
+    ],
+    "count": 1,
+    "create_time": 1762756646,
+    "update_time": 1762756646,
+    "_id": "Markdown"
+  },
+  "Footer": {
+    "chunk_ids": [
+      "chunk-924f1aa8bb2ecb89181beacf404f0aea"
+    ],
+    "count": 1,
+    "create_time": 1762756646,
+    "update_time": 1762756646,
+    "_id": "Footer"
+  },
+  "Model": {
+    "chunk_ids": [
+      "chunk-70b12219b03a4948e1580e4ccd8ec1d6"
+    ],
+    "count": 1,
+    "create_time": 1762756646,
+    "update_time": 1762756646,
+    "_id": "Model"
+  },
+  "GPT5 Codeex": {
+    "chunk_ids": [
+      "chunk-70b12219b03a4948e1580e4ccd8ec1d6",
+      "chunk-dab68701c27538a2236247a295a3b9c3"
+    ],
+    "count": 2,
+    "create_time": 1762756646,
+    "update_time": 1762756646,
+    "_id": "GPT5 Codeex"
+  },
+  "To-Do List": {
+    "chunk_ids": [
+      "chunk-70b12219b03a4948e1580e4ccd8ec1d6",
+      "chunk-8560efb191b74e68b9018143f3ee2c4c",
+      "chunk-5cd932152b96c289c36d89b58befde90",
+      "chunk-d5fe695fec8f929154aa9f850db7e8f8"
+    ],
+    "count": 4,
+    "update_time": 1762756702,
+    "_id": "To-Do List"
+  },
+  "Multiple Models": {
+    "chunk_ids": [
+      "chunk-70b12219b03a4948e1580e4ccd8ec1d6"
+    ],
+    "count": 1,
+    "create_time": 1762756646,
+    "update_time": 1762756646,
+    "_id": "Multiple Models"
+  },
+  "Sonnet 4.5 Agent": {
+    "chunk_ids": [
+      "chunk-dab68701c27538a2236247a295a3b9c3"
+    ],
+    "count": 1,
+    "create_time": 1762756646,
+    "update_time": 1762756646,
+    "_id": "Sonnet 4.5 Agent"
+  },
+  "Agent Composer One": {
+    "chunk_ids": [
+      "chunk-dab68701c27538a2236247a295a3b9c3"
+    ],
+    "count": 1,
+    "create_time": 1762756646,
+    "update_time": 1762756646,
+    "_id": "Agent Composer One"
+  },
+  "Current Location": {
+    "chunk_ids": [
+      "chunk-dab68701c27538a2236247a295a3b9c3"
+    ],
+    "count": 1,
+    "create_time": 1762756646,
+    "update_time": 1762756646,
+    "_id": "Current Location"
+  },
+  "7-Day Forecast": {
+    "chunk_ids": [
+      "chunk-dab68701c27538a2236247a295a3b9c3",
+      "chunk-3fc4fc44decb107a1ea6c9d51ef34535"
+    ],
+    "count": 2,
+    "create_time": 1762756647,
+    "update_time": 1762756647,
+    "_id": "7-Day Forecast"
+  },
+  "Console": {
+    "chunk_ids": [
+      "chunk-dab68701c27538a2236247a295a3b9c3"
+    ],
+    "count": 1,
+    "create_time": 1762756647,
+    "update_time": 1762756647,
+    "_id": "Console"
+  },
+  "Errors": {
+    "chunk_ids": [
+      "chunk-dab68701c27538a2236247a295a3b9c3"
+    ],
+    "count": 1,
+    "create_time": 1762756647,
+    "update_time": 1762756647,
+    "_id": "Errors"
+  },
+  "Location Name": {
+    "chunk_ids": [
+      "chunk-dab68701c27538a2236247a295a3b9c3"
+    ],
+    "count": 1,
+    "create_time": 1762756647,
+    "update_time": 1762756647,
+    "_id": "Location Name"
+  },
+  "Spec-Driven Development": {
+    "chunk_ids": [
+      "chunk-0c3aeae84e858e945028337fd9b14989"
+    ],
+    "count": 1,
+    "create_time": 1762756647,
+    "update_time": 1762756647,
+    "_id": "Spec-Driven Development"
+  },
+  "Channel": {
+    "chunk_ids": [
+      "chunk-0c3aeae84e858e945028337fd9b14989"
+    ],
+    "count": 1,
+    "create_time": 1762756647,
+    "update_time": 1762756647,
+    "_id": "Channel"
+  },
+  "Workflow": {
+    "chunk_ids": [
+      "chunk-0c3aeae84e858e945028337fd9b14989",
+      "chunk-8edec14a01bd263b06b727e0df56a5a9"
+    ],
+    "count": 2,
+    "update_time": 1762756704,
+    "_id": "Workflow"
+  },
+  "Cloud Code": {
+    "chunk_ids": [
+      "chunk-6b7677c4f8fc4bf9aaebb48cfc74f281"
+    ],
+    "count": 1,
+    "create_time": 1762756647,
+    "update_time": 1762756647,
+    "_id": "Cloud Code"
+  },
+  "Background Agents": {
+    "chunk_ids": [
+      "chunk-6b7677c4f8fc4bf9aaebb48cfc74f281"
+    ],
+    "count": 1,
+    "create_time": 1762756647,
+    "update_time": 1762756647,
+    "_id": "Background Agents"
+  },
+  "AAI": {
+    "chunk_ids": [
+      "chunk-6b7677c4f8fc4bf9aaebb48cfc74f281"
+    ],
+    "count": 1,
+    "create_time": 1762756647,
+    "update_time": 1762756647,
+    "_id": "AAI"
+  },
+  "Weather App": {
+    "chunk_ids": [
+      "chunk-6b7677c4f8fc4bf9aaebb48cfc74f281"
+    ],
+    "count": 1,
+    "create_time": 1762756647,
+    "update_time": 1762756647,
+    "_id": "Weather App"
+  },
+  "Weatheroo": {
+    "chunk_ids": [
+      "chunk-60f529ec1784a379e6876437deaad8ef"
+    ],
+    "count": 1,
+    "create_time": 1762756647,
+    "update_time": 1762756647,
+    "_id": "Weatheroo"
+  },
+  "Rails App": {
+    "chunk_ids": [
+      "chunk-60f529ec1784a379e6876437deaad8ef"
+    ],
+    "count": 1,
+    "create_time": 1762756647,
+    "update_time": 1762756647,
+    "_id": "Rails App"
+  },
+  "Finder": {
+    "chunk_ids": [
+      "chunk-60f529ec1784a379e6876437deaad8ef"
+    ],
+    "count": 1,
+    "create_time": 1762756647,
+    "update_time": 1762756647,
+    "_id": "Finder"
+  },
+  "Git Work Trees": {
+    "chunk_ids": [
+      "chunk-60f529ec1784a379e6876437deaad8ef"
+    ],
+    "count": 1,
+    "create_time": 1762756647,
+    "update_time": 1762756647,
+    "_id": "Git Work Trees"
+  },
+  "Interface": {
+    "chunk_ids": [
+      "chunk-60f529ec1784a379e6876437deaad8ef"
+    ],
+    "count": 1,
+    "create_time": 1762756648,
+    "update_time": 1762756648,
+    "_id": "Interface"
+  },
+  "Agents": {
+    "chunk_ids": [
+      "chunk-60f529ec1784a379e6876437deaad8ef"
+    ],
+    "count": 1,
+    "create_time": 1762756648,
+    "update_time": 1762756648,
+    "_id": "Agents"
+  },
+  "Three Agents": {
+    "chunk_ids": [
+      "chunk-60f529ec1784a379e6876437deaad8ef"
+    ],
+    "count": 1,
+    "create_time": 1762756648,
+    "update_time": 1762756648,
+    "_id": "Three Agents"
+  },
+  "Orange": {
+    "chunk_ids": [
+      "chunk-3fc4fc44decb107a1ea6c9d51ef34535"
+    ],
+    "count": 1,
+    "create_time": 1762756648,
+    "update_time": 1762756648,
+    "_id": "Orange"
+  },
+  "Connecticut": {
+    "chunk_ids": [
+      "chunk-3fc4fc44decb107a1ea6c9d51ef34535"
+    ],
+    "count": 1,
+    "create_time": 1762756648,
+    "update_time": 1762756648,
+    "_id": "Connecticut"
+  },
+  "CleanShot": {
+    "chunk_ids": [
+      "chunk-3fc4fc44decb107a1ea6c9d51ef34535"
+    ],
+    "count": 1,
+    "create_time": 1762756648,
+    "update_time": 1762756648,
+    "_id": "CleanShot"
+  },
+  "24-Hour Forecast": {
+    "chunk_ids": [
+      "chunk-3fc4fc44decb107a1ea6c9d51ef34535"
+    ],
+    "count": 1,
+    "create_time": 1762756648,
+    "update_time": 1762756648,
+    "_id": "24-Hour Forecast"
+  },
+  "Div Element": {
+    "chunk_ids": [
+      "chunk-08aae6b335003c94b3350b86400571d0"
+    ],
+    "count": 1,
+    "create_time": 1762756648,
+    "update_time": 1762756648,
+    "_id": "Div Element"
+  },
+  "Keyboard Shortcuts": {
+    "chunk_ids": [
+      "chunk-08aae6b335003c94b3350b86400571d0"
+    ],
+    "count": 1,
+    "create_time": 1762756648,
+    "update_time": 1762756648,
+    "_id": "Keyboard Shortcuts"
+  },
+  "Browser": {
+    "chunk_ids": [
+      "chunk-08aae6b335003c94b3350b86400571d0",
+      "chunk-5d283f51692fb48d04e65714a81d29c6"
+    ],
+    "count": 2,
+    "update_time": 1762756706,
+    "_id": "Browser"
+  },
+  "User Interface Changes": {
+    "chunk_ids": [
+      "chunk-08aae6b335003c94b3350b86400571d0"
+    ],
+    "count": 1,
+    "create_time": 1762756648,
+    "update_time": 1762756648,
+    "_id": "User Interface Changes"
+  },
+  "Features": {
+    "chunk_ids": [
+      "chunk-08aae6b335003c94b3350b86400571d0"
+    ],
+    "count": 1,
+    "create_time": 1762756648,
+    "update_time": 1762756648,
+    "_id": "Features"
+  },
+  "Brian Casel": {
+    "chunk_ids": [
+      "chunk-bf68108c40a765a1deeb3dd263c8d29a"
+    ],
+    "count": 1,
+    "create_time": 1762756648,
+    "update_time": 1762756648,
+    "_id": "Brian Casel"
+  },
+  "Video ID: plAGTrg0wic": {
+    "chunk_ids": [
+      "chunk-bf68108c40a765a1deeb3dd263c8d29a"
+    ],
+    "count": 1,
+    "create_time": 1762756648,
+    "update_time": 1762756648,
+    "_id": "Video ID: plAGTrg0wic"
+  },
+  "YouTube": {
+    "chunk_ids": [
+      "chunk-bf68108c40a765a1deeb3dd263c8d29a"
+    ],
+    "count": 1,
+    "create_time": 1762756648,
+    "update_time": 1762756648,
+    "_id": "YouTube"
+  },
+  "Builder Methods": {
+    "chunk_ids": [
+      "chunk-bf68108c40a765a1deeb3dd263c8d29a"
+    ],
+    "count": 1,
+    "create_time": 1762756648,
+    "update_time": 1762756648,
+    "_id": "Builder Methods"
+  },
+  "Duration": {
+    "chunk_ids": [
+      "chunk-bf68108c40a765a1deeb3dd263c8d29a"
+    ],
+    "count": 1,
+    "create_time": 1762756649,
+    "update_time": 1762756649,
+    "_id": "Duration"
+  },
+  "Upload Date": {
+    "chunk_ids": [
+      "chunk-bf68108c40a765a1deeb3dd263c8d29a"
+    ],
+    "count": 1,
+    "create_time": 1762756649,
+    "update_time": 1762756649,
+    "_id": "Upload Date"
+  },
+  "Cursor's Plan Mode": {
+    "chunk_ids": [
+      "chunk-5c70463ff5660ff7d32273684da618b7"
+    ],
+    "count": 1,
+    "create_time": 1762756649,
+    "update_time": 1762756649,
+    "_id": "Cursor's Plan Mode"
+  },
+  "Agent OS": {
+    "chunk_ids": [
+      "chunk-5c70463ff5660ff7d32273684da618b7"
+    ],
+    "count": 1,
+    "create_time": 1762756649,
+    "update_time": 1762756649,
+    "_id": "Agent OS"
+  },
+  "Weather Data": {
+    "chunk_ids": [
+      "chunk-5c70463ff5660ff7d32273684da618b7"
+    ],
+    "count": 1,
+    "create_time": 1762756649,
+    "update_time": 1762756649,
+    "_id": "Weather Data"
+  },
+  "Cursors": {
+    "chunk_ids": [
+      "chunk-5c70463ff5660ff7d32273684da618b7"
+    ],
+    "count": 1,
+    "create_time": 1762756649,
+    "update_time": 1762756649,
+    "_id": "Cursors"
+  },
+  "Codecs": {
+    "chunk_ids": [
+      "chunk-6b7677c4f8fc4bf9aaebb48cfc74f281"
+    ],
+    "count": 1,
+    "create_time": 1762756661,
+    "update_time": 1762756661,
+    "_id": "Codecs"
+  },
+  "Cursor AI": {
+    "chunk_ids": [
+      "chunk-1cc7aed3d64986d6abba1111fb92427b",
+      "chunk-d95cb7cb8e78350439a2bb9cb6beaccc",
+      "chunk-672c95411f06056743ee21e1759bf7df"
+    ],
+    "count": 3,
+    "create_time": 1762756700,
+    "update_time": 1762756700,
+    "_id": "Cursor AI"
+  },
+  "Chrome": {
+    "chunk_ids": [
+      "chunk-1cc7aed3d64986d6abba1111fb92427b"
+    ],
+    "count": 1,
+    "create_time": 1762756700,
+    "update_time": 1762756700,
+    "_id": "Chrome"
+  },
+  "Carbon-Fiber Spikes": {
+    "chunk_ids": [
+      "chunk-1cc7aed3d64986d6abba1111fb92427b"
+    ],
+    "count": 1,
+    "create_time": 1762756700,
+    "update_time": 1762756700,
+    "_id": "Carbon-Fiber Spikes"
+  },
+  "Automated Test Software": {
+    "chunk_ids": [
+      "chunk-1cc7aed3d64986d6abba1111fb92427b"
+    ],
+    "count": 1,
+    "create_time": 1762756700,
+    "update_time": 1762756700,
+    "_id": "Automated Test Software"
+  },
+  "Junior Engineer": {
+    "chunk_ids": [
+      "chunk-1cc7aed3d64986d6abba1111fb92427b",
+      "chunk-5f6bd8990ea0375d2e16747009d156c6"
+    ],
+    "count": 2,
+    "create_time": 1762756700,
+    "update_time": 1762756700,
+    "_id": "Junior Engineer"
+  },
+  "Lead the Llama": {
+    "chunk_ids": [
+      "chunk-1cc7aed3d64986d6abba1111fb92427b"
+    ],
+    "count": 1,
+    "create_time": 1762756700,
+    "update_time": 1762756700,
+    "_id": "Lead the Llama"
+  },
+  "Hamburger Request": {
+    "chunk_ids": [
+      "chunk-990b8548e737c735a7b73c57799190e1"
+    ],
+    "count": 1,
+    "create_time": 1762756700,
+    "update_time": 1762756700,
+    "_id": "Hamburger Request"
+  },
+  "Mobile Navigation": {
+    "chunk_ids": [
+      "chunk-990b8548e737c735a7b73c57799190e1",
+      "chunk-5f6bd8990ea0375d2e16747009d156c6"
+    ],
+    "count": 2,
+    "create_time": 1762756700,
+    "update_time": 1762756700,
+    "_id": "Mobile Navigation"
+  },
+  "Front End Engineering": {
+    "chunk_ids": [
+      "chunk-990b8548e737c735a7b73c57799190e1"
+    ],
+    "count": 1,
+    "create_time": 1762756700,
+    "update_time": 1762756700,
+    "_id": "Front End Engineering"
+  },
+  "Pricing Section": {
+    "chunk_ids": [
+      "chunk-990b8548e737c735a7b73c57799190e1"
+    ],
+    "count": 1,
+    "create_time": 1762756700,
+    "update_time": 1762756700,
+    "_id": "Pricing Section"
+  },
+  "Tablet": {
+    "chunk_ids": [
+      "chunk-990b8548e737c735a7b73c57799190e1"
+    ],
+    "count": 1,
+    "create_time": 1762756700,
+    "update_time": 1762756700,
+    "_id": "Tablet"
+  },
+  "Mobile": {
+    "chunk_ids": [
+      "chunk-990b8548e737c735a7b73c57799190e1"
+    ],
+    "count": 1,
+    "create_time": 1762756700,
+    "update_time": 1762756700,
+    "_id": "Mobile"
+  },
+  "McDonald's": {
+    "chunk_ids": [
+      "chunk-a87922f604b09b16a4abaee8772bc56d",
+      "chunk-fc254cca680a25b82b24b89154a0b556"
+    ],
+    "count": 2,
+    "create_time": 1762756701,
+    "update_time": 1762756701,
+    "_id": "McDonald's"
+  },
+  "In-N-Out": {
+    "chunk_ids": [
+      "chunk-a87922f604b09b16a4abaee8772bc56d",
+      "chunk-fc254cca680a25b82b24b89154a0b556"
+    ],
+    "count": 2,
+    "create_time": 1762756701,
+    "update_time": 1762756701,
+    "_id": "In-N-Out"
+  },
+  "Banana Peppers": {
+    "chunk_ids": [
+      "chunk-a87922f604b09b16a4abaee8772bc56d"
+    ],
+    "count": 1,
+    "create_time": 1762756701,
+    "update_time": 1762756701,
+    "_id": "Banana Peppers"
+  },
+  "Junior Engineers": {
+    "chunk_ids": [
+      "chunk-c2550653d75f17ab4baaa33411409f65",
+      "chunk-fc254cca680a25b82b24b89154a0b556"
+    ],
+    "count": 2,
+    "create_time": 1762756701,
+    "update_time": 1762756701,
+    "_id": "Junior Engineers"
+  },
+  "Hamburger Menu": {
+    "chunk_ids": [
+      "chunk-c2550653d75f17ab4baaa33411409f65",
+      "chunk-fc254cca680a25b82b24b89154a0b556"
+    ],
+    "count": 2,
+    "create_time": 1762756701,
+    "update_time": 1762756701,
+    "_id": "Hamburger Menu"
+  },
+  "Code Review": {
+    "chunk_ids": [
+      "chunk-c2550653d75f17ab4baaa33411409f65"
+    ],
+    "count": 1,
+    "create_time": 1762756701,
+    "update_time": 1762756701,
+    "_id": "Code Review"
+  },
+  "GitHub": {
+    "chunk_ids": [
+      "chunk-c2550653d75f17ab4baaa33411409f65",
+      "chunk-8edec14a01bd263b06b727e0df56a5a9"
+    ],
+    "count": 2,
+    "update_time": 1762756704,
+    "_id": "GitHub"
+  },
+  "Pull Request": {
+    "chunk_ids": [
+      "chunk-c2550653d75f17ab4baaa33411409f65"
+    ],
+    "count": 1,
+    "create_time": 1762756701,
+    "update_time": 1762756701,
+    "_id": "Pull Request"
+  },
+  "Front End": {
+    "chunk_ids": [
+      "chunk-c2550653d75f17ab4baaa33411409f65"
+    ],
+    "count": 1,
+    "create_time": 1762756701,
+    "update_time": 1762756701,
+    "_id": "Front End"
+  },
+  "Back End": {
+    "chunk_ids": [
+      "chunk-c2550653d75f17ab4baaa33411409f65"
+    ],
+    "count": 1,
+    "create_time": 1762756701,
+    "update_time": 1762756701,
+    "_id": "Back End"
+  },
+  "AI Coder": {
+    "chunk_ids": [
+      "chunk-fc254cca680a25b82b24b89154a0b556"
+    ],
+    "count": 1,
+    "create_time": 1762756701,
+    "update_time": 1762756701,
+    "_id": "AI Coder"
+  },
+  "Senior Engineer": {
+    "chunk_ids": [
+      "chunk-fc254cca680a25b82b24b89154a0b556",
+      "chunk-5f6bd8990ea0375d2e16747009d156c6"
+    ],
+    "count": 2,
+    "create_time": 1762756701,
+    "update_time": 1762756701,
+    "_id": "Senior Engineer"
+  },
+  "Responsive Layout": {
+    "chunk_ids": [
+      "chunk-fc254cca680a25b82b24b89154a0b556"
+    ],
+    "count": 1,
+    "create_time": 1762756701,
+    "update_time": 1762756701,
+    "_id": "Responsive Layout"
+  },
+  "Sections": {
+    "chunk_ids": [
+      "chunk-fc254cca680a25b82b24b89154a0b556"
+    ],
+    "count": 1,
+    "create_time": 1762756701,
+    "update_time": 1762756701,
+    "_id": "Sections"
+  },
+  "Corbin": {
+    "chunk_ids": [
+      "chunk-d95cb7cb8e78350439a2bb9cb6beaccc"
+    ],
+    "count": 1,
+    "create_time": 1762756701,
+    "update_time": 1762756701,
+    "_id": "Corbin"
+  },
+  "YouTube Video": {
+    "chunk_ids": [
+      "chunk-d95cb7cb8e78350439a2bb9cb6beaccc",
+      "chunk-4e216006999d9903874d00dd750bf56e"
+    ],
+    "count": 2,
+    "update_time": 1762756706,
+    "_id": "YouTube Video"
+  },
+  "Responsive Design": {
+    "chunk_ids": [
+      "chunk-d95cb7cb8e78350439a2bb9cb6beaccc"
+    ],
+    "count": 1,
+    "create_time": 1762756702,
+    "update_time": 1762756702,
+    "_id": "Responsive Design"
+  },
+  "Google Chrome": {
+    "chunk_ids": [
+      "chunk-d95cb7cb8e78350439a2bb9cb6beaccc",
+      "chunk-f207b33cee39ff6ad505a19e3e615259"
+    ],
+    "count": 2,
+    "create_time": 1762756702,
+    "update_time": 1762756702,
+    "_id": "Google Chrome"
+  },
+  "Frontend Development": {
+    "chunk_ids": [
+      "chunk-d95cb7cb8e78350439a2bb9cb6beaccc"
+    ],
+    "count": 1,
+    "create_time": 1762756702,
+    "update_time": 1762756702,
+    "_id": "Frontend Development"
+  },
+  "30 Minutes": {
+    "chunk_ids": [
+      "chunk-d95cb7cb8e78350439a2bb9cb6beaccc"
+    ],
+    "count": 1,
+    "create_time": 1762756702,
+    "update_time": 1762756702,
+    "_id": "30 Minutes"
+  },
+  "November 6, 2025": {
+    "chunk_ids": [
+      "chunk-d95cb7cb8e78350439a2bb9cb6beaccc"
+    ],
+    "count": 1,
+    "create_time": 1762756702,
+    "update_time": 1762756702,
+    "_id": "November 6, 2025"
+  },
+  "Slack": {
+    "chunk_ids": [
+      "chunk-5f6bd8990ea0375d2e16747009d156c6"
+    ],
+    "count": 1,
+    "create_time": 1762756702,
+    "update_time": 1762756702,
+    "_id": "Slack"
+  },
+  "Pull Request (PR)": {
+    "chunk_ids": [
+      "chunk-5f6bd8990ea0375d2e16747009d156c6"
+    ],
+    "count": 1,
+    "create_time": 1762756702,
+    "update_time": 1762756702,
+    "_id": "Pull Request (PR)"
+  },
+  "Hamburger Situation": {
+    "chunk_ids": [
+      "chunk-5f6bd8990ea0375d2e16747009d156c6"
+    ],
+    "count": 1,
+    "create_time": 1762756702,
+    "update_time": 1762756702,
+    "_id": "Hamburger Situation"
+  },
+  "AI Studio": {
+    "chunk_ids": [
+      "chunk-5f6bd8990ea0375d2e16747009d156c6"
+    ],
+    "count": 1,
+    "create_time": 1762756702,
+    "update_time": 1762756702,
+    "_id": "AI Studio"
+  },
+  "Video Series": {
+    "chunk_ids": [
+      "chunk-5f6bd8990ea0375d2e16747009d156c6",
+      "chunk-672c95411f06056743ee21e1759bf7df"
+    ],
+    "count": 2,
+    "create_time": 1762756702,
+    "update_time": 1762756702,
+    "_id": "Video Series"
+  },
+  "Select Element Button": {
+    "chunk_ids": [
+      "chunk-8560efb191b74e68b9018143f3ee2c4c"
+    ],
+    "count": 1,
+    "create_time": 1762756702,
+    "update_time": 1762756702,
+    "_id": "Select Element Button"
+  },
+  "AI Browser": {
+    "chunk_ids": [
+      "chunk-8560efb191b74e68b9018143f3ee2c4c"
+    ],
+    "count": 1,
+    "create_time": 1762756702,
+    "update_time": 1762756702,
+    "_id": "AI Browser"
+  },
+  "Calendar": {
+    "chunk_ids": [
+      "chunk-8560efb191b74e68b9018143f3ee2c4c",
+      "chunk-5cd932152b96c289c36d89b58befde90",
+      "chunk-d8468a296c808146dd6c8defb4e5d405"
+    ],
+    "count": 3,
+    "create_time": 1762756702,
+    "update_time": 1762756702,
+    "_id": "Calendar"
+  },
+  "AI Builders": {
+    "chunk_ids": [
+      "chunk-8560efb191b74e68b9018143f3ee2c4c"
+    ],
+    "count": 1,
+    "create_time": 1762756702,
+    "update_time": 1762756702,
+    "_id": "AI Builders"
+  },
+  "Productivity App": {
+    "chunk_ids": [
+      "chunk-5cd932152b96c289c36d89b58befde90",
+      "chunk-8edec14a01bd263b06b727e0df56a5a9",
+      "chunk-4e216006999d9903874d00dd750bf56e"
+    ],
+    "count": 3,
+    "create_time": 1762756702,
+    "update_time": 1762756702,
+    "_id": "Productivity App"
+  },
+  "AI Model": {
+    "chunk_ids": [
+      "chunk-5cd932152b96c289c36d89b58befde90"
+    ],
+    "count": 1,
+    "create_time": 1762756702,
+    "update_time": 1762756702,
+    "_id": "AI Model"
+  },
+  "Engineer": {
+    "chunk_ids": [
+      "chunk-5f6bd8990ea0375d2e16747009d156c6"
+    ],
+    "count": 1,
+    "create_time": 1762756702,
+    "update_time": 1762756702,
+    "_id": "Engineer"
+  },
+  "New Era of Coding": {
+    "chunk_ids": [
+      "chunk-672c95411f06056743ee21e1759bf7df"
+    ],
+    "count": 1,
+    "create_time": 1762756702,
+    "update_time": 1762756702,
+    "_id": "New Era of Coding"
+  },
+  "Software Development": {
+    "chunk_ids": [
+      "chunk-672c95411f06056743ee21e1759bf7df"
+    ],
+    "count": 1,
+    "create_time": 1762756702,
+    "update_time": 1762756702,
+    "_id": "Software Development"
+  },
+  "Playlist Description": {
+    "chunk_ids": [
+      "chunk-672c95411f06056743ee21e1759bf7df"
+    ],
+    "count": 1,
+    "create_time": 1762756702,
+    "update_time": 1762756702,
+    "_id": "Playlist Description"
+  },
+  "Cursy 2.0": {
+    "chunk_ids": [
+      "chunk-f207b33cee39ff6ad505a19e3e615259"
+    ],
+    "count": 1,
+    "create_time": 1762756703,
+    "update_time": 1762756703,
+    "_id": "Cursy 2.0"
+  },
+  "localhost 3000": {
+    "chunk_ids": [
+      "chunk-f207b33cee39ff6ad505a19e3e615259"
+    ],
+    "count": 1,
+    "create_time": 1762756703,
+    "update_time": 1762756703,
+    "_id": "localhost 3000"
+  },
+  "Browser Tab": {
+    "chunk_ids": [
+      "chunk-f207b33cee39ff6ad505a19e3e615259"
+    ],
+    "count": 1,
+    "create_time": 1762756703,
+    "update_time": 1762756703,
+    "_id": "Browser Tab"
+  },
+  "UI Components": {
+    "chunk_ids": [
+      "chunk-5cd932152b96c289c36d89b58befde90"
+    ],
+    "count": 1,
+    "create_time": 1762756703,
+    "update_time": 1762756703,
+    "_id": "UI Components"
+  },
+  "Token Usage": {
+    "chunk_ids": [
+      "chunk-5cd932152b96c289c36d89b58befde90"
+    ],
+    "count": 1,
+    "create_time": 1762756703,
+    "update_time": 1762756703,
+    "_id": "Token Usage"
+  },
+  "User Interface (UI)": {
+    "chunk_ids": [
+      "chunk-5cd932152b96c289c36d89b58befde90"
+    ],
+    "count": 1,
+    "create_time": 1762756703,
+    "update_time": 1762756703,
+    "_id": "User Interface (UI)"
+  },
+  "Mobile App": {
+    "chunk_ids": [
+      "chunk-2d5aba0e76d6f9fa8a40b36074b2067e"
+    ],
+    "count": 1,
+    "create_time": 1762756703,
+    "update_time": 1762756703,
+    "_id": "Mobile App"
+  },
+  "Cloud Agent": {
+    "chunk_ids": [
+      "chunk-2d5aba0e76d6f9fa8a40b36074b2067e"
+    ],
+    "count": 1,
+    "create_time": 1762756703,
+    "update_time": 1762756703,
+    "_id": "Cloud Agent"
+  },
+  "Incognito Mode": {
+    "chunk_ids": [
+      "chunk-f207b33cee39ff6ad505a19e3e615259"
+    ],
+    "count": 1,
+    "create_time": 1762756703,
+    "update_time": 1762756703,
+    "_id": "Incognito Mode"
+  },
+  "Cursor Team": {
+    "chunk_ids": [
+      "chunk-2d5aba0e76d6f9fa8a40b36074b2067e"
+    ],
+    "count": 1,
+    "create_time": 1762756704,
+    "update_time": 1762756704,
+    "_id": "Cursor Team"
+  },
+  "AI Newsletter": {
+    "chunk_ids": [
+      "chunk-2d5aba0e76d6f9fa8a40b36074b2067e"
+    ],
+    "count": 1,
+    "create_time": 1762756704,
+    "update_time": 1762756704,
+    "_id": "AI Newsletter"
+  },
+  "Mobile Experience": {
+    "chunk_ids": [
+      "chunk-562d394ba4374399755c3e2575c8d190"
+    ],
+    "count": 1,
+    "create_time": 1762756704,
+    "update_time": 1762756704,
+    "_id": "Mobile Experience"
+  },
+  "Cloud Agents": {
+    "chunk_ids": [
+      "chunk-562d394ba4374399755c3e2575c8d190",
+      "chunk-528f1b1062a253235002782d2c88c9bc",
+      "chunk-e0921b86d1a9819be58dbfb18eeeacad"
+    ],
+    "count": 3,
+    "create_time": 1762756704,
+    "update_time": 1762756704,
+    "_id": "Cloud Agents"
+  },
+  "Road Map": {
+    "chunk_ids": [
+      "chunk-562d394ba4374399755c3e2575c8d190",
+      "chunk-e0921b86d1a9819be58dbfb18eeeacad"
+    ],
+    "count": 2,
+    "create_time": 1762756704,
+    "update_time": 1762756704,
+    "_id": "Road Map"
+  },
+  "Gym": {
+    "chunk_ids": [
+      "chunk-562d394ba4374399755c3e2575c8d190"
+    ],
+    "count": 1,
+    "create_time": 1762756704,
+    "update_time": 1762756704,
+    "_id": "Gym"
+  },
+  "Terminal": {
+    "chunk_ids": [
+      "chunk-8edec14a01bd263b06b727e0df56a5a9",
+      "chunk-d7db8da421382d250965b3f01a625383"
+    ],
+    "count": 2,
+    "create_time": 1762756704,
+    "update_time": 1762756704,
+    "_id": "Terminal"
+  },
+  "Variation": {
+    "chunk_ids": [
+      "chunk-8edec14a01bd263b06b727e0df56a5a9"
+    ],
+    "count": 1,
+    "create_time": 1762756704,
+    "update_time": 1762756704,
+    "_id": "Variation"
+  },
+  "Safari": {
+    "chunk_ids": [
+      "chunk-528f1b1062a253235002782d2c88c9bc"
+    ],
+    "count": 1,
+    "create_time": 1762756705,
+    "update_time": 1762756705,
+    "_id": "Safari"
+  },
+  "iPhone": {
+    "chunk_ids": [
+      "chunk-528f1b1062a253235002782d2c88c9bc"
+    ],
+    "count": 1,
+    "create_time": 1762756705,
+    "update_time": 1762756705,
+    "_id": "iPhone"
+  },
+  "cursor.com": {
+    "chunk_ids": [
+      "chunk-528f1b1062a253235002782d2c88c9bc"
+    ],
+    "count": 1,
+    "create_time": 1762756705,
+    "update_time": 1762756705,
+    "_id": "cursor.com"
+  },
+  "Cursor Mobile App": {
+    "chunk_ids": [
+      "chunk-528f1b1062a253235002782d2c88c9bc",
+      "chunk-e0921b86d1a9819be58dbfb18eeeacad"
+    ],
+    "count": 2,
+    "create_time": 1762756705,
+    "update_time": 1762756705,
+    "_id": "Cursor Mobile App"
+  },
+  "Local Environment": {
+    "chunk_ids": [
+      "chunk-e0921b86d1a9819be58dbfb18eeeacad",
+      "chunk-562d394ba4374399755c3e2575c8d190"
+    ],
+    "count": 2,
+    "update_time": 1762756716,
+    "_id": "Local Environment"
+  },
+  "UI Changes": {
+    "chunk_ids": [
+      "chunk-e0921b86d1a9819be58dbfb18eeeacad"
+    ],
+    "count": 1,
+    "create_time": 1762756705,
+    "update_time": 1762756705,
+    "_id": "UI Changes"
+  },
+  "Employee": {
+    "chunk_ids": [
+      "chunk-e0921b86d1a9819be58dbfb18eeeacad"
+    ],
+    "count": 1,
+    "create_time": 1762756705,
+    "update_time": 1762756705,
+    "_id": "Employee"
+  },
+  "Variations": {
+    "chunk_ids": [
+      "chunk-d7db8da421382d250965b3f01a625383"
+    ],
+    "count": 1,
+    "create_time": 1762756705,
+    "update_time": 1762756705,
+    "_id": "Variations"
+  },
+  "npmi": {
+    "chunk_ids": [
+      "chunk-d7db8da421382d250965b3f01a625383"
+    ],
+    "count": 1,
+    "create_time": 1762756705,
+    "update_time": 1762756705,
+    "_id": "npmi"
+  },
+  "npm rundev": {
+    "chunk_ids": [
+      "chunk-d7db8da421382d250965b3f01a625383"
+    ],
+    "count": 1,
+    "create_time": 1762756705,
+    "update_time": 1762756705,
+    "_id": "npm rundev"
+  },
+  "KLUXW": {
+    "chunk_ids": [
+      "chunk-d7db8da421382d250965b3f01a625383"
+    ],
+    "count": 1,
+    "create_time": 1762756705,
+    "update_time": 1762756705,
+    "_id": "KLUXW"
+  },
+  "Weekly View": {
+    "chunk_ids": [
+      "chunk-5d283f51692fb48d04e65714a81d29c6"
+    ],
+    "count": 1,
+    "create_time": 1762756706,
+    "update_time": 1762756706,
+    "_id": "Weekly View"
+  },
+  "Agent Review": {
+    "chunk_ids": [
+      "chunk-d5fe695fec8f929154aa9f850db7e8f8"
+    ],
+    "count": 1,
+    "create_time": 1762756706,
+    "update_time": 1762756706,
+    "_id": "Agent Review"
+  },
+  "Debugging": {
+    "chunk_ids": [
+      "chunk-d5fe695fec8f929154aa9f850db7e8f8"
+    ],
+    "count": 1,
+    "create_time": 1762756706,
+    "update_time": 1762756706,
+    "_id": "Debugging"
+  },
+  "Debugging Consoles": {
+    "chunk_ids": [
+      "chunk-d5fe695fec8f929154aa9f850db7e8f8"
+    ],
+    "count": 1,
+    "create_time": 1762756706,
+    "update_time": 1762756706,
+    "_id": "Debugging Consoles"
+  },
+  "Alex Finn": {
+    "chunk_ids": [
+      "chunk-4e216006999d9903874d00dd750bf56e"
+    ],
+    "count": 1,
+    "create_time": 1762756706,
+    "update_time": 1762756706,
+    "_id": "Alex Finn"
+  },
+  "20 Minute Call": {
+    "chunk_ids": [
+      "chunk-1cc7aed3d64986d6abba1111fb92427b"
+    ],
+    "count": 1,
+    "create_time": 1762756706,
+    "update_time": 1762756706,
+    "_id": "20 Minute Call"
+  },
+  "Video ID: qSW2kEbVvmU": {
+    "chunk_ids": [
+      "chunk-4e216006999d9903874d00dd750bf56e"
+    ],
+    "count": 1,
+    "create_time": 1762756706,
+    "update_time": 1762756706,
+    "_id": "Video ID: qSW2kEbVvmU"
+  },
+  "1021 Seconds": {
+    "chunk_ids": [
+      "chunk-4e216006999d9903874d00dd750bf56e"
+    ],
+    "count": 1,
+    "create_time": 1762756706,
+    "update_time": 1762756706,
+    "_id": "1021 Seconds"
+  },
+  "Cursor 2.0 Workflow": {
+    "chunk_ids": [
+      "chunk-4e216006999d9903874d00dd750bf56e"
+    ],
+    "count": 1,
+    "create_time": 1762756706,
+    "update_time": 1762756706,
+    "_id": "Cursor 2.0 Workflow"
+  },
+  "JGR8A": {
+    "chunk_ids": [
+      "chunk-d8468a296c808146dd6c8defb4e5d405"
+    ],
+    "count": 1,
+    "create_time": 1762756706,
+    "update_time": 1762756706,
+    "_id": "JGR8A"
+  },
+  "HM23S": {
+    "chunk_ids": [
+      "chunk-d8468a296c808146dd6c8defb4e5d405"
+    ],
+    "count": 1,
+    "create_time": 1762756707,
+    "update_time": 1762756707,
+    "_id": "HM23S"
+  },
+  "App": {
+    "chunk_ids": [
+      "chunk-d8468a296c808146dd6c8defb4e5d405"
+    ],
+    "count": 1,
+    "create_time": 1762756707,
+    "update_time": 1762756707,
+    "_id": "App"
+  },
+  "NPMI": {
+    "chunk_ids": [
+      "chunk-d8468a296c808146dd6c8defb4e5d405"
+    ],
+    "count": 1,
+    "create_time": 1762756707,
+    "update_time": 1762756707,
+    "_id": "NPMI"
+  },
+  "mobile experience": {
+    "chunk_ids": [
+      "chunk-528f1b1062a253235002782d2c88c9bc"
+    ],
+    "count": 1,
+    "create_time": 1762756717,
+    "update_time": 1762756717,
+    "_id": "mobile experience"
+  }
+}

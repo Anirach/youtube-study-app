@@ -3,7 +3,7 @@ const router = express.Router();
 const ragService = require('../services/rag.service');
 const lightragService = require('../services/lightrag.service');
 const knowledgeGraphService = require('../services/knowledge-graph.service');
-const { cacheMiddleware } = require('../middleware/cache.middleware');
+const { cacheMiddleware, cache } = require('../middleware/cache.middleware');
 
 // Use LightRAG if available, otherwise fall back to simple RAG
 const USE_LIGHTRAG = process.env.USE_LIGHTRAG === 'true';
@@ -41,10 +41,13 @@ router.get('/', cacheMiddleware(300), async (req, res, next) => {
           // Add video metadata if available
           videoId: video.id,
           youtubeId: video.youtubeId,
+          author: video.author,
           category: video.category?.name || 'Entity',
           categoryColor: video.category?.color || '#6366f1',
           thumbnail: video.thumbnail,
-          watchStatus: video.watchStatus || 'unknown'
+          watchStatus: video.watchStatus || 'unknown',
+          hasTranscription: !!video.transcription,
+          hasSummary: !!video.summaryJson
         };
       });
 
@@ -229,6 +232,15 @@ router.post('/rebuild', async (req, res, next) => {
         console.error(`Error rebuilding graph for video ${video.id}:`, error);
       }
     }
+
+    // Clear graph cache after rebuild
+    const cacheKeys = cache.keys();
+    cacheKeys.forEach(key => {
+      if (key.includes('/api/graph')) {
+        cache.del(key);
+      }
+    });
+    console.log('Graph cache cleared after rebuild');
 
     res.json({
       message: 'Knowledge graph rebuilt based on Key Points',

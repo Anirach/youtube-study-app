@@ -1,7 +1,11 @@
 'use client';
 
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import rehypeHighlight from 'rehype-highlight';
+import rehypeRaw from 'rehype-raw';
 import { FiUser, FiCpu, FiFile } from 'react-icons/fi';
+import 'highlight.js/styles/github-dark.css';
 
 interface ChatMessageProps {
   message: {
@@ -55,8 +59,98 @@ export default function ChatMessage({ message }: ChatMessageProps) {
           {isUser ? (
             <p className="whitespace-pre-wrap">{content}</p>
           ) : (
-            <div className="prose prose-sm max-w-none">
-              <ReactMarkdown>{content}</ReactMarkdown>
+            <div className="prose prose-sm max-w-none prose-invert">
+              <ReactMarkdown
+                remarkPlugins={[remarkGfm]}
+                rehypePlugins={[rehypeHighlight, rehypeRaw]}
+                components={{
+                  code({ node, inline, className, children, ...props }: any) {
+                    const match = /language-(\w+)/.exec(className || '');
+                    return !inline ? (
+                      <pre className={`${className} rounded-lg p-4 overflow-x-auto`}>
+                        <code className={className} {...props}>
+                          {children}
+                        </code>
+                      </pre>
+                    ) : (
+                      <code className="bg-gray-700 px-1.5 py-0.5 rounded text-sm" {...props}>
+                        {children}
+                      </code>
+                    );
+                  },
+                  table({ children, ...props }: any) {
+                    return (
+                      <div className="overflow-x-auto my-4">
+                        <table className="min-w-full divide-y divide-gray-600" {...props}>
+                          {children}
+                        </table>
+                      </div>
+                    );
+                  },
+                  th({ children, ...props }: any) {
+                    return (
+                      <th className="px-4 py-2 bg-gray-700 text-left text-xs font-medium text-gray-200 uppercase tracking-wider" {...props}>
+                        {children}
+                      </th>
+                    );
+                  },
+                  td({ children, ...props }: any) {
+                    return (
+                      <td className="px-4 py-2 border-t border-gray-600 text-sm" {...props}>
+                        {children}
+                      </td>
+                    );
+                  },
+                  a({ children, href, ...props }: any) {
+                    return (
+                      <a 
+                        href={href} 
+                        className="text-blue-400 hover:text-blue-300 underline" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        {...props}
+                      >
+                        {children}
+                      </a>
+                    );
+                  },
+                  blockquote({ children, ...props }: any) {
+                    return (
+                      <blockquote className="border-l-4 border-blue-500 pl-4 italic my-4 text-gray-300" {...props}>
+                        {children}
+                      </blockquote>
+                    );
+                  },
+                  ul({ children, ...props }: any) {
+                    return (
+                      <ul className="list-disc list-inside my-2 space-y-1" {...props}>
+                        {children}
+                      </ul>
+                    );
+                  },
+                  ol({ children, ...props }: any) {
+                    return (
+                      <ol className="list-decimal list-inside my-2 space-y-1" {...props}>
+                        {children}
+                      </ol>
+                    );
+                  },
+                  h1({ children, ...props }: any) {
+                    return <h1 className="text-2xl font-bold my-4" {...props}>{children}</h1>;
+                  },
+                  h2({ children, ...props }: any) {
+                    return <h2 className="text-xl font-bold my-3" {...props}>{children}</h2>;
+                  },
+                  h3({ children, ...props }: any) {
+                    return <h3 className="text-lg font-bold my-2" {...props}>{children}</h3>;
+                  },
+                  p({ children, ...props }: any) {
+                    return <p className="my-2" {...props}>{children}</p>;
+                  },
+                }}
+              >
+                {content}
+              </ReactMarkdown>
             </div>
           )}
         </div>
